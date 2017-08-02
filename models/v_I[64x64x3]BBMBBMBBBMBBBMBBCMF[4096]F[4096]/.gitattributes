@@ -1,0 +1,2 @@
+v_I[64x64x3]BBMBBMBBBMBBBMBBCMF[4096]F[4096].model filter=lfs diff=lfs merge=lfs -text
+v_I[64x64x3]BBMBBMBBBMBBBMBBCMF[4096]F[4096].ckp filter=lfs diff=lfs merge=lfs -text
