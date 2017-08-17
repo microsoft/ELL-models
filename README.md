@@ -30,13 +30,13 @@ letter to represent a layerThe layer types and their encodings are:
 | Softmax            | S |
 
 The parameters of the various layers will generally be determined by the architecture, but where
-necessary, parameters may be added in square brackets immediately following the layer abbreviation. 
+necessary, parameters may be added immediately following the layer abbreviation. 
 For instance, a convolutional layer in the 'd' model type uses a 3x3 window for its convolutional 
 layers, except for the last, which uses a 1x1 spatial window. The identifier for a full 'd' model 
 would look like:
 
 ```
-d_I[224x224x3]CMNCMNCMNCMNCMNCMNC[1]A
+d_I224x224x3CMNCMNCMNCMNCMNCMNC1A
 ```
 
 Since many of the models we use alter the structure of the base model they're inspired by, we need to 
@@ -44,7 +44,7 @@ encode the parameters that vary as well. An example of a 'v' model with a single
 and of size 3072, would be:
 
 ```
-v_I[112x112x3]BBMCCMCCCMCCCMCBBMF[3072]
+v_I112x112x3BBMCCMCCCMCCCMCBBMF3072
 ```
 
 ## Code of Conduct

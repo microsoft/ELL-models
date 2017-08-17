@@ -1,0 +1,16 @@
+{
+  "type": "binary",
+  "name": "d_I[160x160x3]CMNBMNBMNBMNBMNBMNB[1]A",
+  "fc_sizes": [
+    4096,
+    4096
+  ],
+  "series": "darknet",
+  "image_size": 160,
+  "real_layers": [
+    0
+  ],
+  "binarize": false,
+  "model": "darknet",
+  "index": 0
+}
