@@ -1,0 +1,39 @@
+{
+  "dir": "application_1500519950009_6488",
+  "cntk_model_size": 83891524,
+  "status": "Failed",
+  "training_time": "105:50:27",
+  "best_training_loss": 1.402739,
+  "best_epoch": 57.0,
+  "gFMinErr": 1.402739,
+  "gFMaxErr": 6.872668,
+  "gMMinErr": 100,
+  "gMMaxErr": 0,
+  "num_epochs": 58,
+  "test_loss": 1.8441893733596801,
+  "test_error_top1": 0.42878,
+  "test_error_top5": 0.19514,
+  "args": {
+    "restore": false,
+    "num_quantization_bits": 32,
+    "block_size": null,
+    "warm_up": 0,
+    "minibatch_size": 128,
+    "epoch_size": 1281167,
+    "max_epochs": 112
+  },
+  "modelargs": {
+    "name": "v_I64x64x3BBMBBMBBBMBBBMBBBMF2048",
+    "index": 0,
+    "fc_sizes": [
+      2048
+    ],
+    "model": "vgg",
+    "num_layers": 16,
+    "series": "vgg",
+    "image_size": 64
+  },
+  "name": "v_I64x64x3BBMBBMBBBMBBBMBBBMF2048",
+  "model": "vgg",
+  "image_size": 64
+}
