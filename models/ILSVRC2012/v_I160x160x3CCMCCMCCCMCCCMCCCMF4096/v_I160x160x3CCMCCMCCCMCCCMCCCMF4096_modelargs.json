@@ -1,0 +1,11 @@
+{
+  "index": 0,
+  "name": "v_I160x160x3CCMCCMCCCMCCCMCCCMF4096",
+  "series": "vgg",
+  "num_layers": 16,
+  "image_size": 160,
+  "fc_sizes": [
+    4096
+  ],
+  "model": "vgg"
+}

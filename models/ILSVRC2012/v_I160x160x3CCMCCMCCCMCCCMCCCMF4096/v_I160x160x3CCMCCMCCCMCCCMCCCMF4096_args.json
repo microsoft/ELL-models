@@ -1,0 +1,9 @@
+{
+  "num_quantization_bits": 32,
+  "block_size": null,
+  "max_epochs": 112,
+  "restore": false,
+  "epoch_size": 1281167,
+  "warm_up": 0,
+  "minibatch_size": 128
+}

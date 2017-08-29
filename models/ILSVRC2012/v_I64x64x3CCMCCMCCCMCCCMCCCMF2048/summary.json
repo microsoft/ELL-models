@@ -23,7 +23,7 @@
     "max_epochs": 112
   },
   "modelargs": {
-    "name": "v_I64x64x3BBMBBMBBBMBBBMBBBMF2048",
+    "name": "v_I64x64x3CCMCCMCCCMCCCMCCCMF2048",
     "index": 0,
     "fc_sizes": [
       2048
@@ -33,7 +33,7 @@
     "series": "vgg",
     "image_size": 64
   },
-  "name": "v_I64x64x3BBMBBMBBBMBBBMBBBMF2048",
+  "name": "v_I64x64x3CCMCCMCCCMCCCMCCCMF2048",
   "model": "vgg",
   "image_size": 64
 }
