@@ -1,0 +1,11 @@
+{
+  "name": "v_I64x64x3BBMBBMBBBMBBBMBBBMF2048",
+  "index": 0,
+  "fc_sizes": [
+    2048
+  ],
+  "model": "vgg",
+  "num_layers": 16,
+  "series": "vgg",
+  "image_size": 64
+}
