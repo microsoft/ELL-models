@@ -32,7 +32,7 @@ def main(args):
             if (not os.path.isfile(filename)):
                 raise Exception("File not found: " + filename)
 
-            result = validate_image(["validate.py", args.config_file, args.labels, "--image", filename, "--iterations", "5", "--realLabels"], filename)
+            result = validate_image(["validate.py", args.config_file, args.labels, "--image", filename, "--iterations", "5", "--threshold", 0.05, "--realLabels"], filename)
 
             result["truth"] = c
             results.append(result)
