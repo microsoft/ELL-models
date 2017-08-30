@@ -1,10 +1,10 @@
 ####################################################################################################
 ##
-##  Project:  Embedded Learning Library (ELL)
-##  File:     validate.py
-##  Authors:  Chris Lovett, Lisa Ong
+# Project:  Embedded Learning Library (ELL)
+# File:     validate.py
+# Authors:  Chris Lovett, Lisa Ong
 ##
-##  Requires: Python 3.x
+# Requires: Python 3.x
 ##
 ####################################################################################################
 
@@ -20,6 +20,7 @@ from os.path import basename
 # export DISPLAY=:0
 # then add the '-save' argument to get tagged frames to be saved to disk.
 
+
 def main(args):
     results = []
     with open(args.validation_map, 'r') as vm:
@@ -32,13 +33,15 @@ def main(args):
             if (not os.path.isfile(filename)):
                 raise Exception("File not found: " + filename)
 
-            result = validate_image(["validate.py", args.config_file, args.labels, "--image", filename, "--iterations", "5", "--threshold", 0.05, "--realLabels"], filename)
+            result = validate_image(["validate.py", args.config_file, args.labels, "--image",
+                                     filename, "--iterations", "5", "--threshold", 0.02, "--realLabels"], filename)
 
             result["truth"] = c
             results.append(result)
 
     with open('validation.json', 'w', encoding='utf-8') as o:
         json.dump(results, o, ensure_ascii=False)
+
 
 def validate_image(args, filename):
     helper = d.DemoHelper()
@@ -69,7 +72,8 @@ def validate_image(args, filename):
         # each with the text label and the prediction score.
         top5 = helper.get_top_n(predictions, 5)
 
-        text = "".join([str(element[0]) + "(" + str(int(100*element[1])) + "%)  " for element in top5])
+        text = "".join(
+            [str(element[0]) + "(" + str(int(100 * element[1])) + "%)  " for element in top5])
 
         save = False
         if (text != lastPrediction):
@@ -82,17 +86,22 @@ def validate_image(args, filename):
     print("\t" + str(result["avg_time"]))
     return result
 
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
 
     # required arguments
-    parser.add_argument("validation_map", help="val.map.txt file containing the filenames and classes")
+    parser.add_argument(
+        "validation_map", help="val.map.txt file containing the filenames and classes")
     parser.add_argument("validation_path", help="path to the validation set")
-    parser.add_argument("config_file", help="path to the model configuration file")
-    parser.add_argument("labels", help="path to the labels file for evaluating the model")
+    parser.add_argument(
+        "config_file", help="path to the model configuration file")
+    parser.add_argument(
+        "labels", help="path to the labels file for evaluating the model")
 
     # options
-    parser.add_argument("--maxfiles", type=int, default=200, help="max number of files to validate")
+    parser.add_argument("--maxfiles", type=int, default=200,
+                        help="max number of files to validate")
 
     args = parser.parse_args()
 
