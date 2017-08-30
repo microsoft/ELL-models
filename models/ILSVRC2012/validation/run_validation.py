@@ -20,8 +20,8 @@ class RunValidation:
         self.arg_parser = argparse.ArgumentParser(
             "This script performs a validation pass on a given model\n"
             "on a Raspberry Pi using scp, and retrieves the validation result\n"
-            "This requires the model to have been deployed to '/home/pi/pi3' and\n
-            "the validation set to be copied to '/home/pi/validation'\n")
+            "This requires the model to have been deployed to /home/pi/pi3 and\n"
+            "the validation set to be copied to /home/pi/validation\n")
         self.ipaddress = None
         self.username = "pi"
         self.password = "raspberry"
@@ -69,14 +69,12 @@ class RunValidation:
 
         sftp.close()
 
-    def receive(self, files):
+    def receive(self, src, dest):
         sftp = paramiko.SFTPClient.from_transport(self.ssh.get_transport())
 
-        for src_file in files:
-            print("receiving:" + src_file)
-            src_file = self.linux_join(self.dest_dir, src_file)
-            dest_file = self.model + "_" + src_file
-            sftp.get(src_file, dest_file)
+        print("receiving:" + src)
+        src_file = self.linux_join(self.dest_dir, src)
+        sftp.get(src_file, dest)
 
         sftp.close()
 
@@ -121,7 +119,7 @@ class RunValidation:
         # run validation
         self.exec_remote_command("chmod u+x /home/pi/pi3/validation.sh")
         output = self.exec_remote_command("/home/pi/pi3/validation.sh")
-        self.receive("validation.json")
+        self.receive("validation.json", self.model + "_validation.json")
 
 if __name__ == "__main__":
     args = sys.argv
