@@ -1,0 +1,10 @@
+{
+  "num_classes": 1000,
+  "image_size": 160,
+  "force_batchnorm": true,
+  "index": 0,
+  "name": "d_I160x160x3CMCMCMCMCMCMC1A",
+  "series": "darknet",
+  "model": "darknet",
+  "type": "real"
+}
