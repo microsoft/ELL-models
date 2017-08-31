@@ -1,10 +1,14 @@
 {
-  "input_channels": 3,
-  "input_columns": 256,
-  "input_rows": 256,
   "input_scale": 1,
+  "input_shape": [
+    256,
+    256,
+    3
+  ],
   "model": "d_I256x256x3CMCMCMCMCMCMC1A.ell",
-  "output_channels": 1000,
-  "output_columns": 1,
-  "output_rows": 1
+  "output_shape": [
+    1,
+    1,
+    1000
+  ]
 }
