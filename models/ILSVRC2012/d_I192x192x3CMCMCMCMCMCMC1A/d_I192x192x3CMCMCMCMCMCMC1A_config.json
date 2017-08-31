@@ -1,0 +1,10 @@
+{
+  "input_channels": 3,
+  "input_columns": 192,
+  "input_rows": 192,
+  "input_scale": 1,
+  "model": "d_I192x192x3CMCMCMCMCMCMC1A.ell",
+  "output_channels": 1000,
+  "output_columns": 1,
+  "output_rows": 1
+}
