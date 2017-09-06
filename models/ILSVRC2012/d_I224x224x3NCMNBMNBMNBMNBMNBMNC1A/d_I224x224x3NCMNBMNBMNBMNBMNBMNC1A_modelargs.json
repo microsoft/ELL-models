@@ -1,0 +1,14 @@
+{
+  "index": 0,
+  "num_classes": 1000,
+  "real_layers": [
+    0,
+    -1
+  ],
+  "model": "darknet",
+  "name": "d_I224x224x3CMNBMNBMNBMNBMNBMC1A",
+  "series": "darknet",
+  "type": "binary",
+  "force_batchnorm": true,
+  "image_size": 224
+}
