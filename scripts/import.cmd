@@ -6,9 +6,9 @@ set "model_path=%cd%"
 call :file_name_from_path model %model_path%
 
 REM zip up the CNTK model
-pushd %ell_root%\build\tools\utilities\pythonlibs\gallery
-python zip_file.py %model_path%\%model%.cntk
-popd
+REM pushd %ell_root%\build\tools\utilities\pythonlibs\gallery
+REM python zip_file.py %model_path%\%model%.cntk
+REM popd
 
 REM convert the CNTK model to ELL
 pushd %ell_root%\build\tools\importers\CNTK
