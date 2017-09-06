@@ -7,5 +7,6 @@
   ],
   "series": "vgg",
   "num_layers": 16,
-  "model": "vgg"
+  "model": "vgg",
+  "num_classes": 1000
 }

@@ -7,5 +7,6 @@
   "fc_sizes": [
     4096
   ],
-  "model": "vgg"
+  "model": "vgg",
+  "num_classes": 1000
 }
