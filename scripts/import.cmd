@@ -1,8 +1,9 @@
 setlocal
 
+if [%ell_root%] == [] goto error
+
 set "model_path=%cd%"
 call :file_name_from_path model %model_path%
-set ell_root=c:\work\ELL
 
 REM zip up the CNTK model
 pushd %ell_root%\build\tools\utilities\pythonlibs\gallery
@@ -13,7 +14,7 @@ REM convert the CNTK model to ELL
 pushd %ell_root%\build\tools\importers\CNTK
 python cntk_import.py %model_path%\%model%.cntk.zip --zip_ell_model
 popd
-goto :eof
+goto :done
 
 :file_name_from_path <resultVar> <pathVar>
 (
@@ -21,4 +22,8 @@ goto :eof
     exit /b
 )
 
+:error
+echo "ell_root not set, please set it to the root of your ELL repository"
+
+:done
 endlocal
