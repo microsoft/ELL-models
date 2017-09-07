@@ -2,12 +2,13 @@ setlocal
 
 if [%ell_root%] == [] goto error
 
+echo off
 set "model_path=%cd%"
 call :file_name_from_path model %model_path%
 set ip=%1
 
 pushd %ell_root%\build\tools\utilities\pitest
-python drivetest.py %ip% --config %model_path%\%model%_config.json --labels %model_path%\..\ImageNetLabels.txt --model %model_path%\%model%.ell.zip
+python drivetest.py %ip% --labels %model_path%\..\ImageNetLabels.txt --model %model_path%\%model%.ell.zip
 popd
 
 REM Assumes one-time copy of validation set to /home/pi/validation
@@ -19,7 +20,8 @@ REM
 
 pushd %ell_root%\build\tools\utilities\pythonlibs\gallery
 python run_validation.py %model% %ip% --maxfiles 30 --labels ImageNetLabels.txt
-move %model%_validation_pi3.json %model_path%\.
+move %model%_validation.json %model_path%\%model%_validation_pi3.json
+move %model%_procmon.json %model_path%\%model%_procmon_pi3.json
 popd
 goto :done
 

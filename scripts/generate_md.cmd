@@ -2,6 +2,7 @@ setlocal
 
 if [%ell_root%] == [] goto error
 
+echo off
 set "model_path=%cd%"
 call :file_name_from_path model %model_path%
 
