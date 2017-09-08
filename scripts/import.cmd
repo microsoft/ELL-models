@@ -17,6 +17,11 @@ REM convert the CNTK model to ELL
 pushd %ell_root%\build\tools\importers\CNTK
 python cntk_import.py %model_path%\%model%.cntk.zip --zip_ell_model
 popd
+
+REM rename some training-generated files to shorter names
+if exist %model%_args.json move %model%_args.json args.json
+if exist %model%_modelargs.json move %model%_modelargs.json modelargs.json
+
 goto :done
 
 :file_name_from_path <resultVar> <pathVar>

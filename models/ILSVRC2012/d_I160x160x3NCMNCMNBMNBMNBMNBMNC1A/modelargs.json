@@ -10,6 +10,6 @@
     -1
   ],
   "force_batchnorm": true,
-  "name": "d_I160x160x3NCMNCMNBMNBMNBMNBMNC1A",
+  "name": "d_I160x160x3CMCMNBMNBMNBMNBMC1A",
   "model": "darknet"
 }

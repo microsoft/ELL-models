@@ -20,8 +20,8 @@ REM
 
 pushd %ell_root%\build\tools\utilities\pythonlibs\gallery
 python run_validation.py %model% %ip% --maxfiles 30 --labels ImageNetLabels.txt
-move %model%_validation.json %model_path%\%model%_validation_pi3.json
-move %model%_procmon.json %model_path%\%model%_procmon_pi3.json
+move %model%_validation.json %model_path%\validation_pi3.json
+move %model%_procmon.json %model_path%\procmon_pi3.json
 popd
 goto :done
 

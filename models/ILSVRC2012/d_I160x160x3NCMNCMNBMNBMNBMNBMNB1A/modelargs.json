@@ -3,7 +3,7 @@
     0,
     1
   ],
-  "name": "d_I160x160x3NCMNCMNBMNBMNBMNBMNB1A",
+  "name": "d_I160x160x3CMCMNBMNBMNBMNBMNB1A",
   "num_classes": 1000,
   "force_batchnorm": true,
   "model": "darknet",
