@@ -1,14 +1,18 @@
 setlocal enabledelayedexpansion
 echo off
 
-set rpi_ip_address=%2
+set rpi_ip_address=%1
 
 if [%ell_root%] == [] goto error
 
-for /f %%f in ('dir /ad /b ..\models\ILSVRC2012\*') do (
+for /f %%f in ('dir /ad /b ..\models\ILSVRC2012\d_*') do (
     pushd ..\models\ILSVRC2012\%%f
     ..\..\..\scripts\import.cmd
+    popd
+    pushd ..\models\ILSVRC2012\%%f
     ..\..\..\scripts\test.cmd %rpi_ip_address%
+    popd
+    pushd ..\models\ILSVRC2012\%%f
     ..\..\..\scripts\generate_md.cmd
     popd
 )

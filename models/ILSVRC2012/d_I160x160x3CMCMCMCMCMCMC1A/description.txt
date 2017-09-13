@@ -1,0 +1,47 @@
+Minus(Input3, Constant5) -> Minus6_Output_0;
+
+Convolution(Parameter9, Parameter10, Minus6_Output_0) -> Block90_Output_0;
+
+BatchNormalization(Parameter132, Parameter133, Block90_Output_0) -> Block154_Output_0;
+
+MaxPooling(Block154_Output_0) -> Block207_Output_0;
+
+Convolution(Parameter247, Parameter248, Block207_Output_0) -> Block328_Output_0;
+
+BatchNormalization(Parameter404, Parameter405, Block328_Output_0) -> Block426_Output_0;
+
+MaxPooling(Block426_Output_0) -> Block513_Output_0;
+
+Convolution(Parameter587, Parameter588, Block513_Output_0) -> Block668_Output_0;
+
+BatchNormalization(Parameter778, Parameter779, Block668_Output_0) -> Block800_Output_0;
+
+MaxPooling(Block800_Output_0) -> Block921_Output_0;
+
+Convolution(Parameter1029, Parameter1030, Block921_Output_0) -> Block1110_Output_0;
+
+BatchNormalization(Parameter1254, Parameter1255, Block1110_Output_0) -> Block1276_Output_0;
+
+MaxPooling(Block1276_Output_0) -> Block1431_Output_0;
+
+Convolution(Parameter1573, Parameter1574, Block1431_Output_0) -> Block1654_Output_0;
+
+BatchNormalization(Parameter1832, Parameter1833, Block1654_Output_0) -> Block1854_Output_0;
+
+MaxPooling(Block1854_Output_0) -> Block2043_Output_0;
+
+Convolution(Parameter2219, Parameter2220, Block2043_Output_0) -> Block2300_Output_0;
+
+BatchNormalization(Parameter2512, Parameter2513, Block2300_Output_0) -> Block2534_Output_0;
+
+MaxPooling(Block2534_Output_0) -> Block2757_Output_0;
+
+Convolution(Parameter2967, Parameter2968, Block2757_Output_0) -> Block3048_Output_0;
+
+BatchNormalization(Parameter3294, Parameter3295, Block3048_Output_0) -> Block3316_Output_0;
+
+Convolution(Parameter3556, Parameter3557, Block3316_Output_0) -> Block3583_Output_0;
+
+AveragePooling(Block3583_Output_0) -> Block3847_Output_0;
+
+Reshape(Block3847_Output_0) -> Reshape4097_Output_0;

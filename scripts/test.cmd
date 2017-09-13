@@ -7,8 +7,13 @@ set "model_path=%cd%"
 call :file_name_from_path model %model_path%
 set ip=%1
 
+pushd ..
+set "models_path=%cd%"
+call :file_name_from_path models %models_path%
+popd
+
 pushd %ell_root%\build\tools\utilities\pitest
-python drivetest.py %ip% --labels %model_path%\..\ImageNetLabels.txt --model %model_path%\%model%.ell.zip
+python drivetest.py %ip% --labels %model_path%\..\%models%_labels.txt --model %model_path%\%model%.ell.zip
 popd
 
 REM Assumes one-time copy of validation set to /home/pi/validation
@@ -19,7 +24,7 @@ REM popd
 REM
 
 pushd %ell_root%\build\tools\utilities\pythonlibs\gallery
-python run_validation.py %model% %ip% --maxfiles 30 --labels ImageNetLabels.txt
+python run_validation.py %model% %ip% --maxfiles 30 --labels %models%_labels.txt
 move %model%_validation.json %model_path%\validation_pi3.json
 move %model%_procmon.json %model_path%\procmon_pi3.json
 popd

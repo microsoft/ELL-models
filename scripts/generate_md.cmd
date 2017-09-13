@@ -6,6 +6,8 @@ echo off
 set "model_path=%cd%"
 call :file_name_from_path model %model_path%
 
+if not exist modelargs.json echo "modelargs.json missing" && goto done
+
 pushd %ell_root%\build\tools\utilities\pythonlibs\gallery
 python generate_md.py %model_path% %model_path%\%model%.md
 move %model_path%\%model%.md %ell_root%\docs\gallery\ILSVRC2012
