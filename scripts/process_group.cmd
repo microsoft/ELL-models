@@ -1,16 +1,23 @@
 setlocal enabledelayedexpansion
 echo off
 
+if [%1] == [] goto usage
+if [%2] == [] goto usage
+
 set rpi_ip_address=%1
+set suse_ip_address=%2
 
 if [%ell_root%] == [] goto error
 
-for /f %%f in ('dir /ad /b ..\models\ILSVRC2012\d_*') do (
+for /f %%f in ('dir /ad /b ..\models\ILSVRC2012\*_*') do (
     pushd ..\models\ILSVRC2012\%%f
     ..\..\..\scripts\import.cmd
     popd
     pushd ..\models\ILSVRC2012\%%f
-    ..\..\..\scripts\test.cmd %rpi_ip_address%
+    ..\..\..\scripts\test_aarch64.cmd %suse_ip_address%
+    popd
+    pushd ..\models\ILSVRC2012\%%f
+    ..\..\..\scripts\test_pi3.cmd %rpi_ip_address%
     popd
     pushd ..\models\ILSVRC2012\%%f
     ..\..\..\scripts\generate_md.cmd
@@ -22,6 +29,10 @@ pushd %ell_root%\build\tools\utilities\pythonlibs\gallery
 python generate_index.py %ell_root%\docs\gallery\ILSVRC2012
 popd
 
+goto done
+
+:usage
+echo "Usage: %0 raspberry_pi_ip_address opensuse_ip_address"
 goto done
 
 :error
