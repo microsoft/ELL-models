@@ -2,7 +2,7 @@
   "results": [
     {
       "input": "ILSVRC2012_val_00000001.JPEG",
-      "avg_time": 1.4597803354263306,
+      "avg_time": 1.4645022749900818,
       "predictions": [
         [
           34,
@@ -29,7 +29,7 @@
     },
     {
       "input": "ILSVRC2012_val_00000002.JPEG",
-      "avg_time": 1.4812431931495667,
+      "avg_time": 1.4531232714653015,
       "predictions": [
         [
           276,
@@ -56,7 +56,7 @@
     },
     {
       "input": "ILSVRC2012_val_00000003.JPEG",
-      "avg_time": 1.4877912998199463,
+      "avg_time": 1.4587461948394775,
       "predictions": [
         [
           249,
@@ -83,7 +83,7 @@
     },
     {
       "input": "ILSVRC2012_val_00000004.JPEG",
-      "avg_time": 1.4846765995025635,
+      "avg_time": 1.458807349205017,
       "predictions": [
         [
           111,
@@ -110,7 +110,7 @@
     },
     {
       "input": "ILSVRC2012_val_00000005.JPEG",
-      "avg_time": 1.4782215356826782,
+      "avg_time": 1.456386923789978,
       "predictions": [
         [
           539,
@@ -137,7 +137,7 @@
     },
     {
       "input": "ILSVRC2012_val_00000006.JPEG",
-      "avg_time": 1.4841102361679077,
+      "avg_time": 1.4613874554634094,
       "predictions": [
         [
           434,
@@ -164,7 +164,7 @@
     },
     {
       "input": "ILSVRC2012_val_00000007.JPEG",
-      "avg_time": 1.4897300004959106,
+      "avg_time": 1.454365611076355,
       "predictions": [
         [
           334,
@@ -191,7 +191,7 @@
     },
     {
       "input": "ILSVRC2012_val_00000008.JPEG",
-      "avg_time": 1.4863939881324768,
+      "avg_time": 1.485327959060669,
       "predictions": [
         [
           529,
@@ -218,7 +218,7 @@
     },
     {
       "input": "ILSVRC2012_val_00000009.JPEG",
-      "avg_time": 1.4927195310592651,
+      "avg_time": 1.4671703577041626,
       "predictions": [
         [
           47,
@@ -245,7 +245,7 @@
     },
     {
       "input": "ILSVRC2012_val_00000010.JPEG",
-      "avg_time": 1.482625126838684,
+      "avg_time": 1.454335331916809,
       "predictions": [
         [
           608,
@@ -272,7 +272,7 @@
     },
     {
       "input": "ILSVRC2012_val_00000011.JPEG",
-      "avg_time": 1.4825376272201538,
+      "avg_time": 1.4580679535865784,
       "predictions": [
         [
           109,
@@ -299,7 +299,7 @@
     },
     {
       "input": "ILSVRC2012_val_00000012.JPEG",
-      "avg_time": 1.482826054096222,
+      "avg_time": 1.4645583033561707,
       "predictions": [
         [
           289,
@@ -326,7 +326,7 @@
     },
     {
       "input": "ILSVRC2012_val_00000013.JPEG",
-      "avg_time": 1.4823719263076782,
+      "avg_time": 1.4558724164962769,
       "predictions": [
         [
           370,
@@ -353,7 +353,7 @@
     },
     {
       "input": "ILSVRC2012_val_00000014.JPEG",
-      "avg_time": 1.478870153427124,
+      "avg_time": 1.456337571144104,
       "predictions": [
         [
           757,
@@ -380,7 +380,7 @@
     },
     {
       "input": "ILSVRC2012_val_00000015.JPEG",
-      "avg_time": 1.4785107374191284,
+      "avg_time": 1.4762529134750366,
       "predictions": [
         [
           840,
@@ -407,7 +407,7 @@
     },
     {
       "input": "ILSVRC2012_val_00000016.JPEG",
-      "avg_time": 1.478391706943512,
+      "avg_time": 1.4530134201049805,
       "predictions": [
         [
           69,
@@ -434,7 +434,7 @@
     },
     {
       "input": "ILSVRC2012_val_00000017.JPEG",
-      "avg_time": 1.4877485632896423,
+      "avg_time": 1.4611681699752808,
       "predictions": [
         [
           658,
@@ -461,7 +461,7 @@
     },
     {
       "input": "ILSVRC2012_val_00000018.JPEG",
-      "avg_time": 1.4868149161338806,
+      "avg_time": 1.4564374089241028,
       "predictions": [
         [
           418,
@@ -488,7 +488,7 @@
     },
     {
       "input": "ILSVRC2012_val_00000019.JPEG",
-      "avg_time": 1.490930199623108,
+      "avg_time": 1.4769806861877441,
       "predictions": [
         [
           836,
@@ -515,7 +515,7 @@
     },
     {
       "input": "ILSVRC2012_val_00000020.JPEG",
-      "avg_time": 1.4841211438179016,
+      "avg_time": 1.455267310142517,
       "predictions": [
         [
           490,
@@ -542,7 +542,7 @@
     },
     {
       "input": "ILSVRC2012_val_00000021.JPEG",
-      "avg_time": 1.4879522323608398,
+      "avg_time": 1.4623066186904907,
       "predictions": [
         [
           24,
@@ -569,7 +569,7 @@
     },
     {
       "input": "ILSVRC2012_val_00000022.JPEG",
-      "avg_time": 1.4841189980506897,
+      "avg_time": 1.4582880139350891,
       "predictions": [
         [
           391,
@@ -596,7 +596,7 @@
     },
     {
       "input": "ILSVRC2012_val_00000023.JPEG",
-      "avg_time": 1.478952407836914,
+      "avg_time": 1.4592801928520203,
       "predictions": [
         [
           574,
@@ -623,7 +623,7 @@
     },
     {
       "input": "ILSVRC2012_val_00000024.JPEG",
-      "avg_time": 1.4837506413459778,
+      "avg_time": 1.4566080570220947,
       "predictions": [
         [
           727,
@@ -650,7 +650,7 @@
     },
     {
       "input": "ILSVRC2012_val_00000025.JPEG",
-      "avg_time": 1.4854692816734314,
+      "avg_time": 1.46144700050354,
       "predictions": [
         [
           677,
@@ -677,7 +677,7 @@
     },
     {
       "input": "ILSVRC2012_val_00000026.JPEG",
-      "avg_time": 1.4677236676216125,
+      "avg_time": 1.4568397402763367,
       "predictions": [
         [
           846,
@@ -704,7 +704,7 @@
     },
     {
       "input": "ILSVRC2012_val_00000027.JPEG",
-      "avg_time": 1.4625771045684814,
+      "avg_time": 1.4534242749214172,
       "predictions": [
         [
           270,
@@ -731,7 +731,7 @@
     },
     {
       "input": "ILSVRC2012_val_00000028.JPEG",
-      "avg_time": 1.464242696762085,
+      "avg_time": 1.45308256149292,
       "predictions": [
         [
           17,
@@ -758,7 +758,7 @@
     },
     {
       "input": "ILSVRC2012_val_00000029.JPEG",
-      "avg_time": 1.4716272354125977,
+      "avg_time": 1.4632413387298584,
       "predictions": [
         [
           911,
@@ -785,7 +785,7 @@
     },
     {
       "input": "ILSVRC2012_val_00000030.JPEG",
-      "avg_time": 1.4702520966529846,
+      "avg_time": 1.4587036967277527,
       "predictions": [
         [
           770,
