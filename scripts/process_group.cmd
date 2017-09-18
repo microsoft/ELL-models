@@ -11,14 +11,16 @@ set dragonboard_ip_address=%3
 
 if [%ell_root%] == [] goto error
 
-for /f %%f in ('dir /ad /b ..\models\ILSVRC2012\*_*') do (
+set labels=ILSVRC2012_labels.txt
+
+for /f %%f in ('dir /ad /b ..\models\ILSVRC2012\d_I160x160x3CMCMCMCMCMCMC1A*') do (
     pushd ..\models\ILSVRC2012\%%f
-    REM ..\..\..\scripts\import.cmd
+    ..\..\..\scripts\import.cmd
     popd
     pushd ..\models\ILSVRC2012\%%f
-    ..\..\..\scripts\test_aarch64.cmd %dragonboard_ip_address%
     ..\..\..\scripts\test_pi3.cmd %rpi_ip_address%
     ..\..\..\scripts\test_pi3_64.cmd %rpi_64_ip_address%
+    ..\..\..\scripts\test_aarch64.cmd %dragonboard_ip_address%
     popd
     pushd ..\models\ILSVRC2012\%%f
     ..\..\..\scripts\generate_md.cmd
