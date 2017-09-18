@@ -28,14 +28,14 @@ popd
 REM run_validation.py requires a one-time copy of validation set to %home%/validation
 REM 
 REM pushd %ell_root%\build\tools\utilities\pythonlibs\gallery
-REM python copy_validation_set.py z:\val_map_original.txt z:\images %ip% --maxfiles 50 ^
+REM python copy_validation_set.py z:\val_map.txt z:\images %ip% --maxfiles 50 ^
 REM   --username=%username% --password=%password% --target_dir %home%/validation
 REM popd
 REM
 
 pushd %ell_root%\build\tools\utilities\pythonlibs\gallery
 python run_validation.py %model% %ip% --maxfiles 30 --labels %labels% ^
- --truth %home%/validation/val_map_original.txt --images %home%/validation --target %target% ^
+ --truth %home%/validation/val_map.txt --images %home%/validation --target %target% ^
  --username %username% --password %password% --target_dir %home%/test
 
 move %model%_validation_%target%.json %model_path%\validation_%target%.json
