@@ -19,10 +19,10 @@ pushd %ell_root%\build\tools\utilities\pitest
 python drivetest.py %ip% --labels %models_path%\%labels% --model %model_path%\%model%.ell.zip --profile --target aarch64 --username linaro --password linaro --target_dir /home/linaro/test
 popd
 
-REM Assumes one-time copy of validation set to /home/pi/validation
+REM Assumes one-time copy of validation set to /home/linaro/validation
 REM 
 REM pushd %ell_root%\build\tools\utilities\pythonlibs\gallery
-REM python copy_validation_set.py z:\val_map_original.txt z:\images %ip% --maxfiles 50
+REM python copy_validation_set.py z:\val_map_original.txt z:\images %ip% --maxfiles 50 --target_dir /home/linaro/validation
 REM popd
 REM
 
