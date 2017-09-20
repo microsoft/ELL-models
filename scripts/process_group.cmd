@@ -13,7 +13,7 @@ if [%ell_root%] == [] goto error
 
 set labels=ILSVRC2012_labels.txt
 
-for /f %%f in ('dir /ad /b ..\models\ILSVRC2012\d_I160x160x3CMCMCMCMCMCMC1A*') do (
+for /f %%f in ('dir /ad /b ..\models\ILSVRC2012\*_*') do (
     pushd ..\models\ILSVRC2012\%%f
     ..\..\..\scripts\import.cmd
     popd
