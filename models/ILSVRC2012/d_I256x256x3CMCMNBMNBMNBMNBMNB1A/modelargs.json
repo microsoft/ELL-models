@@ -1,0 +1,14 @@
+{
+  "num_classes": 1000,
+  "series": "d",
+  "type": "binary",
+  "index": 0,
+  "model": "d",
+  "image_size": 256,
+  "name": "d_I256x256x3CMCMNBMNBMNBMNBMNB1A",
+  "real_layers": [
+    0,
+    1
+  ],
+  "force_batchnorm": true
+}
