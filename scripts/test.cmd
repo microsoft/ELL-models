@@ -39,7 +39,7 @@ python run_validation.py %model% %ip% --maxfiles 30 --labels %labels% ^
  --username %username% --password %password% --target_dir %home%/test
 
 move %model%_validation_%target%.json %model_path%\validation_%target%.json
-
+move %model%_validation_%target%.out %model_path%\validation_%target%.out
 move %model%_procmon_%target%.json %model_path%\procmon_%target%.json
 popd
 goto :done
