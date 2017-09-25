@@ -1,6 +1,0 @@
-{
-  "average_loss": 2.8219925478744505,
-  "total_samples": 50000,
-  "average_top5_error": 0.35382,
-  "average_top1_error": 0.60384
-}
