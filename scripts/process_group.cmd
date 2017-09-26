@@ -11,7 +11,7 @@ set dragonboard_ip_address=%3
 
 if [%ell_root%] == [] goto error
 
-set labels=ILSVRC2012_labels.txt
+set labels=categories.txt
 
 for /f %%f in ('dir /ad /b ..\models\ILSVRC2012\*_*') do (
     pushd ..\models\ILSVRC2012\%%f
