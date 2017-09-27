@@ -36,6 +36,11 @@ for /f %%f in ('dir /ad /b ..\models\ILSVRC2012\*_*') do (
     popd
 )
 
+REM plot pareto curves to select the best models
+pushd ..\models\ILSVRC2012
+..\..\scripts\plot_pareto.cmd
+popd
+
 goto done
 
 :usage
