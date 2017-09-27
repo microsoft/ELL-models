@@ -13,28 +13,28 @@ if [%ell_root%] == [] goto error
 
 set labels=categories.txt
 
+REM traverse all models in the ILSVRC2012 directory
 for /f %%f in ('dir /ad /b ..\models\ILSVRC2012\*_*') do (
     pushd ..\models\ILSVRC2012\%%f
-    ..\..\..\scripts\import.cmd
+    REM ..\..\..\scripts\import.cmd
     popd
+    REM run validation on Raspberry Pi 3 / Raspbian
     pushd ..\models\ILSVRC2012\%%f
     ..\..\..\scripts\test_pi3.cmd %rpi_ip_address%
     popd
+    REM run validation on Raspberry Pi 3 / OpenSUSE
     pushd ..\models\ILSVRC2012\%%f
     ..\..\..\scripts\test_pi3_64.cmd %rpi_64_ip_address%
     popd
+    REM run validation on Dragonboard
     pushd ..\models\ILSVRC2012\%%f
     ..\..\..\scripts\test_aarch64.cmd %dragonboard_ip_address%
     popd
+    REM generate the markdown file
     pushd ..\models\ILSVRC2012\%%f
     ..\..\..\scripts\generate_md.cmd
     popd
 )
-
-REM generate the gallery index file
-pushd %ell_root%\build\tools\utilities\pythonlibs\gallery
-python generate_index.py %ell_root%\docs\gallery\ILSVRC2012
-popd
 
 goto done
 
