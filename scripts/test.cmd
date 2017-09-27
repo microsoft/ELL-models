@@ -18,7 +18,7 @@ set "models_path=%cd%"
 call :file_name_from_path models %models_path%
 popd
 
-set labels=%models%_labels.txt
+set labels=categories.txt
 
 pushd %ell_root%\build\tools\utilities\pitest
 python drivetest.py %ip% --labels %models_path%\%labels% --model %model_path%\%model%.ell.zip --profile --target %target% ^
