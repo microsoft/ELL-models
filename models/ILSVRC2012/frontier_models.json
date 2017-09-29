@@ -14,8 +14,8 @@
       ],
       [
         "d_I160x160x3CMCMCMCMCMCMC1A",
-        0.32,
-        80.22
+        0.3,
+        81.74
       ],
       [
         "d_I192x192x3CMCMCMCMCMCMC1A",
@@ -24,13 +24,8 @@
       ],
       [
         "d_I224x224x3CMCMCMCMCMCMC1A",
-        0.5,
+        0.49,
         82.48
-      ],
-      [
-        "d_I256x256x3CMCMCMCMCMCMC1A",
-        0.72,
-        83.03
       ]
     ]
   },
@@ -60,7 +55,7 @@
       [
         "d_I160x160x3CMCMCMCMCMCMC1A",
         0.33,
-        80.22
+        81.74
       ],
       [
         "d_I192x192x3CMCMCMCMCMCMC1A",
@@ -69,13 +64,8 @@
       ],
       [
         "d_I224x224x3CMCMCMCMCMCMC1A",
-        0.51,
+        0.52,
         82.48
-      ],
-      [
-        "d_I256x256x3CMCMCMCMCMCMC1A",
-        0.85,
-        83.03
       ]
     ]
   },
@@ -89,8 +79,8 @@
       ],
       [
         "d_I160x160x3CMCMCMCMCMCMC1A",
-        0.17,
-        80.22
+        0.18,
+        81.74
       ],
       [
         "d_I192x192x3CMCMCMCMCMCMC1A",
@@ -101,11 +91,6 @@
         "d_I224x224x3CMCMCMCMCMCMC1A",
         0.28,
         82.48
-      ],
-      [
-        "d_I256x256x3CMCMCMCMCMCMC1A",
-        0.55,
-        83.03
       ]
     ]
   }
