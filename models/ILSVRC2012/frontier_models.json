@@ -13,12 +13,12 @@
         80.62
       ],
       [
-        "d_I192x192x3CMCMCMCMCMCMC1A",
+        "d_I192x192x3NCMNCMNCMNCMNCMNCMNC1A",
         0.41,
         81.74
       ],
       [
-        "d_I224x224x3CMCMCMCMCMCMC1A",
+        "d_I224x224x3NCMNCMNCMNCMNCMNCMNC1A",
         0.49,
         82.48
       ]
@@ -48,17 +48,17 @@
         64.55
       ],
       [
-        "d_I160x160x3CMCMCMCMCMCMC1A",
+        "d_I160x160x3NCMNCMNCMNCMNCMNCMNC1A",
         0.33,
         80.62
       ],
       [
-        "d_I192x192x3CMCMCMCMCMCMC1A",
+        "d_I192x192x3NCMNCMNCMNCMNCMNCMNC1A",
         0.44,
         81.74
       ],
       [
-        "d_I224x224x3CMCMCMCMCMCMC1A",
+        "d_I224x224x3NCMNCMNCMNCMNCMNCMNC1A",
         0.52,
         82.48
       ]
@@ -73,17 +73,17 @@
         63.16
       ],
       [
-        "d_I160x160x3CMCMCMCMCMCMC1A",
+        "d_I160x160x3NCMNCMNCMNCMNCMNCMNC1A",
         0.18,
         80.62
       ],
       [
-        "d_I192x192x3CMCMCMCMCMCMC1A",
+        "d_I192x192x3NCMNCMNCMNCMNCMNCMNC1A",
         0.26,
         81.74
       ],
       [
-        "d_I224x224x3CMCMCMCMCMCMC1A",
+        "d_I224x224x3NCMNCMNCMNCMNCMNCMNC1A",
         0.28,
         82.48
       ]
