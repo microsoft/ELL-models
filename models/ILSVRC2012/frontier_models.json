@@ -3,19 +3,14 @@
     "platform": "pi3",
     "frontier_models": [
       [
-        "d_I160x160x3NCMNCMNBMNBMNBMNBMNC1A",
-        0.26,
-        60.76
-      ],
-      [
-        "d_I160x160x3NCMNCMNBMNBMNBMNBMNB1A",
-        0.26,
-        63.16
+        "d_I128x128x3CMCMCMCMCMCMC1A",
+        0.17,
+        76.43
       ],
       [
         "d_I160x160x3CMCMCMCMCMCMC1A",
         0.3,
-        81.74
+        80.62
       ],
       [
         "d_I192x192x3CMCMCMCMCMCMC1A",
@@ -55,7 +50,7 @@
       [
         "d_I160x160x3CMCMCMCMCMCMC1A",
         0.33,
-        81.74
+        80.62
       ],
       [
         "d_I192x192x3CMCMCMCMCMCMC1A",
@@ -80,7 +75,7 @@
       [
         "d_I160x160x3CMCMCMCMCMCMC1A",
         0.18,
-        81.74
+        80.62
       ],
       [
         "d_I192x192x3CMCMCMCMCMCMC1A",

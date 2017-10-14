@@ -11,3 +11,4 @@ summary.json
 logs/
 
 .vscode/
+models/ILSVRC2012/speed_v_accuracy.png

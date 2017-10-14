@@ -15,7 +15,7 @@ if exist %model_path%\%model%.cntk (
 
 REM convert the CNTK model to ELL
 pushd %ell_root%\build\tools\importers\CNTK
-python cntk_import.py %model_path%\%model%.cntk.zip --zip_ell_model
+python cntk_import.py %model_path%\%model%.cntk --zip_ell_model
 popd
 
 REM rename some training-generated files to shorter names
