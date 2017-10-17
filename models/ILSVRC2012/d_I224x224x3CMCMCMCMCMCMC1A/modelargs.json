@@ -1,0 +1,10 @@
+{
+  "model": "d",
+  "index": 0,
+  "type": "real",
+  "image_size": 224,
+  "force_batchnorm": true,
+  "series": "d",
+  "num_classes": 1000,
+  "name": "d_I224x224x3CMCMCMCMCMCMC1A"
+}
