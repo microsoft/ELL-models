@@ -1,0 +1,14 @@
+{
+  "force_batchnorm": true,
+  "type": "binary",
+  "num_classes": 1000,
+  "name": "d_I224x224x3CMCMBMBMBMBMB1AS",
+  "series": "d",
+  "image_size": 224,
+  "real_layers": [
+    0,
+    1
+  ],
+  "index": 0,
+  "model": "d"
+}

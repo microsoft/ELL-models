@@ -25,7 +25,6 @@ letter to represent a layerThe layer types and their encodings are:
 | Variable-bit conv  | V |
 | Max pooling        | M |
 | Average pooling    | A |
-| Batch normalization| N |
 | Fully-connected    | F |
 | Softmax            | S |
 
@@ -36,7 +35,7 @@ layers, except for the last, which uses a 1x1 spatial window. The identifier for
 would look like:
 
 ```
-d_I224x224x3CMNCMNCMNCMNCMNCMNC1A
+d_I224x224x3CMCMCMCMCMCMC1AS
 ```
 
 Since many of the models we use alter the structure of the base model they're inspired by, we need to 

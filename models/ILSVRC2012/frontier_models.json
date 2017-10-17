@@ -3,22 +3,22 @@
     "platform": "pi3",
     "frontier_models": [
       [
-        "d_I128x128x3CMCMCMCMCMCMC1A",
+        "d_I128x128x3CMCMCMCMCMCMC1AS",
         0.17,
         76.43
       ],
       [
-        "d_I160x160x3CMCMCMCMCMCMC1A",
+        "d_I160x160x3CMCMCMCMCMCMC1AS",
         0.3,
-        80.62
+        80.38
       ],
       [
-        "d_I192x192x3CMCMCMCMCMCMC1A",
+        "d_I192x192x3CMCMCMCMCMCMC1AS",
         0.41,
         81.74
       ],
       [
-        "d_I224x224x3CMCMCMCMCMCMC1A",
+        "d_I224x224x3CMCMCMCMCMCMC1AS",
         0.49,
         82.48
       ]
@@ -28,37 +28,37 @@
     "platform": "pi3_64",
     "frontier_models": [
       [
-        "d_I160x160x3NCMNCMNBMNBMNBMNBMNC1A",
+        "d_I160x160x3CMCMBMBMBMBMC1AS",
         0.22,
         60.76
       ],
       [
-        "d_I160x160x3NCMNCMNBMNBMNBMNBMNB1A",
+        "d_I160x160x3CMCMBMBMBMBMB1AS",
         0.22,
         63.16
       ],
       [
-        "d_I192x192x3NCMNCMNBMNBMNBMNBMNC1A",
+        "d_I192x192x3CMCMBMBMBMBMC1AS",
         0.32,
         64.23
       ],
       [
-        "d_I192x192x3NCMNCMNBMNBMNBMNBMNB1A",
+        "d_I192x192x3CMCMBMBMBMBMB1AS",
         0.32,
         64.55
       ],
       [
-        "d_I160x160x3CMCMCMCMCMCMC1A",
+        "d_I160x160x3CMCMCMCMCMCMC1AS",
         0.33,
-        80.62
+        80.38
       ],
       [
-        "d_I192x192x3CMCMCMCMCMCMC1A",
+        "d_I192x192x3CMCMCMCMCMCMC1AS",
         0.44,
         81.74
       ],
       [
-        "d_I224x224x3CMCMCMCMCMCMC1A",
+        "d_I224x224x3CMCMCMCMCMCMC1AS",
         0.52,
         82.48
       ]
@@ -68,22 +68,22 @@
     "platform": "aarch64",
     "frontier_models": [
       [
-        "d_I160x160x3NCMNCMNBMNBMNBMNBMNB1A",
+        "d_I160x160x3CMCMBMBMBMBMB1AS",
         0.12,
         63.16
       ],
       [
-        "d_I160x160x3CMCMCMCMCMCMC1A",
+        "d_I160x160x3CMCMCMCMCMCMC1AS",
         0.18,
-        80.62
+        80.38
       ],
       [
-        "d_I192x192x3CMCMCMCMCMCMC1A",
+        "d_I192x192x3CMCMCMCMCMCMC1AS",
         0.26,
         81.74
       ],
       [
-        "d_I224x224x3CMCMCMCMCMCMC1A",
+        "d_I224x224x3CMCMCMCMCMCMC1AS",
         0.28,
         82.48
       ]

@@ -1,0 +1,12 @@
+{
+  "index": 0,
+  "name": "v_I160x160x3CCMCCMCCCMCCCMCCCMF4096S",
+  "series": "v",
+  "num_layers": 16,
+  "image_size": 160,
+  "fc_sizes": [
+    4096
+  ],
+  "model": "v",
+  "num_classes": 1000  
+}
