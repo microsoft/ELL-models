@@ -1,0 +1,10 @@
+{
+  "force_batchnorm": true,
+  "image_size": 160,
+  "model": "d",
+  "type": "real",
+  "series": "d",
+  "name": "d_I160x160x3CMCMCMCMCMCMC1AS",
+  "num_classes": 1000,
+  "index": 0
+}

@@ -1,0 +1,15 @@
+{
+  "real_layers": [
+    0,
+    1,
+    -1
+  ],
+  "num_classes": 1000,
+  "type": "binary",
+  "image_size": 224,
+  "series": "d",
+  "name": "d_I224x224x3CMCMBMBMBMBMC1AS",
+  "index": 0,
+  "force_batchnorm": true,
+  "model": "d"
+}
