@@ -1,0 +1,10 @@
+{
+  "index": 0,
+  "force_batchnorm": true,
+  "model": "dstackedfull",
+  "name": "dsf_I64x64x3CMCMCMCMCMC1A",
+  "series": "dstackedfull",
+  "num_classes": 1000,
+  "type": "real",
+  "image_size": 64
+}
