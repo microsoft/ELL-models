@@ -43,9 +43,9 @@ python run_validation.py %model% %ip% --maxfiles 30 --labels %labels% ^
  --truth %home%/validation/val_map.txt --images %home%/validation --target %target% ^
  --username %username% --password %password% --target_dir %home%/test %cluster_option%
 
-move test\%target%\validation.json %model_path%\validation_%target%.json
-move test\%target%\validation.out %model_path%\validation_%target%.out
-move test\%target%\procmon.json %model_path%\procmon_%target%.json
+move test\%target%\%model%\validation.json %model_path%\validation_%target%.json
+move test\%target%\%model%\validation.out %model_path%\validation_%target%.out
+move test\%target%\%model%\procmon.json %model_path%\procmon_%target%.json
 popd
 goto :done
 
