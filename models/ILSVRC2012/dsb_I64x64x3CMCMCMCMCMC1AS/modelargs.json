@@ -1,0 +1,10 @@
+{
+  "model": "dstackedbottom",
+  "index": 0,
+  "image_size": 64,
+  "series": "dstackedbottom",
+  "name": "dsb_I64x64x3CMCMCMCMCMC1AS",
+  "num_classes": 1000,
+  "type": "real",
+  "force_batchnorm": true
+}
