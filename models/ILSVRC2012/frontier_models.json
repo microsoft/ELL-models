@@ -3,19 +3,19 @@
     "platform": "pi3",
     "frontier_models": [
       [
-        "dsb_I64x64x3CMCMCMCMCMC1AS",
+        "dsb_I64x64x3CMCMCMCMCCCMC1AS",
         0.05,
         40.98,
         66.43
       ],
       [
-        "dst_I64x64x3CMCMCMCMCMC1AS",
+        "dst_I64x64x3CCCMCMCMCMCMC1AS",
         0.11,
         43.13,
         67.96
       ],
       [
-        "dsf_I64x64x3CMCMCMCMCMC1AS",
+        "dsf_I64x64x3CCMCCMCCMCMCMC1AS",
         0.12,
         44.67,
         69.7

@@ -3,7 +3,7 @@
   "type": "real",
   "index": 0,
   "num_classes": 1000,
-  "name": "dst_I64x64x3CMCMCMCMCMC1AS",
+  "name": "dst_I64x64x3CCCMCMCMCMCMC1AS",
   "model": "dstackedtop",
   "series": "dstackedtop",
   "force_batchnorm": true
