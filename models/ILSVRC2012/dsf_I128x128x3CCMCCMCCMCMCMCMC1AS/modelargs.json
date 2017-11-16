@@ -1,0 +1,11 @@
+{
+  "series": "dstackedfull",
+  "image_size": 128,
+  "trainer": "CNTK 2.2",
+  "num_classes": 1000,
+  "model": "dstackedfull",
+  "type": "real",
+  "name": "dsf_I128x128x3CCMCCMCCMCMCMCMC1AS",
+  "force_batchnorm": true,
+  "index": 0
+}

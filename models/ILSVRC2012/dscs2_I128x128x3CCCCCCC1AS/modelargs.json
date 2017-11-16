@@ -1,0 +1,12 @@
+{
+  "index": 0,
+  "image_size": 128,
+  "trainer": "CNTK 2.2",
+  "name": "dscs2_I128x128x3CMCMCMCMCMCMC1AS",
+  "type": "real",
+  "filter_size": 5,
+  "force_batchnorm": true,
+  "num_classes": 1000,
+  "model": "d_singleconv_stride2",
+  "series": "d_singleconv_stride2"
+}

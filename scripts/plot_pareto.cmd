@@ -1,12 +1,11 @@
+@echo off
 setlocal
 
 if [%ell_root%] == [] goto error
-
-echo off
 set "models_root=%cd%"
 
 pushd %ell_root%\build\tools\utilities\pythonlibs\gallery
-python plot_model_stats.py %models_root% -o speed_v_accuracy_pi3.png
+python plot_model_stats.py %models_root% -o speed_v_accuracy_pi3.png %*
 REM python plot_model_stats.py %models_root% -o speed_v_accuracy_all.png -pt pi3 pi3_64 aarch64
 
 move speed_v_accuracy_pi3.png %models_root%
