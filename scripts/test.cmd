@@ -31,12 +31,10 @@ python drivetest.py --ipaddress %ip% --target %target% ^
 popd
 
 REM run_validation.py requires a one-time copy of validation set to %home%/validation
-REM 
-REM pushd %ell_root%\build\tools\utilities\pythonlibs\gallery
-REM python copy_validation_set.py z:\val_map.txt z:\images %ip% --maxfiles 50 ^
-REM   --username=%username% --password=%password% --target_dir %home%/validation %cluster_option%
-REM popd
-REM
+pushd %ell_root%\build\tools\utilities\pythonlibs\gallery
+python copy_validation_set.py y:\val_map.txt y:\images %ip% --maxfiles 50 ^
+  --username=%username% --password=%password% --target_dir %home%/validation %cluster_option%
+popd
 
 pushd %ell_root%\build\tools\utilities\pythonlibs\gallery
 python run_validation.py %model% %ip% --maxfiles 30 --labels %labels% ^

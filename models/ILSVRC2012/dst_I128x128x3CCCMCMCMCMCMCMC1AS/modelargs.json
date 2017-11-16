@@ -1,0 +1,11 @@
+{
+  "index": 0,
+  "force_batchnorm": true,
+  "series": "dstackedtop",
+  "type": "real",
+  "image_size": 128,
+  "model": "dstackedtop",
+  "name": "dst_I128x128x3CCCMCMCMCMCMCMC1AS",
+  "num_classes": 1000,
+  "trainer": "CNTK 2.2"
+}

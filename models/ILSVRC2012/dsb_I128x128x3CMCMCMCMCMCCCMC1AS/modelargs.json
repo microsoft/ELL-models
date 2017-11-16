@@ -1,0 +1,11 @@
+{
+  "trainer": "CNTK 2.2",
+  "series": "dstackedbottom",
+  "type": "real",
+  "index": 0,
+  "name": "dsb_I128x128x3CMCMCMCMCMCCCMC1AS",
+  "force_batchnorm": true,
+  "model": "dstackedbottom",
+  "image_size": 128,
+  "num_classes": 1000
+}
