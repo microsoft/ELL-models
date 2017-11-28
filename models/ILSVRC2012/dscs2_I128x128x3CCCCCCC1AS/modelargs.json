@@ -2,7 +2,7 @@
   "index": 0,
   "image_size": 128,
   "trainer": "CNTK 2.2",
-  "name": "dscs2_I128x128x3CMCMCMCMCMCMC1AS",
+  "name": "dscs2_I128x128x3CCCCCCC1AS",
   "type": "real",
   "filter_size": 5,
   "force_batchnorm": true,

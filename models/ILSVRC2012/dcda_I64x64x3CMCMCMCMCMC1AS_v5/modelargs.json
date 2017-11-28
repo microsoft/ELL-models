@@ -1,0 +1,13 @@
+{
+  "num_classes": 1000,
+  "force_batchnorm": true,
+  "index": 0,
+  "model": "d_constrained_depth_addition_nr",
+  "type": "real",
+  "name": "dcda_I64x64x3CMCMCMCMCMC1AS_v5",
+  "trainer": "CNTK 2.2",
+  "series": "d_constrained_depth_addition_nr",
+  "image_size": 64,
+  "filter_size": 3,
+  "increase_factor": 208
+}

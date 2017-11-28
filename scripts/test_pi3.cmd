@@ -1,4 +1,6 @@
+@echo off
 setlocal
+
 set ip_address=%1
 set cluster_address=http://pidatacenter.cloudapp.net/api/values
 
