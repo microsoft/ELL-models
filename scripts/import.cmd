@@ -1,8 +1,8 @@
+@echo off
 setlocal
 
 if [%ell_root%] == [] goto error
 
-echo off
 set "model_path=%cd%"
 call :file_name_from_path model %model_path%
 
@@ -26,8 +26,10 @@ goto :done
 
 :file_name_from_path <resultVar> <pathVar>
 (
-    set "%~1=%~nx2"
-    exit /b
+    for  %%x in (*.cntk) do (
+        SET "%~1=%%~nx"
+        exit /b
+    )
 )
 
 :error

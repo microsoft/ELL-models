@@ -10,6 +10,7 @@ REM python plot_model_stats.py %models_root% -o speed_v_accuracy_all.png -pt pi3
 
 move speed_v_accuracy_pi3.png %models_root%
 move frontier_models.json %models_root%
+move all_models.json %models_root%
 popd
 goto done
 
