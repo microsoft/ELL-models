@@ -69,37 +69,15 @@
         80.54
       ],
       [
-        "d_I160x160x3CMCMCMCMCMCMC1AS",
-        "d",
-        "d_I160x160x3CMCMCMCMCMCMC1AS",
-        160,
+        "dsf_I128x128x3CCMCCMCCMCMCMCMC1AS",
+        "dstackedfull",
+        "dsf_I128x128x3CCMCCMCCMCMCMCMC1AS",
+        128,
         3,
         0,
-        0.3,
-        57.62,
-        80.38
-      ],
-      [
-        "d_I192x192x3CMCMCMCMCMCMC1AS",
-        "d",
-        "d_I192x192x3CMCMCMCMCMCMC1AS",
-        192,
-        3,
-        0,
-        0.41,
-        59.01,
-        81.74
-      ],
-      [
-        "d_I224x224x3CMCMCMCMCMCMC1AS",
-        "d",
-        "d_I224x224x3CMCMCMCMCMCMC1AS",
-        224,
-        3,
-        0,
-        0.49,
-        60.21,
-        82.48
+        0.52,
+        59.77,
+        82.12
       ]
     ]
   }
