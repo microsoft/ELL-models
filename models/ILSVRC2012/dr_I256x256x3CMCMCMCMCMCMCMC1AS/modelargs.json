@@ -1,14 +1,14 @@
 {
-  "force_batchnorm": true,
-  "increase_factor": 112,
   "index": 0,
   "num_classes": 1000,
-  "activation_function": "leaky_relu",
-  "model": "d_reference",
   "filter_size": 3,
-  "type": "real",
-  "name": "dr_I256x256x3CMCMCMCMCMCMCMC1AS",
+  "increase_factor": 112,
   "image_size": 256,
   "series": "d_reference",
-  "trainer": "CNTK 2.2"
+  "name": "dr_I256x256x3CMCMCMCMCMCMCMC1AS",
+  "model": "d_reference",
+  "trainer": "CNTK 2.2",
+  "type": "real",
+  "activation_function": "leaky_relu",
+  "force_batchnorm": true
 }
