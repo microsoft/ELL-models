@@ -1,0 +1,14 @@
+{
+  "index": 0,
+  "num_classes": 1000,
+  "filter_size": 3,
+  "increase_factor": 112,
+  "image_size": 256,
+  "series": "d_reference",
+  "name": "dr_I256x256x3CMCMCMCMCMCMCMC1AS",
+  "model": "d_reference",
+  "trainer": "CNTK 2.2",
+  "type": "real",
+  "activation_function": "leaky_relu",
+  "force_batchnorm": true
+}
