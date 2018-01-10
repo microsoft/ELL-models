@@ -12,6 +12,7 @@ import os
 import sys
 import argparse
 import glob
+import test_model
 from os.path import dirname, isdir, join
 
 def find_model_paths(path):
@@ -57,11 +58,9 @@ class TestModels:
 
     def _run_tests(self):
         "Tests each model"
-        test_model = __import__("test_model")
-
         for model_path in self.model_dirs:
             with test_model.TestModel() as tm:
-                test_model.parse_command_line([
+                tm.parse_command_line([
                     "--path", model_path
                 ])
                 tm.run()
