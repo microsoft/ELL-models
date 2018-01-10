@@ -30,7 +30,8 @@ class TestModels:
     def __init__(self):
         self.arg_parser = argparse.ArgumentParser(
             "This script tests all ELL models found under a path, sequentially.\n"
-            "This can be enhanced in the future to run tests in parallel.\n")
+            "This will be enhanced in the future to run tests in parallel\n"
+            "(once drivetest supports multiple instances).\n")
 
         self.path = None
         self.model_dirs = None
