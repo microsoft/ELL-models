@@ -79,7 +79,9 @@ class TestModels:
     def run(self):
         "Main run method"
         self._run_tests()
-        self._plot_pareto()
+
+        # disabled in favor of vega-lite plots
+        # self._plot_pareto()
 
 if __name__ == "__main__":
     program = TestModels()
