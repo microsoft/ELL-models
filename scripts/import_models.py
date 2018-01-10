@@ -10,18 +10,20 @@
 import os
 import sys
 import argparse
+import glob
 from os.path import basename, isdir, isfile, join, splitext
 
 def find_model_paths(path, zipped=False):
     "Finds model directories under the given path."
 
-    ext = ".cntk"
+    ext = "cntk"
     if zipped:
-        ext += ".zip"
+        ext += "zip"
 
-    # search for model.cntk or model.cntk.zip
-    result = [join(path, model, model + ext) for model in os.listdir(path) \
-        if isfile(join(path, model, model + ext))]
+    cwd = os.getcwd()
+    os.chdir(path)
+    result = glob.glob("*.{}".format(ext))
+    os.chdir(cwd)
 
     return result
 
