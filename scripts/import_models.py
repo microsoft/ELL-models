@@ -18,11 +18,12 @@ def find_model_paths(path, zipped=False):
 
     ext = "cntk"
     if zipped:
-        ext += "zip"
+        ext += ".zip"
 
     cwd = os.getcwd()
     os.chdir(path)
-    result = glob.glob("*.{}".format(ext))
+
+    result = glob.glob("**/*.{}".format(ext), recursive=True)
     os.chdir(cwd)
 
     return result
