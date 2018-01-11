@@ -13,7 +13,7 @@ import sys
 import argparse
 from os.path import basename, isdir, join, splitext
 
-CURRENT_SCRIPT = os.path.basename(__file__)
+_current_script = os.path.basename(__file__)
 
 class TestModel:
     def __init__(self):
@@ -86,7 +86,7 @@ class TestModel:
         "Acquires a machine ipaddress from the cluster"
         picluster = __import__("picluster")
 
-        task = " ".join((CURRENT_SCRIPT, self.path))
+        task = " ".join((_current_script, self.path))
         self.cluster = picluster.PiBoardTable(cluster)
         self.machine = self.cluster.wait_for_free_machine(task)
         print("Locked machine at " + self.machine.ip_address)

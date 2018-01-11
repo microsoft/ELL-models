@@ -20,12 +20,7 @@ def find_model_paths(path, zipped=False):
     if zipped:
         ext += ".zip"
 
-    cwd = os.getcwd()
-    os.chdir(path)
-
-    result = glob.glob("**/*.{}".format(ext), recursive=True)
-    os.chdir(cwd)
-
+    result = glob.glob("{}/**/*.{}".format(path, ext), recursive=True)
     return result
 
 class ImportModels:

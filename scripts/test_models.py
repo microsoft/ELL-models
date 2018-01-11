@@ -18,13 +18,7 @@ from os.path import dirname, isdir, join
 
 def find_model_paths(path):
     "Finds model directories under the given path."
-
-    cwd = os.getcwd()
-    os.chdir(path)
-
-    result = glob.glob("**/*.{}".format("ell.zip"), recursive=True)
-    os.chdir(cwd)
-
+    result = glob.glob("{}/**/*.{}".format(path, "ell.zip"), recursive=True)
     return result
 
 class TestModels:
