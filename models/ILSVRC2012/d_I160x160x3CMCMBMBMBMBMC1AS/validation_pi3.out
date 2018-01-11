@@ -1,246 +1,246 @@
 Looking for: d_I160x160x3CMCMBMBMBMBMC1AS in 
 Found input_shape [160,160,3]
 ILSVRC2012_val_00000001.JPEG
-	Prediction: 977(8%)  49(5%)  150(5%)  978(4%)  913(2%)  
-	Prediction: 977(8%)  49(5%)  150(5%)  978(4%)  913(2%)  
-	Prediction: 977(8%)  49(5%)  150(5%)  978(4%)  913(2%)  
-	Prediction: 977(8%)  49(5%)  150(5%)  978(4%)  913(2%)  
-	Prediction: 977(8%)  49(5%)  150(5%)  978(4%)  913(2%)  
-Average prediction time: 0.5351847410202026
+	Prediction: 977(8%)  34(7%)  49(5%)  150(5%)  978(4%)  
+	Prediction: 977(8%)  34(7%)  49(5%)  150(5%)  978(4%)  
+	Prediction: 977(8%)  34(7%)  49(5%)  150(5%)  978(4%)  
+	Prediction: 977(8%)  34(7%)  49(5%)  150(5%)  978(4%)  
+	Prediction: 977(8%)  34(7%)  49(5%)  150(5%)  978(4%)  
+Average prediction time: 0.5534034967422485
 Looking for: d_I160x160x3CMCMBMBMBMBMC1AS in 
 Found input_shape [160,160,3]
 ILSVRC2012_val_00000002.JPEG
-	Prediction: 795(70%)  970(4%)  802(1%)  646(0%)  803(0%)  
-	Prediction: 795(70%)  970(4%)  802(1%)  646(0%)  803(0%)  
-	Prediction: 795(70%)  970(4%)  802(1%)  646(0%)  803(0%)  
-	Prediction: 795(70%)  970(4%)  802(1%)  646(0%)  803(0%)  
-	Prediction: 795(70%)  970(4%)  802(1%)  646(0%)  803(0%)  
-Average prediction time: 0.5353559851646423
+	Prediction: 795(70%)  537(6%)  970(4%)  792(2%)  802(1%)  
+	Prediction: 795(70%)  537(6%)  970(4%)  792(2%)  802(1%)  
+	Prediction: 795(70%)  537(6%)  970(4%)  792(2%)  802(1%)  
+	Prediction: 795(70%)  537(6%)  970(4%)  792(2%)  802(1%)  
+	Prediction: 795(70%)  537(6%)  970(4%)  792(2%)  802(1%)  
+Average prediction time: 0.5567925572395325
 Looking for: d_I160x160x3CMCMBMBMBMBMC1AS in 
 Found input_shape [160,160,3]
 ILSVRC2012_val_00000003.JPEG
-	Prediction: 230(29%)  231(24%)  249(5%)  259(1%)  269(1%)  
-	Prediction: 230(29%)  231(24%)  249(5%)  259(1%)  269(1%)  
-	Prediction: 230(29%)  231(24%)  249(5%)  259(1%)  269(1%)  
-	Prediction: 230(29%)  231(24%)  249(5%)  259(1%)  269(1%)  
-	Prediction: 230(29%)  231(24%)  249(5%)  259(1%)  269(1%)  
-Average prediction time: 0.5433768033981323
+	Prediction: 230(29%)  231(24%)  169(7%)  249(5%)  157(2%)  
+	Prediction: 230(29%)  231(24%)  169(7%)  249(5%)  157(2%)  
+	Prediction: 230(29%)  231(24%)  169(7%)  249(5%)  157(2%)  
+	Prediction: 230(29%)  231(24%)  169(7%)  249(5%)  157(2%)  
+	Prediction: 230(29%)  231(24%)  169(7%)  249(5%)  157(2%)  
+Average prediction time: 0.5566750764846802
 Looking for: d_I160x160x3CMCMBMBMBMBMC1AS in 
 Found input_shape [160,160,3]
 ILSVRC2012_val_00000004.JPEG
-	Prediction: 659(43%)  968(21%)  967(2%)  927(1%)  883(0%)  
-	Prediction: 659(43%)  968(21%)  967(2%)  927(1%)  883(0%)  
-	Prediction: 659(43%)  968(21%)  967(2%)  927(1%)  883(0%)  
-	Prediction: 659(43%)  968(21%)  967(2%)  927(1%)  883(0%)  
-	Prediction: 659(43%)  968(21%)  967(2%)  927(1%)  883(0%)  
-Average prediction time: 0.5407999753952026
+	Prediction: 659(43%)  968(21%)  809(3%)  504(2%)  967(2%)  
+	Prediction: 659(43%)  968(21%)  809(3%)  504(2%)  967(2%)  
+	Prediction: 659(43%)  968(21%)  809(3%)  504(2%)  967(2%)  
+	Prediction: 659(43%)  968(21%)  809(3%)  504(2%)  967(2%)  
+	Prediction: 659(43%)  968(21%)  809(3%)  504(2%)  967(2%)  
+Average prediction time: 0.5547005534172058
 Looking for: d_I160x160x3CMCMBMBMBMBMC1AS in 
 Found input_shape [160,160,3]
 ILSVRC2012_val_00000005.JPEG
-	Prediction: 721(38%)  748(5%)  750(3%)  709(1%)  893(0%)  
-	Prediction: 721(38%)  748(5%)  750(3%)  709(1%)  893(0%)  
-	Prediction: 721(38%)  748(5%)  750(3%)  709(1%)  893(0%)  
-	Prediction: 721(38%)  748(5%)  750(3%)  709(1%)  893(0%)  
-	Prediction: 721(38%)  748(5%)  750(3%)  709(1%)  893(0%)  
-Average prediction time: 0.542885959148407
+	Prediction: 721(38%)  748(5%)  588(5%)  539(3%)  750(3%)  
+	Prediction: 721(38%)  748(5%)  588(5%)  539(3%)  750(3%)  
+	Prediction: 721(38%)  748(5%)  588(5%)  539(3%)  750(3%)  
+	Prediction: 721(38%)  748(5%)  588(5%)  539(3%)  750(3%)  
+	Prediction: 721(38%)  748(5%)  588(5%)  539(3%)  750(3%)  
+Average prediction time: 0.5584533214569092
 Looking for: d_I160x160x3CMCMBMBMBMBMC1AS in 
 Found input_shape [160,160,3]
 ILSVRC2012_val_00000006.JPEG
-	Prediction: 977(14%)  975(5%)  978(1%)  984(0%)  352(0%)  
-	Prediction: 977(14%)  975(5%)  978(1%)  984(0%)  352(0%)  
-	Prediction: 977(14%)  975(5%)  978(1%)  984(0%)  352(0%)  
-	Prediction: 977(14%)  975(5%)  978(1%)  984(0%)  352(0%)  
-	Prediction: 977(14%)  975(5%)  978(1%)  984(0%)  352(0%)  
-Average prediction time: 0.5397359728813171
+	Prediction: 977(14%)  646(8%)  975(5%)  489(1%)  825(1%)  
+	Prediction: 977(14%)  646(8%)  975(5%)  489(1%)  825(1%)  
+	Prediction: 977(14%)  646(8%)  975(5%)  489(1%)  825(1%)  
+	Prediction: 977(14%)  646(8%)  975(5%)  489(1%)  825(1%)  
+	Prediction: 977(14%)  646(8%)  975(5%)  489(1%)  825(1%)  
+Average prediction time: 0.5557935237884521
 Looking for: d_I160x160x3CMCMBMBMBMBMC1AS in 
 Found input_shape [160,160,3]
 ILSVRC2012_val_00000007.JPEG
-	Prediction: 337(27%)  360(15%)  362(5%)  282(0%)  336(0%)  
-	Prediction: 337(27%)  360(15%)  362(5%)  282(0%)  336(0%)  
-	Prediction: 337(27%)  360(15%)  362(5%)  282(0%)  336(0%)  
-	Prediction: 337(27%)  360(15%)  362(5%)  282(0%)  336(0%)  
-	Prediction: 337(27%)  360(15%)  362(5%)  282(0%)  336(0%)  
-Average prediction time: 0.5393920540809631
+	Prediction: 337(27%)  360(15%)  292(7%)  362(5%)  340(4%)  
+	Prediction: 337(27%)  360(15%)  292(7%)  362(5%)  340(4%)  
+	Prediction: 337(27%)  360(15%)  292(7%)  362(5%)  340(4%)  
+	Prediction: 337(27%)  360(15%)  292(7%)  362(5%)  340(4%)  
+	Prediction: 337(27%)  360(15%)  292(7%)  362(5%)  340(4%)  
+Average prediction time: 0.5565446615219116
 Looking for: d_I160x160x3CMCMBMBMBMBMC1AS in 
 Found input_shape [160,160,3]
 ILSVRC2012_val_00000008.JPEG
-	Prediction: 431(6%)  529(5%)  797(4%)  936(3%)  898(1%)  
-	Prediction: 431(6%)  529(5%)  797(4%)  936(3%)  898(1%)  
-	Prediction: 431(6%)  529(5%)  797(4%)  936(3%)  898(1%)  
-	Prediction: 431(6%)  529(5%)  797(4%)  936(3%)  898(1%)  
-	Prediction: 431(6%)  529(5%)  797(4%)  936(3%)  898(1%)  
-Average prediction time: 0.5419968366622925
+	Prediction: 431(6%)  529(5%)  797(4%)  443(4%)  793(4%)  
+	Prediction: 431(6%)  529(5%)  797(4%)  443(4%)  793(4%)  
+	Prediction: 431(6%)  529(5%)  797(4%)  443(4%)  793(4%)  
+	Prediction: 431(6%)  529(5%)  797(4%)  443(4%)  793(4%)  
+	Prediction: 431(6%)  529(5%)  797(4%)  443(4%)  793(4%)  
+Average prediction time: 0.5563709139823914
 Looking for: d_I160x160x3CMCMBMBMBMBMC1AS in 
 Found input_shape [160,160,3]
 ILSVRC2012_val_00000009.JPEG
-	Prediction: 93(13%)  448(7%)  702(4%)  704(3%)  708(1%)  
-	Prediction: 93(13%)  448(7%)  702(4%)  704(3%)  708(1%)  
-	Prediction: 93(13%)  448(7%)  702(4%)  704(3%)  708(1%)  
-	Prediction: 93(13%)  448(7%)  702(4%)  704(3%)  708(1%)  
-	Prediction: 93(13%)  448(7%)  702(4%)  704(3%)  708(1%)  
-Average prediction time: 0.540123701095581
+	Prediction: 93(13%)  448(7%)  88(5%)  702(4%)  704(3%)  
+	Prediction: 93(13%)  448(7%)  88(5%)  702(4%)  704(3%)  
+	Prediction: 93(13%)  448(7%)  88(5%)  702(4%)  704(3%)  
+	Prediction: 93(13%)  448(7%)  88(5%)  702(4%)  704(3%)  
+	Prediction: 93(13%)  448(7%)  88(5%)  702(4%)  704(3%)  
+Average prediction time: 0.5577197670936584
 Looking for: d_I160x160x3CMCMBMBMBMBMC1AS in 
 Found input_shape [160,160,3]
 ILSVRC2012_val_00000010.JPEG
-	Prediction: 153(14%)  265(12%)  333(6%)  850(4%)  434(2%)  
-	Prediction: 153(14%)  265(12%)  333(6%)  850(4%)  434(2%)  
-	Prediction: 153(14%)  265(12%)  333(6%)  850(4%)  434(2%)  
-	Prediction: 153(14%)  265(12%)  333(6%)  850(4%)  434(2%)  
-	Prediction: 153(14%)  265(12%)  333(6%)  850(4%)  434(2%)  
-Average prediction time: 0.5371856689453125
+	Prediction: 153(14%)  265(12%)  154(8%)  333(6%)  283(5%)  
+	Prediction: 153(14%)  265(12%)  154(8%)  333(6%)  283(5%)  
+	Prediction: 153(14%)  265(12%)  154(8%)  333(6%)  283(5%)  
+	Prediction: 153(14%)  265(12%)  154(8%)  333(6%)  283(5%)  
+	Prediction: 153(14%)  265(12%)  154(8%)  333(6%)  283(5%)  
+Average prediction time: 0.5541131496429443
 Looking for: d_I160x160x3CMCMBMBMBMBMC1AS in 
 Found input_shape [160,160,3]
 ILSVRC2012_val_00000011.JPEG
-	Prediction: 109(63%)  397(8%)  973(3%)  393(0%)  396(0%)  
-	Prediction: 109(63%)  397(8%)  973(3%)  393(0%)  396(0%)  
-	Prediction: 109(63%)  397(8%)  973(3%)  393(0%)  396(0%)  
-	Prediction: 109(63%)  397(8%)  973(3%)  393(0%)  396(0%)  
-	Prediction: 109(63%)  397(8%)  973(3%)  393(0%)  396(0%)  
-Average prediction time: 0.5438862442970276
+	Prediction: 109(63%)  397(8%)  329(6%)  328(4%)  973(3%)  
+	Prediction: 109(63%)  397(8%)  329(6%)  328(4%)  973(3%)  
+	Prediction: 109(63%)  397(8%)  329(6%)  328(4%)  973(3%)  
+	Prediction: 109(63%)  397(8%)  329(6%)  328(4%)  973(3%)  
+	Prediction: 109(63%)  397(8%)  329(6%)  328(4%)  973(3%)  
+Average prediction time: 0.556757390499115
 Looking for: d_I160x160x3CMCMBMBMBMBMC1AS in 
 Found input_shape [160,160,3]
 ILSVRC2012_val_00000012.JPEG
-	Prediction: 286(57%)  287(8%)  373(2%)  371(1%)  383(1%)  
-	Prediction: 286(57%)  287(8%)  373(2%)  371(1%)  383(1%)  
-	Prediction: 286(57%)  287(8%)  373(2%)  371(1%)  383(1%)  
-	Prediction: 286(57%)  287(8%)  373(2%)  371(1%)  383(1%)  
-	Prediction: 286(57%)  287(8%)  373(2%)  371(1%)  383(1%)  
-Average prediction time: 0.5499272346496582
+	Prediction: 286(57%)  105(8%)  287(8%)  285(3%)  373(2%)  
+	Prediction: 286(57%)  105(8%)  287(8%)  285(3%)  373(2%)  
+	Prediction: 286(57%)  105(8%)  287(8%)  285(3%)  373(2%)  
+	Prediction: 286(57%)  105(8%)  287(8%)  285(3%)  373(2%)  
+	Prediction: 286(57%)  105(8%)  287(8%)  285(3%)  373(2%)  
+Average prediction time: 0.5557522773742676
 Looking for: d_I160x160x3CMCMBMBMBMBMC1AS in 
 Found input_shape [160,160,3]
 ILSVRC2012_val_00000013.JPEG
-	Prediction: 370(94%)  373(1%)  374(0%)  375(0%)  381(0%)  
-	Prediction: 370(94%)  373(1%)  374(0%)  375(0%)  381(0%)  
-	Prediction: 370(94%)  373(1%)  374(0%)  375(0%)  381(0%)  
-	Prediction: 370(94%)  373(1%)  374(0%)  375(0%)  381(0%)  
-	Prediction: 370(94%)  373(1%)  374(0%)  375(0%)  381(0%)  
-Average prediction time: 0.5348620414733887
+	Prediction: 370(94%)  373(1%)  371(1%)  374(0%)  372(0%)  
+	Prediction: 370(94%)  373(1%)  371(1%)  374(0%)  372(0%)  
+	Prediction: 370(94%)  373(1%)  371(1%)  374(0%)  372(0%)  
+	Prediction: 370(94%)  373(1%)  371(1%)  374(0%)  372(0%)  
+	Prediction: 370(94%)  373(1%)  371(1%)  374(0%)  372(0%)  
+Average prediction time: 0.5548932552337646
 Looking for: d_I160x160x3CMCMBMBMBMBMC1AS in 
 Found input_shape [160,160,3]
 ILSVRC2012_val_00000014.JPEG
-	Prediction: 757(41%)  874(19%)  734(3%)  829(2%)  713(0%)  
-	Prediction: 757(41%)  874(19%)  734(3%)  829(2%)  713(0%)  
-	Prediction: 757(41%)  874(19%)  734(3%)  829(2%)  713(0%)  
-	Prediction: 757(41%)  874(19%)  734(3%)  829(2%)  713(0%)  
-	Prediction: 757(41%)  874(19%)  734(3%)  829(2%)  713(0%)  
-Average prediction time: 0.5337080955505371
+	Prediction: 757(41%)  874(19%)  654(13%)  705(4%)  734(3%)  
+	Prediction: 757(41%)  874(19%)  654(13%)  705(4%)  734(3%)  
+	Prediction: 757(41%)  874(19%)  654(13%)  705(4%)  734(3%)  
+	Prediction: 757(41%)  874(19%)  654(13%)  705(4%)  734(3%)  
+	Prediction: 757(41%)  874(19%)  654(13%)  705(4%)  734(3%)  
+Average prediction time: 0.556212306022644
 Looking for: d_I160x160x3CMCMBMBMBMBMC1AS in 
 Found input_shape [160,160,3]
 ILSVRC2012_val_00000015.JPEG
-	Prediction: 595(48%)  984(14%)  867(1%)  912(1%)  797(0%)  
-	Prediction: 595(48%)  984(14%)  867(1%)  912(1%)  797(0%)  
-	Prediction: 595(48%)  984(14%)  867(1%)  912(1%)  797(0%)  
-	Prediction: 595(48%)  984(14%)  867(1%)  912(1%)  797(0%)  
-	Prediction: 595(48%)  984(14%)  867(1%)  912(1%)  797(0%)  
-Average prediction time: 0.5467766523361206
+	Prediction: 595(48%)  984(14%)  462(5%)  958(3%)  853(3%)  
+	Prediction: 595(48%)  984(14%)  462(5%)  958(3%)  853(3%)  
+	Prediction: 595(48%)  984(14%)  462(5%)  958(3%)  853(3%)  
+	Prediction: 595(48%)  984(14%)  462(5%)  958(3%)  853(3%)  
+	Prediction: 595(48%)  984(14%)  462(5%)  958(3%)  853(3%)  
+Average prediction time: 0.5524443984031677
 Looking for: d_I160x160x3CMCMBMBMBMBMC1AS in 
 Found input_shape [160,160,3]
 ILSVRC2012_val_00000016.JPEG
-	Prediction: 147(80%)  50(0%)  256(0%)  219(0%)  344(0%)  
-	Prediction: 147(80%)  50(0%)  256(0%)  219(0%)  344(0%)  
-	Prediction: 147(80%)  50(0%)  256(0%)  219(0%)  344(0%)  
-	Prediction: 147(80%)  50(0%)  256(0%)  219(0%)  344(0%)  
-	Prediction: 147(80%)  50(0%)  256(0%)  219(0%)  344(0%)  
-Average prediction time: 0.5482823252677917
+	Prediction: 147(80%)  34(7%)  33(1%)  50(0%)  6(0%)  
+	Prediction: 147(80%)  34(7%)  33(1%)  50(0%)  6(0%)  
+	Prediction: 147(80%)  34(7%)  33(1%)  50(0%)  6(0%)  
+	Prediction: 147(80%)  34(7%)  33(1%)  50(0%)  6(0%)  
+	Prediction: 147(80%)  34(7%)  33(1%)  50(0%)  6(0%)  
+Average prediction time: 0.5523813962936401
 Looking for: d_I160x160x3CMCMBMBMBMBMC1AS in 
 Found input_shape [160,160,3]
 ILSVRC2012_val_00000017.JPEG
-	Prediction: 607(5%)  658(3%)  884(2%)  953(2%)  998(2%)  
-	Prediction: 607(5%)  658(3%)  884(2%)  953(2%)  998(2%)  
-	Prediction: 607(5%)  658(3%)  884(2%)  953(2%)  998(2%)  
-	Prediction: 607(5%)  658(3%)  884(2%)  953(2%)  998(2%)  
-	Prediction: 607(5%)  658(3%)  884(2%)  953(2%)  998(2%)  
-Average prediction time: 0.5335832238197327
+	Prediction: 607(5%)  658(3%)  884(2%)  850(2%)  953(2%)  
+	Prediction: 607(5%)  658(3%)  884(2%)  850(2%)  953(2%)  
+	Prediction: 607(5%)  658(3%)  884(2%)  850(2%)  953(2%)  
+	Prediction: 607(5%)  658(3%)  884(2%)  850(2%)  953(2%)  
+	Prediction: 607(5%)  658(3%)  884(2%)  850(2%)  953(2%)  
+Average prediction time: 0.5521608591079712
 Looking for: d_I160x160x3CMCMBMBMBMBMC1AS in 
 Found input_shape [160,160,3]
 ILSVRC2012_val_00000018.JPEG
-	Prediction: 143(16%)  701(11%)  895(7%)  920(2%)  99(0%)  
-	Prediction: 143(16%)  701(11%)  895(7%)  920(2%)  99(0%)  
-	Prediction: 143(16%)  701(11%)  895(7%)  920(2%)  99(0%)  
-	Prediction: 143(16%)  701(11%)  895(7%)  920(2%)  99(0%)  
-	Prediction: 143(16%)  701(11%)  895(7%)  920(2%)  99(0%)  
-Average prediction time: 0.5347492694854736
+	Prediction: 143(16%)  701(11%)  405(11%)  895(7%)  21(7%)  
+	Prediction: 143(16%)  701(11%)  405(11%)  895(7%)  21(7%)  
+	Prediction: 143(16%)  701(11%)  405(11%)  895(7%)  21(7%)  
+	Prediction: 143(16%)  701(11%)  405(11%)  895(7%)  21(7%)  
+	Prediction: 143(16%)  701(11%)  405(11%)  895(7%)  21(7%)  
+Average prediction time: 0.554894208908081
 Looking for: d_I160x160x3CMCMBMBMBMBMC1AS in 
 Found input_shape [160,160,3]
 ILSVRC2012_val_00000019.JPEG
-	Prediction: 713(17%)  742(5%)  745(4%)  881(2%)  908(1%)  
-	Prediction: 713(17%)  742(5%)  745(4%)  881(2%)  908(1%)  
-	Prediction: 713(17%)  742(5%)  745(4%)  881(2%)  908(1%)  
-	Prediction: 713(17%)  742(5%)  745(4%)  881(2%)  908(1%)  
-	Prediction: 713(17%)  742(5%)  745(4%)  881(2%)  908(1%)  
-Average prediction time: 0.5396435856819153
+	Prediction: 713(17%)  526(8%)  742(5%)  745(4%)  553(3%)  
+	Prediction: 713(17%)  526(8%)  742(5%)  745(4%)  553(3%)  
+	Prediction: 713(17%)  526(8%)  742(5%)  745(4%)  553(3%)  
+	Prediction: 713(17%)  526(8%)  742(5%)  745(4%)  553(3%)  
+	Prediction: 713(17%)  526(8%)  742(5%)  745(4%)  553(3%)  
+Average prediction time: 0.5553934574127197
 Looking for: d_I160x160x3CMCMBMBMBMBMC1AS in 
 Found input_shape [160,160,3]
 ILSVRC2012_val_00000020.JPEG
-	Prediction: 517(23%)  913(4%)  919(2%)  679(1%)  718(1%)  
-	Prediction: 517(23%)  913(4%)  919(2%)  679(1%)  718(1%)  
-	Prediction: 517(23%)  913(4%)  919(2%)  679(1%)  718(1%)  
-	Prediction: 517(23%)  913(4%)  919(2%)  679(1%)  718(1%)  
-	Prediction: 517(23%)  913(4%)  919(2%)  679(1%)  718(1%)  
-Average prediction time: 0.5427552461624146
+	Prediction: 517(23%)  488(4%)  913(4%)  398(4%)  821(3%)  
+	Prediction: 517(23%)  488(4%)  913(4%)  398(4%)  821(3%)  
+	Prediction: 517(23%)  488(4%)  913(4%)  398(4%)  821(3%)  
+	Prediction: 517(23%)  488(4%)  913(4%)  398(4%)  821(3%)  
+	Prediction: 517(23%)  488(4%)  913(4%)  398(4%)  821(3%)  
+Average prediction time: 0.5568394064903259
 Looking for: d_I160x160x3CMCMBMBMBMBMC1AS in 
 Found input_shape [160,160,3]
 ILSVRC2012_val_00000021.JPEG
-	Prediction: 825(16%)  383(4%)  912(4%)  649(1%)  703(1%)  
-	Prediction: 825(16%)  383(4%)  912(4%)  649(1%)  703(1%)  
-	Prediction: 825(16%)  383(4%)  912(4%)  649(1%)  703(1%)  
-	Prediction: 825(16%)  383(4%)  912(4%)  649(1%)  703(1%)  
-	Prediction: 825(16%)  383(4%)  912(4%)  649(1%)  703(1%)  
-Average prediction time: 0.5404987931251526
+	Prediction: 825(16%)  24(5%)  383(4%)  381(4%)  912(4%)  
+	Prediction: 825(16%)  24(5%)  383(4%)  381(4%)  912(4%)  
+	Prediction: 825(16%)  24(5%)  383(4%)  381(4%)  912(4%)  
+	Prediction: 825(16%)  24(5%)  383(4%)  381(4%)  912(4%)  
+	Prediction: 825(16%)  24(5%)  383(4%)  381(4%)  912(4%)  
+Average prediction time: 0.5540207624435425
 Looking for: d_I160x160x3CMCMBMBMBMBMC1AS in 
 Found input_shape [160,160,3]
 ILSVRC2012_val_00000022.JPEG
-	Prediction: 251(4%)  246(3%)  805(2%)  560(1%)  764(1%)  
-	Prediction: 251(4%)  246(3%)  805(2%)  560(1%)  764(1%)  
-	Prediction: 251(4%)  246(3%)  805(2%)  560(1%)  764(1%)  
-	Prediction: 251(4%)  246(3%)  805(2%)  560(1%)  764(1%)  
-	Prediction: 251(4%)  246(3%)  805(2%)  560(1%)  764(1%)  
-Average prediction time: 0.540550708770752
+	Prediction: 251(4%)  172(3%)  246(3%)  805(2%)  217(2%)  
+	Prediction: 251(4%)  172(3%)  246(3%)  805(2%)  217(2%)  
+	Prediction: 251(4%)  172(3%)  246(3%)  805(2%)  217(2%)  
+	Prediction: 251(4%)  172(3%)  246(3%)  805(2%)  217(2%)  
+	Prediction: 251(4%)  172(3%)  246(3%)  805(2%)  217(2%)  
+Average prediction time: 0.5534310936927795
 Looking for: d_I160x160x3CMCMBMBMBMBMC1AS in 
 Found input_shape [160,160,3]
 ILSVRC2012_val_00000023.JPEG
-	Prediction: 948(73%)  952(0%)  945(0%)  988(0%)  956(0%)  
-	Prediction: 948(73%)  952(0%)  945(0%)  988(0%)  956(0%)  
-	Prediction: 948(73%)  952(0%)  945(0%)  988(0%)  956(0%)  
-	Prediction: 948(73%)  952(0%)  945(0%)  988(0%)  956(0%)  
-	Prediction: 948(73%)  952(0%)  945(0%)  988(0%)  956(0%)  
-Average prediction time: 0.5398045778274536
+	Prediction: 948(73%)  852(19%)  719(1%)  952(0%)  943(0%)  
+	Prediction: 948(73%)  852(19%)  719(1%)  952(0%)  943(0%)  
+	Prediction: 948(73%)  852(19%)  719(1%)  952(0%)  943(0%)  
+	Prediction: 948(73%)  852(19%)  719(1%)  952(0%)  943(0%)  
+	Prediction: 948(73%)  852(19%)  719(1%)  952(0%)  943(0%)  
+Average prediction time: 0.5537506341934204
 Looking for: d_I160x160x3CMCMBMBMBMBMC1AS in 
 Found input_shape [160,160,3]
 ILSVRC2012_val_00000024.JPEG
-	Prediction: 727(97%)  668(0%)  853(0%)  832(0%)  858(0%)  
-	Prediction: 727(97%)  668(0%)  853(0%)  832(0%)  858(0%)  
-	Prediction: 727(97%)  668(0%)  853(0%)  832(0%)  858(0%)  
-	Prediction: 727(97%)  668(0%)  853(0%)  832(0%)  858(0%)  
-	Prediction: 727(97%)  668(0%)  853(0%)  832(0%)  858(0%)  
-Average prediction time: 0.537219226360321
+	Prediction: 727(97%)  538(1%)  668(0%)  580(0%)  853(0%)  
+	Prediction: 727(97%)  538(1%)  668(0%)  580(0%)  853(0%)  
+	Prediction: 727(97%)  538(1%)  668(0%)  580(0%)  853(0%)  
+	Prediction: 727(97%)  538(1%)  668(0%)  580(0%)  853(0%)  
+	Prediction: 727(97%)  538(1%)  668(0%)  580(0%)  853(0%)  
+Average prediction time: 0.5531350374221802
 Looking for: d_I160x160x3CMCMBMBMBMBMC1AS in 
 Found input_shape [160,160,3]
 ILSVRC2012_val_00000025.JPEG
-	Prediction: 138(12%)  120(2%)  139(2%)  298(2%)  342(1%)  
-	Prediction: 138(12%)  120(2%)  139(2%)  298(2%)  342(1%)  
-	Prediction: 138(12%)  120(2%)  139(2%)  298(2%)  342(1%)  
-	Prediction: 138(12%)  120(2%)  139(2%)  298(2%)  342(1%)  
-	Prediction: 138(12%)  120(2%)  139(2%)  298(2%)  342(1%)  
-Average prediction time: 0.5395297408103943
+	Prediction: 138(12%)  82(3%)  34(3%)  120(2%)  139(2%)  
+	Prediction: 138(12%)  82(3%)  34(3%)  120(2%)  139(2%)  
+	Prediction: 138(12%)  82(3%)  34(3%)  120(2%)  139(2%)  
+	Prediction: 138(12%)  82(3%)  34(3%)  120(2%)  139(2%)  
+	Prediction: 138(12%)  82(3%)  34(3%)  120(2%)  139(2%)  
+Average prediction time: 0.5552194714546204
 Looking for: d_I160x160x3CMCMBMBMBMBMC1AS in 
 Found input_shape [160,160,3]
 ILSVRC2012_val_00000026.JPEG
-	Prediction: 846(26%)  583(6%)  715(5%)  896(5%)  881(2%)  
-	Prediction: 846(26%)  583(6%)  715(5%)  896(5%)  881(2%)  
-	Prediction: 846(26%)  583(6%)  715(5%)  896(5%)  881(2%)  
-	Prediction: 846(26%)  583(6%)  715(5%)  896(5%)  881(2%)  
-	Prediction: 846(26%)  583(6%)  715(5%)  896(5%)  881(2%)  
-Average prediction time: 0.5394430756568909
+	Prediction: 846(26%)  564(13%)  583(6%)  715(5%)  896(5%)  
+	Prediction: 846(26%)  564(13%)  583(6%)  715(5%)  896(5%)  
+	Prediction: 846(26%)  564(13%)  583(6%)  715(5%)  896(5%)  
+	Prediction: 846(26%)  564(13%)  583(6%)  715(5%)  896(5%)  
+	Prediction: 846(26%)  564(13%)  583(6%)  715(5%)  896(5%)  
+Average prediction time: 0.5585274696350098
 Looking for: d_I160x160x3CMCMBMBMBMBMC1AS in 
 Found input_shape [160,160,3]
 ILSVRC2012_val_00000027.JPEG
-	Prediction: 270(41%)  348(18%)  349(15%)  690(0%)  345(0%)  
-	Prediction: 270(41%)  348(18%)  349(15%)  690(0%)  345(0%)  
-	Prediction: 270(41%)  348(18%)  349(15%)  690(0%)  345(0%)  
-	Prediction: 270(41%)  348(18%)  349(15%)  690(0%)  345(0%)  
-	Prediction: 270(41%)  348(18%)  349(15%)  690(0%)  345(0%)  
-Average prediction time: 0.5378653407096863
+	Prediction: 270(41%)  348(18%)  349(15%)  269(8%)  222(5%)  
+	Prediction: 270(41%)  348(18%)  349(15%)  269(8%)  222(5%)  
+	Prediction: 270(41%)  348(18%)  349(15%)  269(8%)  222(5%)  
+	Prediction: 270(41%)  348(18%)  349(15%)  269(8%)  222(5%)  
+	Prediction: 270(41%)  348(18%)  349(15%)  269(8%)  222(5%)  
+Average prediction time: 0.5561491847038269
 Looking for: d_I160x160x3CMCMBMBMBMBMC1AS in 
 Found input_shape [160,160,3]
 ILSVRC2012_val_00000028.JPEG
@@ -249,52 +249,53 @@ ILSVRC2012_val_00000028.JPEG
 	Prediction: 162(11%)  166(10%)  247(9%)  676(5%)  852(4%)  
 	Prediction: 162(11%)  166(10%)  247(9%)  676(5%)  852(4%)  
 	Prediction: 162(11%)  166(10%)  247(9%)  676(5%)  852(4%)  
-Average prediction time: 0.5385337471961975
+Average prediction time: 0.5539308190345764
 Looking for: d_I160x160x3CMCMBMBMBMBMC1AS in 
 Found input_shape [160,160,3]
 ILSVRC2012_val_00000029.JPEG
-	Prediction: 64(38%)  59(11%)  943(4%)  954(0%)  998(0%)  
-	Prediction: 64(38%)  59(11%)  943(4%)  954(0%)  998(0%)  
-	Prediction: 64(38%)  59(11%)  943(4%)  954(0%)  998(0%)  
-	Prediction: 64(38%)  59(11%)  943(4%)  954(0%)  998(0%)  
-	Prediction: 64(38%)  59(11%)  943(4%)  954(0%)  998(0%)  
-Average prediction time: 0.553012490272522
+	Prediction: 64(38%)  55(26%)  59(11%)  943(4%)  46(3%)  
+	Prediction: 64(38%)  55(26%)  59(11%)  943(4%)  46(3%)  
+	Prediction: 64(38%)  55(26%)  59(11%)  943(4%)  46(3%)  
+	Prediction: 64(38%)  55(26%)  59(11%)  943(4%)  46(3%)  
+	Prediction: 64(38%)  55(26%)  59(11%)  943(4%)  46(3%)  
+Average prediction time: 0.553435742855072
 Looking for: d_I160x160x3CMCMBMBMBMBMC1AS in 
 Found input_shape [160,160,3]
 ILSVRC2012_val_00000030.JPEG
-	Prediction: 915(9%)  713(4%)  657(3%)  750(2%)  744(2%)  
-	Prediction: 915(9%)  713(4%)  657(3%)  750(2%)  744(2%)  
-	Prediction: 915(9%)  713(4%)  657(3%)  750(2%)  744(2%)  
-	Prediction: 915(9%)  713(4%)  657(3%)  750(2%)  744(2%)  
-	Prediction: 915(9%)  713(4%)  657(3%)  750(2%)  744(2%)  
-Average prediction time: 0.5394819974899292
-Total time: 1451.431641 ms	count: 5
-Total time: 2759.244141 ms	count: 10
-Total time: 4087.318359 ms	count: 15
-Total time: 5405.762695 ms	count: 20
-Total time: 6723.834229 ms	count: 25
-Total time: 8040.348389 ms	count: 30
-Total time: 9362.685303 ms	count: 35
-Total time: 10683.595459 ms	count: 40
-Total time: 12005.025391 ms	count: 45
-Total time: 13326.176025 ms	count: 50
-Total time: 14645.053711 ms	count: 55
-Total time: 15960.511963 ms	count: 60
-Total time: 17273.062744 ms	count: 65
-Total time: 18575.099609 ms	count: 70
-Total time: 19895.327148 ms	count: 75
-Total time: 21249.028564 ms	count: 80
-Total time: 22548.896484 ms	count: 85
-Total time: 23849.965820 ms	count: 90
-Total time: 25170.599121 ms	count: 95
-Total time: 26491.040771 ms	count: 100
-Total time: 27809.450684 ms	count: 105
-Total time: 29131.016602 ms	count: 110
-Total time: 30450.283447 ms	count: 115
-Total time: 31767.135254 ms	count: 120
-Total time: 33088.799561 ms	count: 125
-Total time: 34406.984131 ms	count: 130
-Total time: 35726.596924 ms	count: 135
-Total time: 37049.883789 ms	count: 140
-Total time: 38425.387695 ms	count: 145
-Total time: 39744.190918 ms	count: 150
+	Prediction: 915(9%)  579(4%)  713(4%)  519(3%)  538(3%)  
+	Prediction: 915(9%)  579(4%)  713(4%)  519(3%)  538(3%)  
+	Prediction: 915(9%)  579(4%)  713(4%)  519(3%)  538(3%)  
+	Prediction: 915(9%)  579(4%)  713(4%)  519(3%)  538(3%)  
+	Prediction: 915(9%)  579(4%)  713(4%)  519(3%)  538(3%)  
+Average prediction time: 0.5554895401000977
+Total time: 1552.269775 ms	count: 5
+Total time: 2974.999023 ms	count: 10
+Total time: 4405.230469 ms	count: 15
+Total time: 5830.731201 ms	count: 20
+Total time: 7261.472412 ms	count: 25
+Total time: 8691.329102 ms	count: 30
+Total time: 10117.688965 ms	count: 35
+Total time: 11547.570068 ms	count: 40
+Total time: 12981.214111 ms	count: 45
+Total time: 14399.096680 ms	count: 50
+Total time: 15821.143311 ms	count: 55
+Total time: 17240.802734 ms	count: 60
+Total time: 18662.074219 ms	count: 65
+Total time: 20087.610107 ms	count: 70
+Total time: 21509.542480 ms	count: 75
+Total time: 22925.753418 ms	count: 80
+Total time: 24340.326904 ms	count: 85
+Total time: 25762.970947 ms	count: 90
+Total time: 27185.526855 ms	count: 95
+Total time: 28607.794434 ms	count: 100
+Total time: 30025.293701 ms	count: 105
+Total time: 31441.457764 ms	count: 110
+Total time: 32862.807617 ms	count: 115
+Total time: 34282.285400 ms	count: 120
+Total time: 35706.779541 ms	count: 125
+Total time: 37129.284912 ms	count: 130
+Total time: 38554.152100 ms	count: 135
+Total time: 39977.006592 ms	count: 140
+Total time: 41401.231445 ms	count: 145
+Total time: 42828.797852 ms	count: 150
+Process has exited
