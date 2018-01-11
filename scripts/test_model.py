@@ -142,7 +142,7 @@ class TestModel:
         def rename_output(outfile):
             from shutil import move
             split = splitext(basename(outfile))
-            move(join(os.curdir, "test", self.target, self.model_name, outfile),
+            move(join(os.curdir, self.model_name, self.target, self.model_name, outfile),
                 join(self.path, "{}_{}{}".format(split[0], self.target, split[1])))
 
         rename_output("validation.json")
