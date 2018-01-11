@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 ####################################################################################################
 ##
 ##  Project:  Embedded Learning Library (ELL)
@@ -14,7 +15,7 @@ import argparse
 import glob
 import test_model
 
-from os.path import dirname, isdir, join
+from os.path import basename, dirname, isdir, join, splitext
 
 def find_model_paths(path):
     "Finds model directories under the given path."
@@ -57,7 +58,8 @@ class TestModels:
         try:
             with test_model.TestModel() as tm:
                 tm.parse_command_line([
-                    "--path", model_path
+                    "--path", model_path,
+                    "--test_dir", splitext(basename(model_path))[0]
                 ])
             tm.run()
         except:

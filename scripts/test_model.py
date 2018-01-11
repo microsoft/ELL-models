@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 ####################################################################################################
 ##
 ##  Project:  Embedded Learning Library (ELL)
@@ -24,6 +25,7 @@ class TestModel:
         self.path = None
         self.model = None
         self.machine = None
+        self.test_dir = None
 
         if not 'ell_root' in os.environ:
             raise EnvironmentError("ell_root environment variable not set")
@@ -41,6 +43,7 @@ class TestModel:
             default="http://pidatacenter.cloudapp.net/api/values")
         self.arg_parser.add_argument("--val_set", help="path to the validation set images", default="Y:/images")
         self.arg_parser.add_argument("--val_map", help="path to the validation set truth", default="Y:/val_map.txt")
+        self.arg_parser.add_argument("--test_dir", help="the folder on the host to collect model files", default="test")
 
         args = self.arg_parser.parse_args(argv)
         self.path = args.path
@@ -49,6 +52,7 @@ class TestModel:
         self.cluster_address = args.cluster
         self.val_set = args.val_set
         self.val_map = args.val_map
+        self.test_dir = args.test_dir
 
         if not self.path:
             self.path = os.getcwd()
@@ -101,7 +105,7 @@ class TestModel:
                 "--labels", self.labels,
                 "--model", self.model,
                 "--target_dir", self.model_deploy_dir,
-                "--outdir", self.model_name,
+                "--outdir", self.test_dir,
                 "--profile" # emit profiler for raw C++ numbers
                 # Note: we don't provide --cluster because we've already locked the machine
             ])
@@ -142,7 +146,7 @@ class TestModel:
         def rename_output(outfile):
             from shutil import move
             split = splitext(basename(outfile))
-            move(join(os.curdir, self.model_name, self.target, self.model_name, outfile),
+            move(join(os.curdir, self.test_dir, self.target, self.model_name, outfile),
                 join(self.path, "{}_{}{}".format(split[0], self.target, split[1])))
 
         rename_output("validation.json")
