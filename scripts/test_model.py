@@ -137,7 +137,8 @@ class TestModel:
                 "--truth", "/home/pi/validation/val_map.txt",
                 "--images", "/home/pi/validation",
                 "--target", self.target,
-                "--target_dir", self.model_deploy_dir
+                "--target_dir", self.model_deploy_dir,
+                "--test_dir", self.test_dir
                 # Note: we don't provide --cluster because we've already locked the machine
             ])
             rv.run()
