@@ -61,7 +61,7 @@ class TestModels:
                     "--path", model_path,
                     "--test_dir", splitext(basename(model_path))[0] + "_pitest"
                 ])
-            tm.run()
+                tm.run()
         except:
             errorType, value, traceback = sys.exc_info()
             print("### Exception: " + str(errorType) + ": " + str(value))
