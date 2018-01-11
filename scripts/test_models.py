@@ -60,11 +60,16 @@ class TestModels:
         self.model_dirs = [dirname(p) for p in find_model_paths(self.path)]
 
     def _run_test(self, model_path):
-        with test_model.TestModel() as tm:
-            tm.parse_command_line([
-                "--path", model_path
-            ])
-        tm.run()
+        try:
+            with test_model.TestModel() as tm:
+                tm.parse_command_line([
+                    "--path", model_path
+                ])
+            tm.run()
+        except:
+            errorType, value, traceback = sys.exc_info()
+            print("### Exception: " + str(errorType) + ": " + str(value))
+            return False
         return True
 
     def _run_tests(self):
