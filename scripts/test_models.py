@@ -59,7 +59,7 @@ class TestModels:
             with test_model.TestModel() as tm:
                 tm.parse_command_line([
                     "--path", model_path,
-                    "--test_dir", splitext(basename(model_path))[0]
+                    "--test_dir", splitext(basename(model_path))[0] + "_pitest"
                 ])
             tm.run()
         except:
