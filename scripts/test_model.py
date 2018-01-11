@@ -101,6 +101,7 @@ class TestModel:
                 "--labels", self.labels,
                 "--model", self.model,
                 "--target_dir", self.model_deploy_dir,
+                "--outdir", self.model_name,
                 "--profile" # emit profiler for raw C++ numbers
                 # Note: we don't provide --cluster because we've already locked the machine
             ])

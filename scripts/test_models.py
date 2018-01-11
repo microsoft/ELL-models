@@ -13,6 +13,7 @@ import sys
 import argparse
 import glob
 import test_model
+
 from os.path import dirname, isdir, join
 
 def find_model_paths(path):
@@ -29,12 +30,11 @@ def find_model_paths(path):
 class TestModels:
     def __init__(self):
         self.arg_parser = argparse.ArgumentParser(
-            "This script tests all ELL models found under a path, sequentially.\n"
-            "This will be enhanced in the future to run tests in parallel\n"
-            "(once drivetest supports multiple instances).\n")
+            "This script tests all ELL models found under a path, sequentially or in parallel.\n")
 
         self.path = None
         self.model_dirs = None
+        self.parallel = True
 
         if not 'ell_root' in os.environ:
             raise EnvironmentError("ell_root environment variable not set")
@@ -46,9 +46,11 @@ class TestModels:
     def parse_command_line(self, argv):
         """Parses command line arguments"""
         self.arg_parser.add_argument("--path", help="the model search path (or current directory if not specified)", default=None)
+        self.arg_parser.add_argument("--parallel", help="test models in parallel (defaults to True)", action="store_false")
 
         args = self.arg_parser.parse_args(argv)
         self.path = args.path
+        self.parallel = args.parallel
 
         if not self.path:
             self.path = os.getcwd()
@@ -57,14 +59,26 @@ class TestModels:
 
         self.model_dirs = [dirname(p) for p in find_model_paths(self.path)]
 
+    def _run_test(self, model_path):
+        with test_model.TestModel() as tm:
+            tm.parse_command_line([
+                "--path", model_path
+            ])
+        tm.run()
+        return True
+
     def _run_tests(self):
         "Tests each model"
-        for model_path in self.model_dirs:
-            with test_model.TestModel() as tm:
-                tm.parse_command_line([
-                    "--path", model_path
-                ])
-                tm.run()
+        if self.parallel:
+            print("Running in parallel")
+            import dask.threaded
+            from dask import compute, delayed
+            values = [delayed(self._run_test)(model_path) for model_path in self.model_dirs]
+            compute(*values, get=dask.threaded.get)
+        else:
+            print("Running sequentially")
+            for model_path in self.model_dirs:
+                self._run_test(model_path)
 
     def _plot_pareto(self):
         "Generates a pareto plot of the models"
