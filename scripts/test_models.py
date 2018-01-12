@@ -101,20 +101,9 @@ class TestModels:
             for model_path in self.model_dirs:
                 self._run_test(model_path)
 
-    def _plot_pareto(self):
-        "Generates a pareto plot of the models"
-        plot_model_stats = __import__("plot_model_stats")
-        plotter = plot_model_stats.PlotModelStats()
-        plotter.parse_command_line([
-            self.path,
-            "--output_figure", "speed_v_accuracy_pi3.png"
-        ])
-        plotter.run()
-
     def run(self):
         "Main run method"
         self._run_tests()
-        self._plot_pareto()
 
 if __name__ == "__main__":
     program = TestModels()
