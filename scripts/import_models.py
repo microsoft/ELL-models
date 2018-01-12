@@ -12,6 +12,7 @@ import os
 import sys
 import argparse
 import glob
+import re
 from os.path import basename, isdir, isfile, join, splitext
 
 def find_model_paths(path, zipped=False):
@@ -21,7 +22,12 @@ def find_model_paths(path, zipped=False):
     if zipped:
         ext += ".zip"
 
-    result = glob.glob("{}/**/*.{}".format(path, ext), recursive=True)
+    # Exclude _arch.cntk, _final.cntk, _indexN+_errorN+.cntk
+    result = list(set(glob.glob("{}/**/*.{}".format(path, ext), recursive=True)) -
+             set(glob.glob("{}/**/*_arch.{}".format(path, ext), recursive=True)) -
+             set(glob.glob("{}/**/*_final.{}".format(path, ext), recursive=True)) -
+             set(glob.glob("{}/**/*_index*_error*.{}".format(path, ext), recursive=True)))
+
     return result
 
 class ImportModels:
