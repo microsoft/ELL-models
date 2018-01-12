@@ -13,6 +13,7 @@ import os
 import sys
 import argparse
 import glob
+import logging
 import test_model
 
 from os.path import basename, dirname, isdir, join, splitext
@@ -35,6 +36,7 @@ class TestModels:
         self.cluser = None
         self.target = "pi3"
         self.labels = None
+        self.logger = logging.getLogger(__name__)
 
         if not 'ell_root' in os.environ:
             raise EnvironmentError("ell_root environment variable not set")
@@ -62,6 +64,11 @@ class TestModels:
         self.val_set = args.val_set
         self.val_map = args.val_map
 
+        if self.parallel:            
+            logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(thread)d]: %(message)s")
+        else:
+            logging.basicConfig(level=logging.INFO, format="%(message)s")
+
         if not self.path:
             self.path = os.getcwd()
         elif not isdir(self.path):
@@ -84,20 +91,20 @@ class TestModels:
                 tm.run()
         except:
             errorType, value, traceback = sys.exc_info()
-            print("### Exception: " + str(errorType) + ": " + str(value))
+            self.logger.error("### Exception: " + str(errorType) + ": " + str(value))
             return False
         return True
 
     def _run_tests(self):
         "Tests each model"
         if self.parallel:
-            print("Running in parallel")
+            self.logger.info("Running in parallel")
             import dask.threaded
             from dask import compute, delayed
             values = [delayed(self._run_test)(model_path) for model_path in self.model_dirs]
             compute(*values, get=dask.threaded.get)
         else:
-            print("Running sequentially")
+            self.logger.info("Running sequentially")
             for model_path in self.model_dirs:
                 self._run_test(model_path)
 

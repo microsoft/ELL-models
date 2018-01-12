@@ -12,6 +12,7 @@
 import os
 import sys
 import argparse
+import logging
 from os.path import basename, isdir, join, splitext
 
 _current_script = os.path.basename(__file__)
@@ -27,6 +28,9 @@ class TestModel:
         self.machine = None
         self.test_dir = None
 
+        # prepend all log messages with the thread id so we can make sense of parallel output
+        self.logger = logging.getLogger(__name__)    
+
         if not 'ell_root' in os.environ:
             raise EnvironmentError("ell_root environment variable not set")
         self.ell_root = os.environ['ell_root']
@@ -40,9 +44,9 @@ class TestModel:
         self.arg_parser.add_argument("--labels", help="path to the labels file for evaluating the model", default="categories.txt")
         self.arg_parser.add_argument("--target", help="the target platform", choices=["pi0", "pi3"], default="pi3")
         self.arg_parser.add_argument("--cluster", help="http address of the cluster server that controls access to the target devices",
-            default=None)
-        self.arg_parser.add_argument("--val_set", help="path to the validation set images", default="Y:/images")
-        self.arg_parser.add_argument("--val_map", help="path to the validation set truth", default="Y:/val_map.txt")
+                                     default=None)
+        self.arg_parser.add_argument("--val_set", help="path to the validation set images")
+        self.arg_parser.add_argument("--val_map", help="path to the validation set truth")
         self.arg_parser.add_argument("--test_dir", help="the folder on the host to collect model files", default="test")
 
         args = self.arg_parser.parse_args(argv)
@@ -74,9 +78,9 @@ class TestModel:
         if self.machine:
             f = self.cluster.unlock(self.machine.ip_address)
             if f.current_user_name:
-                print("Failed to free the machine at " + self.machine.ip_address)
+                self.logger.error("Failed to free the machine at " + self.machine.ip_address)
             else:
-                print("Freed machine at " + self.machine.ip_address)
+                self.logger.info("Freed machine at " + self.machine.ip_address)
 
     def __enter__(self):
         """Called when this object is instantiated with 'with'"""
@@ -93,7 +97,7 @@ class TestModel:
         task = " ".join((_current_script, self.path))
         self.cluster = picluster.PiBoardTable(cluster)
         self.machine = self.cluster.wait_for_free_machine(task)
-        print("Locked machine at " + self.machine.ip_address)
+        self.logger.info("Locked machine at " + self.machine.ip_address)
 
     def _deploy_model(self):
         "Deploys the model to the target device"
@@ -169,6 +173,7 @@ class TestModel:
         self._generate_markdown()
 
 if __name__ == "__main__":
+    logging.basicConfig(level=logging.INFO, format="%(message)s")
     with TestModel() as program:
         program.parse_command_line(sys.argv[1:])
         program.run()
