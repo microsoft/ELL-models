@@ -12,7 +12,6 @@ import os
 import sys
 import argparse
 import glob
-import re
 from os.path import basename, isdir, isfile, join, splitext
 
 def find_model_paths(path, zipped=False):
