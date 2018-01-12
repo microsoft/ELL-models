@@ -40,7 +40,7 @@ class TestModel:
         self.arg_parser.add_argument("--labels", help="path to the labels file for evaluating the model", default="categories.txt")
         self.arg_parser.add_argument("--target", help="the target platform", choices=["pi0", "pi3"], default="pi3")
         self.arg_parser.add_argument("--cluster", help="http address of the cluster server that controls access to the target devices",
-            default="http://pidatacenter.cloudapp.net/api/values")
+            default=None)
         self.arg_parser.add_argument("--val_set", help="path to the validation set images", default="Y:/images")
         self.arg_parser.add_argument("--val_map", help="path to the validation set truth", default="Y:/val_map.txt")
         self.arg_parser.add_argument("--test_dir", help="the folder on the host to collect model files", default="test")
