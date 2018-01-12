@@ -14,3 +14,4 @@ logs/
 *_pitest
 
 .vscode/
+.vs/

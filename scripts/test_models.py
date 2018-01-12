@@ -30,6 +30,11 @@ class TestModels:
         self.path = None
         self.model_dirs = None
         self.parallel = True
+        self.val_map = None
+        self.val_set = None
+        self.cluser = None
+        self.target = "pi3"
+        self.labels = None
 
         if not 'ell_root' in os.environ:
             raise EnvironmentError("ell_root environment variable not set")
@@ -41,11 +46,21 @@ class TestModels:
     def parse_command_line(self, argv):
         """Parses command line arguments"""
         self.arg_parser.add_argument("--path", help="the model search path (or current directory if not specified)", default=None)
-        self.arg_parser.add_argument("--parallel", help="test models in parallel (defaults to True)", action="store_false")
+        self.arg_parser.add_argument("--parallel", type=bool, help="test models in parallel (defaults to True)", default=True)
+        self.arg_parser.add_argument("--labels", help="path to the labels file for evaluating the model", default="categories.txt")
+        self.arg_parser.add_argument("--target", help="the target platform", choices=["pi0", "pi3"], default="pi3")
+        self.arg_parser.add_argument("--cluster", help="http address of the cluster server that controls access to the target devices")
+        self.arg_parser.add_argument("--val_set", help="path to the validation set images")
+        self.arg_parser.add_argument("--val_map", help="path to the validation set truth")
 
         args = self.arg_parser.parse_args(argv)
         self.path = args.path
         self.parallel = args.parallel
+        self.labels = args.labels
+        self.target = args.target
+        self.cluster = args.cluster
+        self.val_set = args.val_set
+        self.val_map = args.val_map
 
         if not self.path:
             self.path = os.getcwd()
@@ -59,7 +74,12 @@ class TestModels:
             with test_model.TestModel() as tm:
                 tm.parse_command_line([
                     "--path", model_path,
-                    "--test_dir", splitext(basename(model_path))[0] + "_pitest"
+                    "--test_dir", splitext(basename(model_path))[0] + "_pitest",
+                    "--labels", self.labels,
+                    "--target", self.target,
+                    "--cluster", self.cluster,
+                    "--val_set", self.val_set,
+                    "--val_map", self.val_map
                 ])
                 tm.run()
         except:

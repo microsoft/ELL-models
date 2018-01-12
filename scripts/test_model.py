@@ -98,16 +98,14 @@ class TestModel:
     def _deploy_model(self):
         "Deploys the model to the target device"
         drivetest = __import__("drivetest")
-        with drivetest.DriveTest(
-            ipaddress=self.machine.ip_address,
-            outdir=self.test_dir,
-            profile=True,
-            model=self.model,
-            labels=self.labels,
-            target=self.target,
-            target_dir=self.model_deploy_dir) as dt:
-            # Note: we don't provide --cluster because we've already locked the machine
-            dt.run_test()
+        with drivetest.DriveTest(ipaddress = self.machine.ip_address,
+                target=self.target, labels=self.labels, 
+                model=self.model, target_dir=self.model_deploy_dir,
+                outdir=self.test_dir,
+                profile=True  # emit profiler for raw C++ numbers
+                # Note: we don't provide --cluster because we've already locked the machine
+            ) as driver:
+            driver.run_test()
 
     def _deploy_validation_set(self):
         "Deploys the validation set to the target device"
