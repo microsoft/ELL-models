@@ -33,7 +33,7 @@ class TestModels:
         self.parallel = True
         self.val_map = None
         self.val_set = None
-        self.cluser = None
+        self.cluster = None
         self.target = "pi3"
         self.labels = None
         self.logger = logging.getLogger(__name__)
