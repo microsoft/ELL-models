@@ -115,7 +115,7 @@ class TestModel:
                 self.val_map,
                 self.val_set,
                 self.machine.ip_address,
-                "--maxfiles", "10",
+                "--maxfiles", "5",
                 "--target_dir", self.validation_deploy_dir
                 # Note: we don't provide --cluster because we've already locked the machine
             ])
@@ -128,7 +128,7 @@ class TestModel:
             rv.parse_command_line([
                 self.model_name,
                 self.machine.ip_address,
-                "--maxfiles", "10",
+                "--maxfiles", "5",
                 "--labels", self.labels,
                 "--truth", "/home/pi/validation/val_map.txt",
                 "--images", "/home/pi/validation",
