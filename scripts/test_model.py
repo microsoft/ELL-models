@@ -12,51 +12,35 @@
 import os
 import sys
 import argparse
-import logging
 from os.path import basename, isdir, join, splitext
+
+if not 'ell_root' in os.environ:
+    raise EnvironmentError("ell_root environment variable not set")
+_ell_root = os.environ['ell_root']
+sys.path += join(_ell_root, 'tools/utilities/pitest')
+sys.path += join(_ell_root, 'tools/utilities/pythonlibs')
+sys.path += join(_ell_root, 'tools/utilities/pythonlibs/gallery')
+import logger
 
 _current_script = os.path.basename(__file__)
 
 class TestModel:
-    def __init__(self):
-        self.arg_parser = argparse.ArgumentParser(
-            "This script tests a given ELL model on a target machine\n")
+    def __init__(self, path=None, labels=None, target=None, cluster=None,
+        val_set=None, val_map=None, test_dir=None):
 
-        self.cluster = None
-        self.path = None
+        self.path = path
+        self.labels = labels
+        self.target = target
+        self.cluster_address = cluster
+        self.val_set = val_set
+        self.val_map = val_map
+        self.test_dir = test_dir
+
+        self.logger = logger.get()
         self.model = None
+        self.model_name = None
+        self.cluster = None
         self.machine = None
-        self.test_dir = None
-
-        # prepend all log messages with the thread id so we can make sense of parallel output
-        self.logger = logging.getLogger(__name__)    
-
-        if not 'ell_root' in os.environ:
-            raise EnvironmentError("ell_root environment variable not set")
-        self.ell_root = os.environ['ell_root']
-        sys.path.append(join(self.ell_root, 'tools/utilities/pitest'))
-        sys.path.append(join(self.ell_root, 'tools/utilities/pythonlibs'))
-        sys.path.append(join(self.ell_root, 'tools/utilities/pythonlibs/gallery'))
-
-    def parse_command_line(self, argv):
-        """Parses command line arguments"""
-        self.arg_parser.add_argument("--path", help="the model folder path (or current directory if not specified)", default=None)
-        self.arg_parser.add_argument("--labels", help="path to the labels file for evaluating the model", default="categories.txt")
-        self.arg_parser.add_argument("--target", help="the target platform", choices=["pi0", "pi3"], default="pi3")
-        self.arg_parser.add_argument("--cluster", help="http address of the cluster server that controls access to the target devices",
-                                     default=None, required=True)
-        self.arg_parser.add_argument("--val_set", help="path to the validation set images", required=True)
-        self.arg_parser.add_argument("--val_map", help="path to the validation set truth", required=True)
-        self.arg_parser.add_argument("--test_dir", help="the folder on the host to collect model files", default="test")
-
-        args = self.arg_parser.parse_args(argv)
-        self.path = args.path
-        self.labels = args.labels
-        self.target = args.target
-        self.cluster_address = args.cluster
-        self.val_set = args.val_set
-        self.val_map = args.val_map
-        self.test_dir = args.test_dir
 
         if not self.path:
             self.path = os.getcwd()
@@ -119,7 +103,7 @@ class TestModel:
                 self.val_map,
                 self.val_set,
                 self.machine.ip_address,
-                "--maxfiles", "5",
+                "--maxfiles", "10",
                 "--target_dir", self.validation_deploy_dir
                 # Note: we don't provide --cluster because we've already locked the machine
             ])
@@ -132,7 +116,7 @@ class TestModel:
             rv.parse_command_line([
                 self.model_name,
                 self.machine.ip_address,
-                "--maxfiles", "5",
+                "--maxfiles", "10",
                 "--labels", self.labels,
                 "--truth", "/home/pi/validation/val_map.txt",
                 "--images", "/home/pi/validation",
@@ -160,8 +144,8 @@ class TestModel:
         gm = generate_md.GenerateMarkdown()
         gm.parse_command_line([
             self.path,
-            join(self.ell_root, "docs/gallery/ILSVRC2012/{}.md".format(self.model_name)),
-            join(self.ell_root, "build/bin/Release/print.exe")
+            join(_ell_root, "docs/gallery/ILSVRC2012/{}.md".format(self.model_name)),
+            join(_ell_root, "build/bin/Release/print.exe")
         ])
         gm.run()
 
@@ -173,7 +157,17 @@ class TestModel:
         self._generate_markdown()
 
 if __name__ == "__main__":
-    logging.basicConfig(level=logging.INFO, format="%(message)s")
-    with TestModel() as program:
-        program.parse_command_line(sys.argv[1:])
+    arg_parser = argparse.ArgumentParser("This script tests a given ELL model on a target machine\n")
+
+    arg_parser.add_argument("--path", help="the model folder path (or current directory if not specified)", default=None)
+    arg_parser.add_argument("--labels", help="path to the labels file for evaluating the model", default="categories.txt")
+    arg_parser.add_argument("--target", help="the target platform", choices=["pi0", "pi3"], default="pi3")
+    arg_parser.add_argument("--cluster", help="http address of the cluster server that controls access to the target devices",
+                            default=None, required=True)
+    arg_parser.add_argument("--val_set", help="path to the validation set images", required=True)
+    arg_parser.add_argument("--val_map", help="path to the validation set truth", required=True)
+    arg_parser.add_argument("--test_dir", help="the folder on the host to collect model files", default="test")
+
+    args = arg_parser.parse_args()
+    with TestModel(args.path, args.labels, args.target, args.cluster, args.val_set, args.val_map, args.test_dir) as program:
         program.run()
