@@ -84,7 +84,7 @@ class TestModels:
             with test_model.TestModel() as tm:
                 tm.parse_command_line([
                     "--path", model_path,
-                    "--test_dir", splitext(basename(model_path))[0] + "_pitest",
+                    "--test_dir", splitext(basename(model_path))[0] + "_t",
                     "--labels", self.labels,
                     "--target", self.target,
                     "--cluster", self.cluster,
