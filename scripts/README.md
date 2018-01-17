@@ -39,18 +39,24 @@ python test_models.py --help
 
 usage: This script tests all ELL models found under a path, sequentially or in parallel.
 
-       [-h] [--path PATH] [--parallel True] [--val_map file] [--val_set path]
+       [-h] [--path PATH] [--parallel PARALLEL] [--max_threads MAX_THREADS]
+       [--labels LABELS] [--target {pi0,pi3}] --cluster CLUSTER --val_set
+       VAL_SET --val_map VAL_MAP
 
 optional arguments:
-  -h, --help           show this help message and exit
-  --path PATH          the model search path (or current directory if not specified)
-  --parallel PARALLEL  test models in parallel (defaults to True)                                
-  --labels LABELS      path to the labels file for evaluating the model                          
-  --target {pi0,pi3}   the target platform                                                       
-  --cluster CLUSTER    http address of the cluster server that controls access                   
-                       to the target devices                                                     
-  --val_set VAL_SET    path to the validation set images                                         
-  --val_map VAL_MAP    path to the validation set truth                                          
+  -h, --help            show this help message and exit
+  --path PATH           the model search path (or current directory if not
+                        specified)
+  --parallel PARALLEL   test models in parallel (defaults to True)
+  --max_threads MAX_THREADS
+                        maximum number of threads to use (defaults to number
+                        of cores)
+  --labels LABELS       path to the labels file for evaluating the model
+  --target {pi0,pi3}    the target platform
+  --cluster CLUSTER     http address of the cluster server that controls
+                        access to the target devices
+  --val_set VAL_SET     path to the validation set images
+  --val_map VAL_MAP     path to the validation set truth
 
 
 ```
@@ -93,7 +99,7 @@ named "buffalo.png" as well as all the other images in that list.
   - To test multiple models in parallel:
     ```
     cd <ELL-models>\models\ILSVRC2012 (or any folder structure containing multiple models)
-    (py36) python <ELL-models>\scripts\test_models.py --cluster %cluster% --val_map %images%\val_map.txt --val_set %images%
+    (py36) python <ELL-models>\scripts\test_models.py --cluster %cluster% --val_map %images%\val_map.txt --val_set %images% --max_threads 5
     ```
 
   - To test a single model:

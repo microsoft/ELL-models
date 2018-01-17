@@ -31,6 +31,7 @@ class TestModels:
         self.path = None
         self.model_dirs = None
         self.parallel = True
+        self.max_threads = None
         self.val_map = None
         self.val_set = None
         self.cluster = None
@@ -49,23 +50,24 @@ class TestModels:
         """Parses command line arguments"""
         self.arg_parser.add_argument("--path", help="the model search path (or current directory if not specified)", default=None)
         self.arg_parser.add_argument("--parallel", type=bool, help="test models in parallel (defaults to True)", default=True)
+        self.arg_parser.add_argument("--max_threads", type=int, help="maximum number of threads to use (defaults to number of cores)", default=None)
         self.arg_parser.add_argument("--labels", help="path to the labels file for evaluating the model", default="categories.txt")
         self.arg_parser.add_argument("--target", help="the target platform", choices=["pi0", "pi3"], default="pi3")
-        self.arg_parser.add_argument("--cluster", help="http address of the cluster server that controls access to the target devices"
-            , required=True)
+        self.arg_parser.add_argument("--cluster", help="http address of the cluster server that controls access to the target devices", required=True)
         self.arg_parser.add_argument("--val_set", help="path to the validation set images", required=True)
         self.arg_parser.add_argument("--val_map", help="path to the validation set truth", required=True)
 
         args = self.arg_parser.parse_args(argv)
         self.path = args.path
         self.parallel = args.parallel
+        self.max_threads = args.max_threads
         self.labels = args.labels
         self.target = args.target
         self.cluster = args.cluster
         self.val_set = args.val_set
         self.val_map = args.val_map
 
-        if self.parallel:            
+        if self.parallel:
             logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(thread)d]: %(message)s")
         else:
             logging.basicConfig(level=logging.INFO, format="%(message)s")
@@ -101,7 +103,14 @@ class TestModels:
         if self.parallel:
             self.logger.info("Running in parallel")
             import dask.threaded
-            from dask import compute, delayed
+            from dask import compute, delayed, set_options
+            from multiprocessing.pool import ThreadPool
+
+            if self.max_threads:
+                self.logger.info("Max threads: %d" % (self.max_threads))
+
+                dask.set_options(pool=ThreadPool(self.max_threads))
+
             values = [delayed(self._run_test)(model_path) for model_path in self.model_dirs]
             compute(*values, get=dask.threaded.get)
         else:
