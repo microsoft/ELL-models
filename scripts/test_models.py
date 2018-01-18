@@ -27,7 +27,7 @@ import logger
 
 def find_model_paths(path):
     "Finds model directories under the given path."
-    result = glob.glob("{}/**/*.{}".format(path, "ell.zip"), recursive=True)
+    result = sorted(glob.glob("{}/**/*.{}".format(path, "ell.zip"), recursive=True))
     return result
 
 class TestModels:
