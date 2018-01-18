@@ -13,7 +13,6 @@ import os
 import sys
 import argparse
 import glob
-import logging
 import test_model
 
 from os.path import basename, dirname, isdir, join, splitext
@@ -21,9 +20,9 @@ from os.path import basename, dirname, isdir, join, splitext
 if not 'ell_root' in os.environ:
     raise EnvironmentError("ell_root environment variable not set")
 _ell_root = os.environ['ell_root']
-sys.path += join(_ell_root, 'tools/utilities/pitest')
-sys.path += join(_ell_root, 'tools/utilities/pythonlibs')
-sys.path += join(_ell_root, 'tools/utilities/pythonlibs/gallery')
+sys.path.append(join(_ell_root, 'tools/utilities/pitest'))
+sys.path.append(join(_ell_root, 'tools/utilities/pythonlibs'))
+sys.path.append(join(_ell_root, 'tools/utilities/pythonlibs/gallery'))
 import logger
 
 def find_model_paths(path):
@@ -44,13 +43,10 @@ class TestModels:
         self.labels = labels
 
         self.model_dirs = None
-        self.logger = logger.get(logfile)
 
-        if self.parallel:
-            # prepend all log messages with the thread id so we can make sense of parallel output
-            logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(thread)d]: %(message)s")
-        else:
-            logging.basicConfig(level=logging.INFO, format="%(message)s")
+        # in parallel mode, prepend all log messages with the thread id
+        # so we can make sense of parallel output
+        self.logger = logger.get(logfile=logfile, log_thread_id=self.parallel)
 
         if not self.path:
             self.path = os.getcwd()
