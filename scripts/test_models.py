@@ -46,7 +46,7 @@ class TestModels:
 
         # in parallel mode, prepend all log messages with the thread id
         # so we can make sense of parallel output
-        self.logger = logger.get(logfile=logfile, log_thread_id=self.parallel)
+        self.logger = logger.get(filepath=logfile, log_thread_id=self.parallel)
 
         if not self.path:
             self.path = os.getcwd()
@@ -57,16 +57,9 @@ class TestModels:
 
     def _run_test(self, model_path):
         try:
-            with test_model.TestModel() as tm:
-                tm.parse_command_line([
-                    "--path", model_path,
-                    "--test_dir", splitext(basename(model_path))[0] + "_t",
-                    "--labels", self.labels,
-                    "--target", self.target,
-                    "--cluster", self.cluster,
-                    "--val_set", self.val_set,
-                    "--val_map", self.val_map
-                ])
+            with test_model.TestModel(model_path, self.labels, self.target,
+                self.cluster, self.val_set, self.val_map,
+                splitext(basename(model_path))[0] + "_t") as tm:
                 tm.run()
         except:
             errorType, value, traceback = sys.exc_info()
@@ -102,7 +95,6 @@ if __name__ == "__main__":
     arg_parser = argparse.ArgumentParser(
         "This script tests all ELL models found under a path, sequentially or in parallel.\n")
 
-    args = arg_parser.parse_args()
     arg_parser.add_argument("--path", help="the model search path (or current directory if not specified)", default=None)
     arg_parser.add_argument("--parallel", type=bool, help="test models in parallel (defaults to True)", default=True)
     arg_parser.add_argument("--max_threads", type=int, help="maximum number of threads to use (defaults to number of cores)", default=None)
@@ -112,6 +104,8 @@ if __name__ == "__main__":
     arg_parser.add_argument("--val_set", help="path to the validation set images", required=True)
     arg_parser.add_argument("--val_map", help="path to the validation set truth", required=True)
     arg_parser.add_argument("--logfile", help="path to a log file (in addition to console logging)", default=None)
+
+    args = arg_parser.parse_args()
 
     program = TestModels(args.path, args.parallel, args.max_threads, args.labels,
         args.target, args.cluster, args.val_set, args.val_map, args.logfile)

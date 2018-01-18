@@ -17,9 +17,9 @@ from os.path import basename, isdir, join, splitext
 if not 'ell_root' in os.environ:
     raise EnvironmentError("ell_root environment variable not set")
 _ell_root = os.environ['ell_root']
-sys.path += join(_ell_root, 'tools/utilities/pitest')
-sys.path += join(_ell_root, 'tools/utilities/pythonlibs')
-sys.path += join(_ell_root, 'tools/utilities/pythonlibs/gallery')
+sys.path.append(join(_ell_root, 'tools/utilities/pitest'))
+sys.path.append(join(_ell_root, 'tools/utilities/pythonlibs'))
+sys.path.append(join(_ell_root, 'tools/utilities/pythonlibs/gallery'))
 import logger
 
 _current_script = os.path.basename(__file__)
@@ -169,5 +169,6 @@ if __name__ == "__main__":
     arg_parser.add_argument("--test_dir", help="the folder on the host to collect model files", default="test")
 
     args = arg_parser.parse_args()
+
     with TestModel(args.path, args.labels, args.target, args.cluster, args.val_set, args.val_map, args.test_dir) as program:
         program.run()
