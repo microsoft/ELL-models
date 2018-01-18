@@ -46,6 +46,7 @@ class ImportModels:
         elif not isdir(self.path):
             raise NotADirectoryError("{} is not a folder".format(self.path))
         self.logger = logger.get(logfile)
+        self.logger.info(sys.argv)
 
     def run(self):
         """Main run method"""

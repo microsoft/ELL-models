@@ -47,6 +47,7 @@ class TestModels:
         # in parallel mode, prepend all log messages with the thread id
         # so we can make sense of parallel output
         self.logger = logger.get(filepath=logfile, log_thread_id=self.parallel)
+        self.logger.info(sys.argv)
 
         if not self.path:
             self.path = os.getcwd()
