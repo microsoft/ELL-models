@@ -9,9 +9,42 @@
         64,
         3,
         0,
-        0.09,
+        0.05,
         40.98,
         66.43
+      ],
+      [
+        "dst_I64x64x3CCCMCMCMCMCMC1AS",
+        "dstackedtop",
+        "dst_I64x64x3CCCMCMCMCMCMC1AS",
+        64,
+        3,
+        0,
+        0.11,
+        43.13,
+        67.96
+      ],
+      [
+        "dsf_I64x64x3CCMCCMCCMCMCMC1AS",
+        "dstackedfull",
+        "dsf_I64x64x3CCMCCMCCMCMCMC1AS",
+        64,
+        3,
+        0,
+        0.12,
+        44.67,
+        69.7
+      ],
+      [
+        "dscs2_I128x128x3CCCCCCC1AS",
+        "d_singleconv_stride2",
+        "dscs2_I128x128x3CCCCCCC1AS",
+        128,
+        5,
+        0,
+        0.12,
+        45.32,
+        69.63
       ],
       [
         "d_I128x128x3CMCMCMCMCMCMC1AS",
@@ -31,7 +64,7 @@
         128,
         3,
         0,
-        0.24,
+        0.3,
         56.92,
         80.54
       ],
@@ -42,9 +75,20 @@
         256,
         3,
         112,
-        0.58,
-        60.11,
-        82.27
+        0.38,
+        58.48,
+        81.35
+      ],
+      [
+        "dsf_I128x128x3CCMCCMCCMCMCMCMC1AS",
+        "dstackedfull",
+        "dsf_I128x128x3CCMCCMCCMCMCMCMC1AS",
+        128,
+        3,
+        0,
+        0.52,
+        59.77,
+        82.12
       ]
     ]
   }

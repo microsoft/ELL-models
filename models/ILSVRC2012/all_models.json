@@ -1,17 +1,47 @@
 [
   {
     "accuracy": {
-      "top1": "60.11",
-      "top5": "82.27"
+      "top1": "45.54",
+      "top5": "69.99"
+    },
+    "directory": "dcda_I64x64x3CMCMCMCMCMC1AS",
+    "filter_size": 3,
+    "image_size": 64,
+    "increase_factor": 144,
+    "model": "d_constrained_depth_addition_nr",
+    "name": "dcda_I64x64x3CMCMCMCMCMC1AS",
+    "secs_per_frame": {
+      "pi3": "0.66"
+    }
+  },
+  {
+    "accuracy": {
+      "top1": "46.23",
+      "top5": "70.90"
+    },
+    "directory": "dcda_I64x64x3CMCMCMCMCMC1AS_v2",
+    "filter_size": 3,
+    "image_size": 64,
+    "increase_factor": 160,
+    "model": "d_constrained_depth_addition_nr",
+    "name": "dcda_I64x64x3CMCMCMCMCMC1AS_v2",
+    "secs_per_frame": {
+      "pi3": "0.76"
+    }
+  },
+  {
+    "accuracy": {
+      "top1": "58.48",
+      "top5": "81.35"
     },
     "directory": "dr_I256x256x3CMCMCMCMCMCMCMC1AS",
     "filter_size": 3,
-    "image_size": "256x256",
+    "image_size": 256,
     "increase_factor": 112,
     "model": "d_reference",
     "name": "dr_I256x256x3CMCMCMCMCMCMCMC1AS",
     "secs_per_frame": {
-      "pi3": "0.58"
+      "pi3": "0.38"
     }
   },
   {
@@ -21,12 +51,12 @@
     },
     "directory": "dsb_I128x128x3CMCMCMCMCMCCCMC1AS",
     "filter_size": 3,
-    "image_size": "128x128",
+    "image_size": 128,
     "increase_factor": 0,
     "model": "dstackedbottom",
     "name": "dsb_I128x128x3CMCMCMCMCMCCCMC1AS",
     "secs_per_frame": {
-      "pi3": "0.24"
+      "pi3": "0.30"
     }
   },
   {
@@ -36,14 +66,29 @@
     },
     "directory": "dsb_I64x64x3CMCMCMCMCCCMC1AS",
     "filter_size": 3,
-    "image_size": "64x64",
+    "image_size": 64,
     "increase_factor": 0,
     "model": "dstackedbottom",
     "name": "dsb_I64x64x3CMCMCMCMCCCMC1AS",
     "secs_per_frame": {
-      "pi3": "0.09"
+      "pi3": "0.05"
     }
-  },s
+  },
+  {
+    "accuracy": {
+      "top1": "45.32",
+      "top5": "69.63"
+    },
+    "directory": "dscs2_I128x128x3CCCCCCC1AS",
+    "filter_size": 5,
+    "image_size": 128,
+    "increase_factor": 0,
+    "model": "d_singleconv_stride2",
+    "name": "dscs2_I128x128x3CCCCCCC1AS",
+    "secs_per_frame": {
+      "pi3": "0.12"
+    }
+  },
   {
     "accuracy": {
       "top1": "59.77",
@@ -51,12 +96,12 @@
     },
     "directory": "dsf_I128x128x3CCMCCMCCMCMCMCMC1AS",
     "filter_size": 3,
-    "image_size": "128x128",
+    "image_size": 128,
     "increase_factor": 0,
     "model": "dstackedfull",
     "name": "dsf_I128x128x3CCMCCMCCMCMCMCMC1AS",
     "secs_per_frame": {
-      "pi3": "0.80"
+      "pi3": "0.52"
     }
   },
   {
@@ -66,12 +111,27 @@
     },
     "directory": "dsf_I64x64x3CCMCCMCCMCMCMC1AS",
     "filter_size": 3,
-    "image_size": "64x64",
+    "image_size": 64,
     "increase_factor": 0,
     "model": "dstackedfull",
     "name": "dsf_I64x64x3CCMCCMCCMCMCMC1AS",
     "secs_per_frame": {
-      "pi3": "0.18"
+      "pi3": "0.12"
+    }
+  },
+  {
+    "accuracy": {
+      "top1": "43.13",
+      "top5": "67.96"
+    },
+    "directory": "dst_I64x64x3CCCMCMCMCMCMC1AS",
+    "filter_size": 3,
+    "image_size": 64,
+    "increase_factor": 0,
+    "model": "dstackedtop",
+    "name": "dst_I64x64x3CCCMCMCMCMCMC1AS",
+    "secs_per_frame": {
+      "pi3": "0.11"
     }
   },
   {
@@ -81,7 +141,7 @@
     },
     "directory": "d_I128x128x3CMCMCMCMCMCMC1AS",
     "filter_size": 3,
-    "image_size": "128x128",
+    "image_size": 128,
     "increase_factor": 0,
     "model": "d",
     "name": "d_I128x128x3CMCMCMCMCMCMC1AS",
@@ -91,32 +151,17 @@
   },
   {
     "accuracy": {
-      "top1": "55.12",
-      "top5": "78.33"
-    },
-    "directory": "d_I256x256x3CMCMCMCMCMCMCMC1AS",
-    "filter_size": 3,
-    "image_size": "256x256",
-    "increase_factor": 0,
-    "model": "d",
-    "name": "d_I256x256x3CMCMCMCMCMCMCMC1AS",
-    "secs_per_frame": {
-      "pi3": "0.54"
-    }
-  },
-  {
-    "accuracy": {
       "top1": "57.12",
       "top5": "80.49"
     },
     "directory": "v_I64x64x3CCMCCMCCCMCCCMCCCMF2048S",
     "filter_size": 3,
-    "image_size": "64x64",
+    "image_size": 64,
     "increase_factor": 0,
     "model": "v",
     "name": "v_I64x64x3CCMCCMCCCMCCCMCCCMF2048S",
     "secs_per_frame": {
-      "pi3": "0.80"
+      "pi3": "0.79"
     }
   }
 ]
