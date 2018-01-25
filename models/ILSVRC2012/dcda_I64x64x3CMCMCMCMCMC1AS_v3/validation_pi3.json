@@ -1,7 +1,7 @@
 {
   "results": [
     {
-      "avg_time": 2.024011254310608,
+      "avg_time": 0.8776485323905945,
       "input": "ILSVRC2012_val_00000001.JPEG",
       "predictions": [
         [
@@ -28,7 +28,7 @@
       "truth": 65
     },
     {
-      "avg_time": 2.054356336593628,
+      "avg_time": 0.8762277960777283,
       "input": "ILSVRC2012_val_00000002.JPEG",
       "predictions": [
         [
@@ -55,7 +55,7 @@
       "truth": 970
     },
     {
-      "avg_time": 2.0880428552627563,
+      "avg_time": 0.8775235414505005,
       "input": "ILSVRC2012_val_00000003.JPEG",
       "predictions": [
         [
@@ -82,7 +82,7 @@
       "truth": 230
     },
     {
-      "avg_time": 2.057609736919403,
+      "avg_time": 0.8773104548454285,
       "input": "ILSVRC2012_val_00000004.JPEG",
       "predictions": [
         [
@@ -109,7 +109,7 @@
       "truth": 809
     },
     {
-      "avg_time": 2.047680377960205,
+      "avg_time": 0.8755006194114685,
       "input": "ILSVRC2012_val_00000005.JPEG",
       "predictions": [
         [
@@ -136,7 +136,7 @@
       "truth": 516
     },
     {
-      "avg_time": 2.076591730117798,
+      "avg_time": 0.8797469735145569,
       "input": "ILSVRC2012_val_00000006.JPEG",
       "predictions": [
         [
@@ -163,7 +163,7 @@
       "truth": 57
     },
     {
-      "avg_time": 2.0336971282958984,
+      "avg_time": 0.877174973487854,
       "input": "ILSVRC2012_val_00000007.JPEG",
       "predictions": [
         [
@@ -190,7 +190,7 @@
       "truth": 334
     },
     {
-      "avg_time": 2.007176637649536,
+      "avg_time": 0.8771945238113403,
       "input": "ILSVRC2012_val_00000008.JPEG",
       "predictions": [
         [
@@ -217,7 +217,7 @@
       "truth": 415
     },
     {
-      "avg_time": 2.0075950026512146,
+      "avg_time": 0.8770487904548645,
       "input": "ILSVRC2012_val_00000009.JPEG",
       "predictions": [
         [
@@ -244,7 +244,7 @@
       "truth": 674
     },
     {
-      "avg_time": 1.980095386505127,
+      "avg_time": 0.8754844665527344,
       "input": "ILSVRC2012_val_00000010.JPEG",
       "predictions": [
         [

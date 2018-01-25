@@ -5,90 +5,57 @@
       [
         "dsb_I64x64x3CMCMCMCMCCCMC1AS",
         "dstackedbottom",
-        "dsb_I64x64x3CMCMCMCMCCCMC1AS",
+        "d:\\Work\\ELL-models\\models\\ILSVRC2012\\dsb_I64x64x3CMCMCMCMCCCMC1AS\\dsb_I64x64x3CMCMCMCMCCCMC1AS.ell.zip",
         64,
         3,
         0,
-        0.05,
+        0.09,
         40.98,
         66.43
       ],
       [
-        "dst_I64x64x3CCCMCMCMCMCMC1AS",
-        "dstackedtop",
-        "dst_I64x64x3CCCMCMCMCMCMC1AS",
-        64,
-        3,
-        0,
-        0.11,
-        43.13,
-        67.96
-      ],
-      [
         "dsf_I64x64x3CCMCCMCCMCMCMC1AS",
         "dstackedfull",
-        "dsf_I64x64x3CCMCCMCCMCMCMC1AS",
+        "d:\\Work\\ELL-models\\models\\ILSVRC2012\\dsf_I64x64x3CCMCCMCCMCMCMC1AS\\dsf_I64x64x3CCMCCMCCMCMCMC1AS.ell.zip",
         64,
         3,
         0,
-        0.12,
+        0.19,
         44.67,
         69.7
       ],
       [
-        "dscs2_I128x128x3CCCCCCC1AS",
-        "d_singleconv_stride2",
-        "dscs2_I128x128x3CCCCCCC1AS",
-        128,
-        5,
-        0,
-        0.12,
-        45.32,
-        69.63
-      ],
-      [
         "d_I128x128x3CMCMCMCMCMCMC1AS",
         "d",
-        "d_I128x128x3CMCMCMCMCMCMC1AS",
+        "d:\\Work\\ELL-models\\models\\ILSVRC2012\\d_I128x128x3CMCMCMCMCMCMC1AS\\d_I128x128x3CMCMCMCMCMCMC1AS.ell.zip",
         128,
         3,
         0,
-        0.17,
+        0.19,
         52.06,
         76.43
       ],
       [
         "dsb_I128x128x3CMCMCMCMCMCCCMC1AS",
         "dstackedbottom",
-        "dsb_I128x128x3CMCMCMCMCMCCCMC1AS",
+        "d:\\Work\\ELL-models\\models\\ILSVRC2012\\dsb_I128x128x3CMCMCMCMCMCCCMC1AS\\dsb_I128x128x3CMCMCMCMCMCCCMC1AS.ell.zip",
         128,
         3,
         0,
-        0.3,
+        0.37,
         56.92,
         80.54
       ],
       [
         "dr_I256x256x3CMCMCMCMCMCMCMC1AS",
         "d_reference",
-        "dr_I256x256x3CMCMCMCMCMCMCMC1AS",
+        "d:\\Work\\ELL-models\\models\\ILSVRC2012\\dr_I256x256x3CMCMCMCMCMCMCMC1AS\\dr_I256x256x3CMCMCMCMCMCMCMC1AS.ell.zip",
         256,
         3,
         112,
-        0.38,
-        58.48,
-        81.35
-      ],
-      [
-        "dsf_I128x128x3CCMCCMCCMCMCMCMC1AS",
-        "dstackedfull",
-        "dsf_I128x128x3CCMCCMCCMCMCMCMC1AS",
-        128,
-        3,
-        0,
-        0.52,
-        59.77,
-        82.12
+        0.59,
+        60.11,
+        82.27
       ]
     ]
   }
