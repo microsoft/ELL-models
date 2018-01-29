@@ -44,24 +44,20 @@ BatchNormalization(Parameter2692, Parameter2693, Block2513_Output_0) -> Block271
 
 Activation(Block2714_Output_0) -> Block2962_Output_0;
 
-Convolution(Parameter3175, Block2962_Output_0) -> Block3193_Output_0;
+MaxPooling(Block2962_Output_0) -> Block3192_Output_0;
 
-BatchNormalization(Parameter3402, Parameter3403, Block3193_Output_0) -> Block3424_Output_0;
+Convolution(Parameter3401, Block3192_Output_0) -> Block3419_Output_0;
 
-Activation(Block3424_Output_0) -> Block3702_Output_0;
+BatchNormalization(Parameter3632, Parameter3633, Block3419_Output_0) -> Block3654_Output_0;
 
-Convolution(Parameter3945, Block3702_Output_0) -> Block3963_Output_0;
+Activation(Block3654_Output_0) -> Block3936_Output_0;
 
-BatchNormalization(Parameter4202, Parameter4203, Block3963_Output_0) -> Block4224_Output_0;
+MaxPooling(Block3936_Output_0) -> Block4200_Output_0;
 
-Activation(Block4224_Output_0) -> Block4532_Output_0;
+Convolution(Parameter4443, Parameter4444, Block4200_Output_0) -> Block4469_Output_0;
 
-MaxPooling(Block4532_Output_0) -> Block4822_Output_0;
+Activation(Block4469_Output_0) -> Block4784_Output_0;
 
-Convolution(Parameter5091, Parameter5092, Block4822_Output_0) -> Block5117_Output_0;
+AveragePooling(Block4784_Output_0) -> Block5080_Output_0;
 
-Activation(Block5117_Output_0) -> Block5458_Output_0;
-
-AveragePooling(Block5458_Output_0) -> Block5780_Output_0;
-
-Reshape(Block5780_Output_0) -> Reshape6081_Output_0;
+Reshape(Block5080_Output_0) -> Reshape5355_Output_0;
