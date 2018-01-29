@@ -5,7 +5,7 @@
       [
         "dsb_I64x64x3CMCMCMCMCCCMC1AS",
         "dstackedbottom",
-        "D:\\Work\\ELL-models-clean\\models\\ILSVRC2012\\dsb_I64x64x3CMCMCMCMCCCMC1AS\\dsb_I64x64x3CMCMCMCMCCCMC1AS.ell.zip",
+        "D:\\Work\\ELL-models\\models\\ILSVRC2012\\dsb_I64x64x3CMCMCMCMCCCMC1AS\\dsb_I64x64x3CMCMCMCMCCCMC1AS.ell.zip",
         64,
         3,
         0,
@@ -16,7 +16,7 @@
       [
         "dsf_I64x64x3CCMCCMCCMCMCMC1AS",
         "dstackedfull",
-        "D:\\Work\\ELL-models-clean\\models\\ILSVRC2012\\dsf_I64x64x3CCMCCMCCMCMCMC1AS\\dsf_I64x64x3CCMCCMCCMCMCMC1AS.ell.zip",
+        "D:\\Work\\ELL-models\\models\\ILSVRC2012\\dsf_I64x64x3CCMCCMCCMCMCMC1AS\\dsf_I64x64x3CCMCCMCCMCMCMC1AS.ell.zip",
         64,
         3,
         0,
@@ -27,7 +27,7 @@
       [
         "d_I128x128x3CMCMCMCMCMCMC1AS",
         "d",
-        "D:\\Work\\ELL-models-clean\\models\\ILSVRC2012\\d_I128x128x3CMCMCMCMCMCMC1AS\\d_I128x128x3CMCMCMCMCMCMC1AS.ell.zip",
+        "D:\\Work\\ELL-models\\models\\ILSVRC2012\\d_I128x128x3CMCMCMCMCMCMC1AS\\d_I128x128x3CMCMCMCMCMCMC1AS.ell.zip",
         128,
         3,
         0,
@@ -38,7 +38,7 @@
       [
         "dr_c_I256x256x3CMCMCMCMCMCMCMC1AS_v2",
         "d_reference_configurable",
-        "D:\\Work\\ELL-models-clean\\models\\ILSVRC2012\\dr_c_I256x256x3CMCMCMCMCMCMCMC1AS_v2\\dr_c_I256x256x3CMCMCMCMCMCMCMC1AS_v2.ell.zip",
+        "D:\\Work\\ELL-models\\models\\ILSVRC2012\\dr_c_I256x256x3CMCMCMCMCMCMCMC1AS_v2\\dr_c_I256x256x3CMCMCMCMCMCMCMC1AS_v2.ell.zip",
         256,
         3,
         112,
@@ -49,7 +49,7 @@
       [
         "dsb_I128x128x3CMCMCMCMCMCCCMC1AS",
         "dstackedbottom",
-        "D:\\Work\\ELL-models-clean\\models\\ILSVRC2012\\dsb_I128x128x3CMCMCMCMCMCCCMC1AS\\dsb_I128x128x3CMCMCMCMCMCCCMC1AS.ell.zip",
+        "D:\\Work\\ELL-models\\models\\ILSVRC2012\\dsb_I128x128x3CMCMCMCMCMCCCMC1AS\\dsb_I128x128x3CMCMCMCMCMCCCMC1AS.ell.zip",
         128,
         3,
         0,
@@ -60,7 +60,7 @@
       [
         "dr_I256x256x3CMCMCMCMCMCMCMC1AS",
         "d_reference",
-        "D:\\Work\\ELL-models-clean\\models\\ILSVRC2012\\dr_I256x256x3CMCMCMCMCMCMCMC1AS\\dr_I256x256x3CMCMCMCMCMCMCMC1AS.ell.zip",
+        "D:\\Work\\ELL-models\\models\\ILSVRC2012\\dr_I256x256x3CMCMCMCMCMCMCMC1AS\\dr_I256x256x3CMCMCMCMCMCMCMC1AS.ell.zip",
         256,
         3,
         112,
