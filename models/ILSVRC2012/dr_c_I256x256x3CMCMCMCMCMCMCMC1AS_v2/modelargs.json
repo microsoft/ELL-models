@@ -1,0 +1,26 @@
+{
+  "depth_multiplier": 1,
+  "force_batchnorm": true,
+  "image_size": 256,
+  "series": "d_reference_configurable",
+  "increase_factor": 112,
+  "index": 0,
+  "model": "d_reference_configurable",
+  "name": "dr_c_I256x256x3CMCMCMCMCMCMCMC1AS_v2",
+  "trainer": "CNTK 2.3.1",
+  "activation_function": "leaky_relu",
+  "num_classes": 1000,
+  "filters_per_layer": [
+    12,
+    24,
+    48,
+    96,
+    192,
+    384,
+    768
+  ],
+  "type": "real",
+  "separable_convs": false,
+  "filter_size": 3,
+  "retargeting_layers": -1
+}
