@@ -67,6 +67,17 @@
         0.59,
         60.11,
         82.27
+      ],
+      [
+        "v_I64x64x3CCMCCMCCMCCMCCMF4096S",
+        "v",
+        "D:\\Work\\ELL-models\\models\\ILSVRC2012\\v_I64x64x3CCMCCMCCMCCMCCMF4096S\\v_I64x64x3CCMCCMCCMCCMCCMF4096S.ell.zip",
+        64,
+        3,
+        112,
+        0.65,
+        60.72,
+        83.02
       ]
     ]
   }

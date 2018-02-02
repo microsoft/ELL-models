@@ -1,0 +1,20 @@
+{
+  "retargeting_layers": -1,
+  "index": 0,
+  "num_layers": 12,
+  "separable_convs": false,
+  "image_size": 64,
+  "depth_multiplier": 1,
+  "fc_sizes": [
+    3072
+  ],
+  "filter_size": 3,
+  "num_classes": 1000,
+  "trainer": "CNTK 2.3.1",
+  "activation_function": "relu",
+  "name": "v_I64x64x3CCMCCMCMCMCMF3072S",
+  "series": "vmult",
+  "increase_factor": 112,
+  "model": "v",
+  "filters_per_layer": []
+}
