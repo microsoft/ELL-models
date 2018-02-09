@@ -1,0 +1,20 @@
+{
+  "separable_convs": false,
+  "filter_size": 3,
+  "name": "v_I64x64x3CCMCCMCCCCMCCCCMCCCCMF2048S",
+  "increase_factor": 112,
+  "activation_function": "relu",
+  "num_layers": 20,
+  "depth_multiplier": 1,
+  "retargeting_layers": -1,
+  "image_size": 64,
+  "fc_sizes": [
+    2048
+  ],
+  "model": "v",
+  "series": "vmult",
+  "filters_per_layer": [],
+  "num_classes": 1000,
+  "index": 0,
+  "trainer": "CNTK 2.3.1"
+}
