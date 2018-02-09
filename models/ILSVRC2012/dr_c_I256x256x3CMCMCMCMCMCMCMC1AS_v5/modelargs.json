@@ -1,0 +1,26 @@
+{
+  "trainer": "CNTK 2.3.1",
+  "model": "d_reference_configurable",
+  "num_classes": 1000,
+  "type": "real",
+  "retargeting_layers": -1,
+  "activation_function": "leaky_relu",
+  "index": 0,
+  "image_size": 256,
+  "separable_convs": false,
+  "force_batchnorm": true,
+  "increase_factor": 112,
+  "series": "d_reference_configurable",
+  "filter_size": 3,
+  "depth_multiplier": 1,
+  "name": "dr_c_I256x256x3CMCMCMCMCMCMCMC1AS_v5",
+  "filters_per_layer": [
+    24,
+    48,
+    96,
+    192,
+    384,
+    768,
+    1536
+  ]
+}

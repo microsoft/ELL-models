@@ -14,26 +14,15 @@
         66.43
       ],
       [
-        "dsf_I64x64x3CCMCCMCCMCMCMC1AS",
-        "dstackedfull",
-        "D:\\Work\\ELL-models\\models\\ILSVRC2012\\dsf_I64x64x3CCMCCMCCMCMCMC1AS\\dsf_I64x64x3CCMCCMCCMCMCMC1AS.ell.zip",
+        "dr_19_I64x64x3CMCMCMCMCMC1AS",
+        "d_19",
+        "D:\\Work\\ELL-models\\models\\ILSVRC2012\\dr_19_I64x64x3CMCMCMCMCMC1AS\\dr_19_I64x64x3CMCMCMCMCMC1AS.ell.zip",
         64,
         3,
         0,
-        0.19,
-        44.67,
-        69.7
-      ],
-      [
-        "d_I128x128x3CMCMCMCMCMCMC1AS",
-        "d",
-        "D:\\Work\\ELL-models\\models\\ILSVRC2012\\d_I128x128x3CMCMCMCMCMCMC1AS\\d_I128x128x3CMCMCMCMCMCMC1AS.ell.zip",
-        128,
-        3,
-        0,
-        0.19,
-        52.06,
-        76.43
+        0.16,
+        52.96,
+        76.8
       ],
       [
         "dr_c_I256x256x3CMCMCMCMCMCMCMC1AS_v2",
@@ -78,6 +67,28 @@
         0.65,
         60.72,
         83.02
+      ],
+      [
+        "dr_19_I128x128x3CMCMCMCMCMCMC1AS",
+        "d_19",
+        "D:\\Work\\ELL-models\\models\\ILSVRC2012\\dr_19_I128x128x3CMCMCMCMCMCMC1AS\\dr_19_I128x128x3CMCMCMCMCMCMC1AS.ell.zip",
+        128,
+        3,
+        0,
+        0.75,
+        62.87,
+        84.63
+      ],
+      [
+        "dr_c_I256x256x3CMCMCMCMCMCMCMC1AS_v5",
+        "d_reference_configurable",
+        "D:\\Work\\ELL-models\\models\\ILSVRC2012\\dr_c_I256x256x3CMCMCMCMCMCMCMC1AS_v5\\dr_c_I256x256x3CMCMCMCMCMCMCMC1AS_v5.ell.zip",
+        256,
+        3,
+        112,
+        1.13,
+        63.83,
+        85.21
       ]
     ]
   }
