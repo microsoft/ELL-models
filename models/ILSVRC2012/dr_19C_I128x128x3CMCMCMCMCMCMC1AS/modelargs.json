@@ -1,0 +1,18 @@
+{
+  "trainer": "CNTK 2.3.1",
+  "filter_size": 3,
+  "num_classes": 1000,
+  "depth_multiplier": 1,
+  "name": "dr_19C_I128x128x3CMCMCMCMCMCMC1AS",
+  "series": "d_19C",
+  "retargeting_layers": -1,
+  "image_size": 128,
+  "separable_convs": false,
+  "force_batchnorm": true,
+  "index": 0,
+  "increase_factor": 112,
+  "model": "d_19C",
+  "type": "real",
+  "activation_function": "leaky_relu",
+  "filters_per_layer": []
+}

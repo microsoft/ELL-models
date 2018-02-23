@@ -1,0 +1,26 @@
+{
+  "type": "real",
+  "num_classes": 1000,
+  "force_batchnorm": true,
+  "model": "d_reference_configurable_313_2X",
+  "activation_function": "leaky_relu",
+  "increase_factor": 112,
+  "separable_convs": false,
+  "depth_multiplier": 1,
+  "filter_size": 3,
+  "name": "dr_cD_313_2X_I256x256x3CMCMCMCMCMCMCMC1AS_v2",
+  "series": "d_reference_configurable_313_2X",
+  "trainer": "CNTK 2.3.1",
+  "index": 0,
+  "retargeting_layers": -1,
+  "filters_per_layer": [
+    8,
+    16,
+    32,
+    64,
+    128,
+    256,
+    512
+  ],
+  "image_size": 256
+}

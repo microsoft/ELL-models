@@ -1,0 +1,18 @@
+{
+  "force_batchnorm": true,
+  "retargeting_layers": -1,
+  "image_size": 256,
+  "series": "d_313B",
+  "type": "real",
+  "trainer": "CNTK 2.3.1",
+  "index": 0,
+  "name": "dr_313B_I256x256x3CMCMCMCMCMCMCMC1AS",
+  "activation_function": "leaky_relu",
+  "model": "d_313B",
+  "num_classes": 1000,
+  "filters_per_layer": [],
+  "increase_factor": 112,
+  "filter_size": 3,
+  "depth_multiplier": 1,
+  "separable_convs": false
+}
