@@ -1,7 +1,7 @@
 {
   "results": [
     {
-      "avg_time": 1.137867510318756,
+      "avg_time": 1.1271752715110779,
       "input": "ILSVRC2012_val_00000001.JPEG",
       "predictions": [
         [
@@ -28,7 +28,7 @@
       "truth": 65
     },
     {
-      "avg_time": 1.131386399269104,
+      "avg_time": 1.1374631524085999,
       "input": "ILSVRC2012_val_00000002.JPEG",
       "predictions": [
         [
@@ -55,7 +55,7 @@
       "truth": 970
     },
     {
-      "avg_time": 1.1352007389068604,
+      "avg_time": 1.1291635632514954,
       "input": "ILSVRC2012_val_00000003.JPEG",
       "predictions": [
         [
@@ -82,7 +82,7 @@
       "truth": 230
     },
     {
-      "avg_time": 1.1313579082489014,
+      "avg_time": 1.1273823976516724,
       "input": "ILSVRC2012_val_00000004.JPEG",
       "predictions": [
         [
@@ -109,7 +109,7 @@
       "truth": 809
     },
     {
-      "avg_time": 1.1362606883049011,
+      "avg_time": 1.1265450716018677,
       "input": "ILSVRC2012_val_00000005.JPEG",
       "predictions": [
         [
@@ -136,13 +136,34 @@
       "truth": 516
     },
     {
-      "avg_time": 1.1308436393737793,
+      "avg_time": 1.127714991569519,
       "input": "ILSVRC2012_val_00000006.JPEG",
-      "predictions": [],
+      "predictions": [
+        [
+          458,
+          0.393458753824234
+        ],
+        [
+          835,
+          0.1172565147280693
+        ],
+        [
+          539,
+          0.06702881306409836
+        ],
+        [
+          674,
+          0.04765186831355095
+        ],
+        [
+          591,
+          0.04694974794983864
+        ]
+      ],
       "truth": 57
     },
     {
-      "avg_time": 1.1345112919807434,
+      "avg_time": 1.124308705329895,
       "input": "ILSVRC2012_val_00000007.JPEG",
       "predictions": [
         [
@@ -169,7 +190,7 @@
       "truth": 334
     },
     {
-      "avg_time": 1.1356298923492432,
+      "avg_time": 1.1274452805519104,
       "input": "ILSVRC2012_val_00000008.JPEG",
       "predictions": [
         [
@@ -196,7 +217,7 @@
       "truth": 415
     },
     {
-      "avg_time": 1.134468138217926,
+      "avg_time": 1.1285328269004822,
       "input": "ILSVRC2012_val_00000009.JPEG",
       "predictions": [
         [
@@ -223,7 +244,7 @@
       "truth": 674
     },
     {
-      "avg_time": 1.13584703207016,
+      "avg_time": 1.1250706911087036,
       "input": "ILSVRC2012_val_00000010.JPEG",
       "predictions": [
         [

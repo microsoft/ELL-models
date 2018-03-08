@@ -9,9 +9,9 @@
         64,
         3,
         0,
-        0.09,
-        40.98,
-        66.43
+        0.1,
+        41.07,
+        66.34
       ],
       [
         "dr_19_I64x64x3CMCMCMCMCMC1AS",
@@ -25,70 +25,81 @@
         76.8
       ],
       [
-        "dr_c_I256x256x3CMCMCMCMCMCMCMC1AS_v2",
-        "d_reference_configurable",
-        "D:\\Work\\ELL-models\\models\\ILSVRC2012\\dr_c_I256x256x3CMCMCMCMCMCMCMC1AS_v2\\dr_c_I256x256x3CMCMCMCMCMCMCMC1AS_v2.ell.zip",
-        256,
-        3,
-        112,
-        0.41,
-        56.24,
-        79.32
-      ],
-      [
-        "dsb_I128x128x3CMCMCMCMCMCCCMC1AS",
-        "dstackedbottom",
-        "D:\\Work\\ELL-models\\models\\ILSVRC2012\\dsb_I128x128x3CMCMCMCMCMCCCMC1AS\\dsb_I128x128x3CMCMCMCMCMCCCMC1AS.ell.zip",
+        "dr_19A_I128x128x3CMCMCMCMCMCMC1AS",
+        "d_19A",
+        "D:\\Work\\ELL-models\\models\\ILSVRC2012\\dr_19A_I128x128x3CMCMCMCMCMCMC1AS\\dr_19A_I128x128x3CMCMCMCMCMCMC1AS.ell.zip",
         128,
         3,
-        0,
-        0.41,
-        57.38,
-        80.85
+        112,
+        0.17,
+        55.0,
+        78.75
       ],
       [
-        "dr_I256x256x3CMCMCMCMCMCMCMC1AS",
-        "d_reference",
-        "D:\\Work\\ELL-models\\models\\ILSVRC2012\\dr_I256x256x3CMCMCMCMCMCMCMC1AS\\dr_I256x256x3CMCMCMCMCMCMCMC1AS.ell.zip",
+        "dr_cD_313_2X_I256x256x3CMCMCMCMCMCMCMC1AS_v2",
+        "d_reference_configurable_313_2X",
+        "D:\\Work\\ELL-models\\models\\ILSVRC2012\\dr_cD_313_2X_I256x256x3CMCMCMCMCMCMCMC1AS_v2\\dr_cD_313_2X_I256x256x3CMCMCMCMCMCMCMC1AS_v2.ell.zip",
         256,
         3,
         112,
-        0.59,
-        60.11,
-        82.27
+        0.29,
+        57.43,
+        80.91
       ],
       [
-        "v_I64x64x3CCMCCMCCMCCMCCMF4096S",
-        "v",
-        "D:\\Work\\ELL-models\\models\\ILSVRC2012\\v_I64x64x3CCMCCMCCMCCMCCMF4096S\\v_I64x64x3CCMCCMCCMCCMCCMF4096S.ell.zip",
-        64,
+        "dr_cD_313_2X_I256x256x3CMCMCMCMCMCMCMC1AS",
+        "d_reference_configurable_313_2X",
+        "D:\\Work\\ELL-models\\models\\ILSVRC2012\\dr_cD_313_2X_I256x256x3CMCMCMCMCMCMCMC1AS\\dr_cD_313_2X_I256x256x3CMCMCMCMCMCMCMC1AS.ell.zip",
+        256,
         3,
         112,
-        0.65,
-        60.72,
-        83.02
+        0.54,
+        61.56,
+        83.93
       ],
       [
-        "dr_19_I128x128x3CMCMCMCMCMCMC1AS",
-        "d_19",
-        "D:\\Work\\ELL-models\\models\\ILSVRC2012\\dr_19_I128x128x3CMCMCMCMCMCMC1AS\\dr_19_I128x128x3CMCMCMCMCMCMC1AS.ell.zip",
+        "dr_313_I256x256x3CMCMCMCMCMCMCMC1AS",
+        "d_313",
+        "D:\\Work\\ELL-models\\models\\ILSVRC2012\\dr_313_I256x256x3CMCMCMCMCMCMCMC1AS\\dr_313_I256x256x3CMCMCMCMCMCMCMC1AS.ell.zip",
+        256,
+        3,
+        112,
+        0.68,
+        63.68,
+        85.31
+      ],
+      [
+        "dr_19C_I128x128x3CMCMCMCMCMCMC1AS",
+        "d_19C",
+        "D:\\Work\\ELL-models\\models\\ILSVRC2012\\dr_19C_I128x128x3CMCMCMCMCMCMC1AS\\dr_19C_I128x128x3CMCMCMCMCMCMC1AS.ell.zip",
         128,
         3,
-        0,
-        0.75,
-        62.87,
-        84.63
+        112,
+        0.76,
+        63.76,
+        85.08
       ],
       [
-        "dr_c_I256x256x3CMCMCMCMCMCMCMC1AS_v5",
-        "d_reference_configurable",
-        "D:\\Work\\ELL-models\\models\\ILSVRC2012\\dr_c_I256x256x3CMCMCMCMCMCMCMC1AS_v5\\dr_c_I256x256x3CMCMCMCMCMCMCMC1AS_v5.ell.zip",
+        "dr_313B_I256x256x3CMCMCMCMCMCMCMC1AS",
+        "d_313B",
+        "D:\\Work\\ELL-models\\models\\ILSVRC2012\\dr_313B_I256x256x3CMCMCMCMCMCMCMC1AS\\dr_313B_I256x256x3CMCMCMCMCMCMCMC1AS.ell.zip",
         256,
         3,
         112,
-        1.13,
-        63.83,
-        85.21
+        0.83,
+        64.84,
+        85.89
+      ],
+      [
+        "dr_313C_I256x256x3CMCMCMCMCMCMCMC1AS",
+        "d_313C",
+        "D:\\Work\\ELL-models\\models\\ILSVRC2012\\dr_313C_I256x256x3CMCMCMCMCMCMCMC1AS\\dr_313C_I256x256x3CMCMCMCMCMCMCMC1AS.ell.zip",
+        256,
+        3,
+        112,
+        0.95,
+        65.18,
+        86.31
       ]
     ]
   }

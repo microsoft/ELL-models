@@ -1,10 +1,14 @@
 {
-  "model": "dstackedbottom",
   "index": 0,
+  "num_classes": 1000,
+  "retargeting_layers": -1,
+  "activation_function": "leaky_relu",
+  "model": "dstackedbottom",
   "image_size": 64,
   "series": "dstackedbottom",
-  "name": "dsb_I64x64x3CMCMCMCMCCCMC1AS",
-  "num_classes": 1000,
+  "trainer": "CNTK 2.2",
+  "filter_size": 3,
   "type": "real",
+  "name": "dsb_I64x64x3CMCMCMCMCCCMC1AS",
   "force_batchnorm": true
 }

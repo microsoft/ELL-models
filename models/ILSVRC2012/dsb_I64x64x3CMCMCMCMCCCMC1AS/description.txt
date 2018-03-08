@@ -1,0 +1,59 @@
+Convolution(Parameter5, Input3) -> Block23_Output_0;
+
+BatchNormalization(Parameter32, Parameter33, Block23_Output_0) -> Block54_Output_0;
+
+Activation(Block54_Output_0) -> Block132_Output_0;
+
+MaxPooling(Block132_Output_0) -> Block192_Output_0;
+
+Convolution(Parameter231, Block192_Output_0) -> Block249_Output_0;
+
+BatchNormalization(Parameter292, Parameter293, Block249_Output_0) -> Block314_Output_0;
+
+Activation(Block314_Output_0) -> Block426_Output_0;
+
+MaxPooling(Block426_Output_0) -> Block520_Output_0;
+
+Convolution(Parameter593, Block520_Output_0) -> Block611_Output_0;
+
+BatchNormalization(Parameter688, Parameter689, Block611_Output_0) -> Block710_Output_0;
+
+Activation(Block710_Output_0) -> Block856_Output_0;
+
+MaxPooling(Block856_Output_0) -> Block984_Output_0;
+
+Convolution(Parameter1091, Block984_Output_0) -> Block1109_Output_0;
+
+BatchNormalization(Parameter1220, Parameter1221, Block1109_Output_0) -> Block1242_Output_0;
+
+Activation(Block1242_Output_0) -> Block1422_Output_0;
+
+MaxPooling(Block1422_Output_0) -> Block1584_Output_0;
+
+Convolution(Parameter1725, Block1584_Output_0) -> Block1743_Output_0;
+
+BatchNormalization(Parameter1888, Parameter1889, Block1743_Output_0) -> Block1910_Output_0;
+
+Activation(Block1910_Output_0) -> Block2124_Output_0;
+
+Convolution(Parameter2303, Block2124_Output_0) -> Block2321_Output_0;
+
+BatchNormalization(Parameter2496, Parameter2497, Block2321_Output_0) -> Block2518_Output_0;
+
+Activation(Block2518_Output_0) -> Block2762_Output_0;
+
+Convolution(Parameter2971, Block2762_Output_0) -> Block2989_Output_0;
+
+BatchNormalization(Parameter3194, Parameter3195, Block2989_Output_0) -> Block3216_Output_0;
+
+Activation(Block3216_Output_0) -> Block3490_Output_0;
+
+MaxPooling(Block3490_Output_0) -> Block3746_Output_0;
+
+Convolution(Parameter3981, Parameter3982, Block3746_Output_0) -> Block4007_Output_0;
+
+Activation(Block4007_Output_0) -> Block4314_Output_0;
+
+AveragePooling(Block4314_Output_0) -> Block4602_Output_0;
+
+Reshape(Block4602_Output_0) -> Reshape4869_Output_0;

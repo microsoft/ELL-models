@@ -1,0 +1,41 @@
+Looking for: dr_313B_I256x256x3CMCMCMCMCMCMCMC1AS in 
+Found input_shape [256,256,3]
+Average prediction time: 0.8288578987121582
+Looking for: dr_313B_I256x256x3CMCMCMCMCMCMCMC1AS in 
+Found input_shape [256,256,3]
+Average prediction time: 0.8335123062133789
+Looking for: dr_313B_I256x256x3CMCMCMCMCMCMCMC1AS in 
+Found input_shape [256,256,3]
+Average prediction time: 0.8266104459762573
+Looking for: dr_313B_I256x256x3CMCMCMCMCMCMCMC1AS in 
+Found input_shape [256,256,3]
+Average prediction time: 0.8282722234725952
+Looking for: dr_313B_I256x256x3CMCMCMCMCMCMCMC1AS in 
+Found input_shape [256,256,3]
+Average prediction time: 0.8290004134178162
+Looking for: dr_313B_I256x256x3CMCMCMCMCMCMCMC1AS in 
+Found input_shape [256,256,3]
+Average prediction time: 0.8291385769844055
+Looking for: dr_313B_I256x256x3CMCMCMCMCMCMCMC1AS in 
+Found input_shape [256,256,3]
+Average prediction time: 0.8307290077209473
+Looking for: dr_313B_I256x256x3CMCMCMCMCMCMCMC1AS in 
+Found input_shape [256,256,3]
+Average prediction time: 0.8313609957695007
+Looking for: dr_313B_I256x256x3CMCMCMCMCMCMCMC1AS in 
+Found input_shape [256,256,3]
+Average prediction time: 0.8294504880905151
+Looking for: dr_313B_I256x256x3CMCMCMCMCMCMCMC1AS in 
+Found input_shape [256,256,3]
+Average prediction time: 0.8302749395370483
+Total time: 4541.016113 ms	count: 5
+Total time: 8667.939941 ms	count: 10
+Total time: 12777.258301 ms	count: 15
+Total time: 16881.191650 ms	count: 20
+Total time: 20988.401367 ms	count: 25
+Total time: 25098.107178 ms	count: 30
+Total time: 29211.116211 ms	count: 35
+Total time: 33325.784424 ms	count: 40
+Total time: 37433.748779 ms	count: 45
+Total time: 41543.356689 ms	count: 50
+Process has exited
