@@ -1,0 +1,14 @@
+{
+  "results": [
+    {
+      "avg_time": 0.0021646082401275634,
+      "input": "seven.wav",
+      "predictions": [
+        [
+          21,
+          0.99
+        ]
+      ],
+      "truth": 21
+    }
+}
