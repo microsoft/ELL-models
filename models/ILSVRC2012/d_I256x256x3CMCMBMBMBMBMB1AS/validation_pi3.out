@@ -1,41 +1,41 @@
 Looking for: d_I256x256x3CMCMBMBMBMBMB1AS in 
 Found input_shape [256,256,3]
-Average prediction time: 0.8244272470474243
+Average prediction time: 1.1330693364143372
 Looking for: d_I256x256x3CMCMBMBMBMBMB1AS in 
 Found input_shape [256,256,3]
-Average prediction time: 0.8256761431694031
+Average prediction time: 1.1326690912246704
 Looking for: d_I256x256x3CMCMBMBMBMBMB1AS in 
 Found input_shape [256,256,3]
-Average prediction time: 0.8260539770126343
+Average prediction time: 1.1305673718452454
 Looking for: d_I256x256x3CMCMBMBMBMBMB1AS in 
 Found input_shape [256,256,3]
-Average prediction time: 0.8290929198265076
+Average prediction time: 1.1307547688484192
 Looking for: d_I256x256x3CMCMBMBMBMBMB1AS in 
 Found input_shape [256,256,3]
-Average prediction time: 0.8321162462234497
+Average prediction time: 1.1319029927253723
 Looking for: d_I256x256x3CMCMBMBMBMBMB1AS in 
 Found input_shape [256,256,3]
-Average prediction time: 0.8340170383453369
+Average prediction time: 1.1285017728805542
 Looking for: d_I256x256x3CMCMBMBMBMBMB1AS in 
 Found input_shape [256,256,3]
-Average prediction time: 0.8310567736625671
+Average prediction time: 1.1297821402549744
 Looking for: d_I256x256x3CMCMBMBMBMBMB1AS in 
 Found input_shape [256,256,3]
-Average prediction time: 0.8300944566726685
+Average prediction time: 1.1301670670509338
 Looking for: d_I256x256x3CMCMBMBMBMBMB1AS in 
 Found input_shape [256,256,3]
-Average prediction time: 0.8315357565879822
+Average prediction time: 1.131352722644806
 Looking for: d_I256x256x3CMCMBMBMBMBMB1AS in 
 Found input_shape [256,256,3]
-Average prediction time: 0.83225417137146
-Total time: 4371.320312 ms	count: 5
-Total time: 8463.362061 ms	count: 10
-Total time: 12563.465576 ms	count: 15
-Total time: 16674.264160 ms	count: 20
-Total time: 20796.714111 ms	count: 25
-Total time: 24931.881348 ms	count: 30
-Total time: 29044.704346 ms	count: 35
-Total time: 33159.273193 ms	count: 40
-Total time: 37284.425781 ms	count: 45
-Total time: 41407.144531 ms	count: 50
+Average prediction time: 1.127854347229004
+Total time: 6240.159424 ms	count: 5
+Total time: 11863.849121 ms	count: 10
+Total time: 17479.652100 ms	count: 15
+Total time: 23093.290283 ms	count: 20
+Total time: 28709.856201 ms	count: 25
+Total time: 34315.194092 ms	count: 30
+Total time: 39925.710449 ms	count: 35
+Total time: 45537.177979 ms	count: 40
+Total time: 51152.866211 ms	count: 45
+Total time: 56756.248291 ms	count: 50
 Process has exited

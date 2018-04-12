@@ -1,0 +1,16 @@
+{
+  "retargeting_layers": -1,
+  "num_classes": 1000,
+  "image_size": 64,
+  "name": "resnet152_f_I64x64x3_1AS",
+  "series": "resnet152",
+  "model": "resnet152",
+  "index": 0,
+  "separable_convs": false,
+  "trainer": "CNTK 2.3.1",
+  "filter_size": 3,
+  "increase_factor": 112,
+  "activation_function": "relu",
+  "filters_per_layer": [],
+  "depth_multiplier": 1
+}

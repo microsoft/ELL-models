@@ -1,41 +1,41 @@
 Looking for: v_I64x64x3CCMCCMCCMCCMCCMF4096S in 
 Found input_shape [64,64,3]
-Average prediction time: 0.6421483755111694
+Average prediction time: 0.743790328502655
 Looking for: v_I64x64x3CCMCCMCCMCCMCCMF4096S in 
 Found input_shape [64,64,3]
-Average prediction time: 0.6437968611717224
+Average prediction time: 0.7478669881820679
 Looking for: v_I64x64x3CCMCCMCCMCCMCCMF4096S in 
 Found input_shape [64,64,3]
-Average prediction time: 0.6428228616714478
+Average prediction time: 0.7459431886672974
 Looking for: v_I64x64x3CCMCCMCCMCCMCCMF4096S in 
 Found input_shape [64,64,3]
-Average prediction time: 0.6442776322364807
+Average prediction time: 0.7438305020332336
 Looking for: v_I64x64x3CCMCCMCCMCCMCCMF4096S in 
 Found input_shape [64,64,3]
-Average prediction time: 0.644633412361145
+Average prediction time: 0.7451282739639282
 Looking for: v_I64x64x3CCMCCMCCMCCMCCMF4096S in 
 Found input_shape [64,64,3]
-Average prediction time: 0.644182026386261
+Average prediction time: 0.749433159828186
 Looking for: v_I64x64x3CCMCCMCCMCCMCCMF4096S in 
 Found input_shape [64,64,3]
-Average prediction time: 0.6460630893707275
+Average prediction time: 0.7445738911628723
 Looking for: v_I64x64x3CCMCCMCCMCCMCCMF4096S in 
 Found input_shape [64,64,3]
-Average prediction time: 0.639383852481842
+Average prediction time: 0.7479743957519531
 Looking for: v_I64x64x3CCMCCMCCMCCMCCMF4096S in 
 Found input_shape [64,64,3]
-Average prediction time: 0.6429169178009033
+Average prediction time: 0.7448622584342957
 Looking for: v_I64x64x3CCMCCMCCMCCMCCMF4096S in 
 Found input_shape [64,64,3]
-Average prediction time: 0.6448926329612732
-Total time: 3763.214355 ms	count: 5
-Total time: 6971.430664 ms	count: 10
-Total time: 10185.970947 ms	count: 15
-Total time: 13392.743408 ms	count: 20
-Total time: 16600.391602 ms	count: 25
-Total time: 19817.237061 ms	count: 30
-Total time: 23033.753906 ms	count: 35
-Total time: 26214.653076 ms	count: 40
-Total time: 29416.304199 ms	count: 45
-Total time: 32627.989014 ms	count: 50
+Average prediction time: 0.7466806173324585
+Total time: 4287.062744 ms	count: 5
+Total time: 8012.122803 ms	count: 10
+Total time: 11742.359619 ms	count: 15
+Total time: 15455.255859 ms	count: 20
+Total time: 19168.052734 ms	count: 25
+Total time: 22902.611084 ms	count: 30
+Total time: 26615.803955 ms	count: 35
+Total time: 30340.036865 ms	count: 40
+Total time: 34048.680664 ms	count: 45
+Total time: 37770.787842 ms	count: 50
 Process has exited

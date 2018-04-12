@@ -1,0 +1,97 @@
+Convolution(Parameter2346, ReLU1778_Output_0) -> Block2364_Output_0;
+
+BatchNormalization(Parameter2478, Parameter2479, Block2364_Output_0) -> Block2500_Output_0;
+
+Convolution(Parameter1557, ReLU1097_Output_0) -> Block1575_Output_0;
+
+BatchNormalization(Parameter1662, Parameter1663, Block1575_Output_0) -> Block1684_Output_0;
+
+Convolution(Parameter581, ReLU305_Output_0) -> Block599_Output_0;
+
+BatchNormalization(Parameter640, Parameter641, Block599_Output_0) -> Block662_Output_0;
+
+Convolution(Parameter5, Input3) -> Block23_Output_0;
+
+BatchNormalization(Parameter32, Parameter33, Block23_Output_0) -> Block54_Output_0;
+
+ReLU(Block54_Output_0) -> ReLU67_Output_0;
+
+MaxPooling(ReLU67_Output_0) -> Block87_Output_0;
+
+Convolution(Parameter105, Block87_Output_0) -> Block123_Output_0;
+
+BatchNormalization(Parameter145, Parameter146, Block123_Output_0) -> Block167_Output_0;
+
+ReLU(Block167_Output_0) -> ReLU193_Output_0;
+
+Convolution(Parameter196, ReLU193_Output_0) -> Block214_Output_0;
+
+BatchNormalization(Parameter245, Parameter246, Block214_Output_0) -> Block267_Output_0;
+
+Plus(Block267_Output_0, Block87_Output_0) -> Plus302_Output_0;
+
+ReLU(Plus302_Output_0) -> ReLU305_Output_0;
+
+Convolution(Parameter308, ReLU305_Output_0) -> Block326_Output_0;
+
+BatchNormalization(Parameter367, Parameter368, Block326_Output_0) -> Block389_Output_0;
+
+ReLU(Block389_Output_0) -> ReLU434_Output_0;
+
+Convolution(Parameter437, ReLU434_Output_0) -> Block455_Output_0;
+
+BatchNormalization(Parameter505, Parameter506, Block455_Output_0) -> Block527_Output_0;
+
+Plus(Block527_Output_0, Block662_Output_0) -> Plus707_Output_0;
+
+ReLU(Plus707_Output_0) -> ReLU710_Output_0;
+
+Convolution(Parameter713, ReLU710_Output_0) -> Block731_Output_0;
+
+BatchNormalization(Parameter799, Parameter800, Block731_Output_0) -> Block821_Output_0;
+
+ReLU(Block821_Output_0) -> ReLU893_Output_0;
+
+Convolution(Parameter896, ReLU893_Output_0) -> Block914_Output_0;
+
+BatchNormalization(Parameter991, Parameter992, Block914_Output_0) -> Block1013_Output_0;
+
+Plus(Block1013_Output_0, ReLU710_Output_0) -> Plus1094_Output_0;
+
+ReLU(Plus1094_Output_0) -> ReLU1097_Output_0;
+
+Convolution(Parameter1100, ReLU1097_Output_0) -> Block1118_Output_0;
+
+BatchNormalization(Parameter1205, Parameter1206, Block1118_Output_0) -> Block1227_Output_0;
+
+ReLU(Block1227_Output_0) -> ReLU1318_Output_0;
+
+Convolution(Parameter1321, ReLU1318_Output_0) -> Block1339_Output_0;
+
+BatchNormalization(Parameter1435, Parameter1436, Block1339_Output_0) -> Block1457_Output_0;
+
+Plus(Block1457_Output_0, Block1684_Output_0) -> Plus1775_Output_0;
+
+ReLU(Plus1775_Output_0) -> ReLU1778_Output_0;
+
+Convolution(Parameter1781, ReLU1778_Output_0) -> Block1799_Output_0;
+
+BatchNormalization(Parameter1913, Parameter1914, Block1799_Output_0) -> Block1935_Output_0;
+
+ReLU(Block1935_Output_0) -> ReLU2053_Output_0;
+
+Convolution(Parameter2056, ReLU2053_Output_0) -> Block2074_Output_0;
+
+BatchNormalization(Parameter2197, Parameter2198, Block2074_Output_0) -> Block2219_Output_0;
+
+Plus(Block2219_Output_0, Block2500_Output_0) -> Plus2618_Output_0;
+
+ReLU(Plus2618_Output_0) -> ReLU2621_Output_0;
+
+Convolution(Parameter2624, ReLU2621_Output_0) -> Block2642_Output_0;
+
+ReLU(Block2642_Output_0) -> ReLU2783_Output_0;
+
+AveragePooling(ReLU2783_Output_0) -> Block2803_Output_0;
+
+Reshape(Block2803_Output_0) -> Reshape2949_Output_0;

@@ -1,0 +1,41 @@
+Looking for: resnetconf_I128x128x3_1AS in 
+Found input_shape [128,128,3]
+Average prediction time: 0.4467145800590515
+Looking for: resnetconf_I128x128x3_1AS in 
+Found input_shape [128,128,3]
+Average prediction time: 0.44629377126693726
+Looking for: resnetconf_I128x128x3_1AS in 
+Found input_shape [128,128,3]
+Average prediction time: 0.44476836919784546
+Looking for: resnetconf_I128x128x3_1AS in 
+Found input_shape [128,128,3]
+Average prediction time: 0.4461382031440735
+Looking for: resnetconf_I128x128x3_1AS in 
+Found input_shape [128,128,3]
+Average prediction time: 0.44692033529281616
+Looking for: resnetconf_I128x128x3_1AS in 
+Found input_shape [128,128,3]
+Average prediction time: 0.4433422088623047
+Looking for: resnetconf_I128x128x3_1AS in 
+Found input_shape [128,128,3]
+Average prediction time: 0.44444090127944946
+Looking for: resnetconf_I128x128x3_1AS in 
+Found input_shape [128,128,3]
+Average prediction time: 0.44729357957839966
+Looking for: resnetconf_I128x128x3_1AS in 
+Found input_shape [128,128,3]
+Average prediction time: 0.4450245499610901
+Looking for: resnetconf_I128x128x3_1AS in 
+Found input_shape [128,128,3]
+Average prediction time: 0.4437564015388489
+Total time: 2804.317627 ms	count: 5
+Total time: 5022.062744 ms	count: 10
+Total time: 7235.489258 ms	count: 15
+Total time: 9447.703125 ms	count: 20
+Total time: 11669.734619 ms	count: 25
+Total time: 13877.669678 ms	count: 30
+Total time: 16086.253174 ms	count: 35
+Total time: 18303.883789 ms	count: 40
+Total time: 20516.261230 ms	count: 45
+Total time: 22719.759521 ms	count: 50
+Process has exited

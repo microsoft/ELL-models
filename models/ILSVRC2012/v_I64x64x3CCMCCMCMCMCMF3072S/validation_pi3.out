@@ -1,41 +1,41 @@
 Looking for: v_I64x64x3CCMCCMCMCMCMF3072S in 
 Found input_shape [64,64,3]
-Average prediction time: 0.44641947746276855
+Average prediction time: 0.5663002133369446
 Looking for: v_I64x64x3CCMCCMCMCMCMF3072S in 
 Found input_shape [64,64,3]
-Average prediction time: 0.4445968270301819
+Average prediction time: 0.5661459565162659
 Looking for: v_I64x64x3CCMCCMCMCMCMF3072S in 
 Found input_shape [64,64,3]
-Average prediction time: 0.4483373761177063
+Average prediction time: 0.5661280751228333
 Looking for: v_I64x64x3CCMCCMCMCMCMF3072S in 
 Found input_shape [64,64,3]
-Average prediction time: 0.4507398009300232
+Average prediction time: 0.5645642280578613
 Looking for: v_I64x64x3CCMCCMCMCMCMF3072S in 
 Found input_shape [64,64,3]
-Average prediction time: 0.4493197202682495
+Average prediction time: 0.5660081505775452
 Looking for: v_I64x64x3CCMCCMCMCMCMF3072S in 
 Found input_shape [64,64,3]
-Average prediction time: 0.44625282287597656
+Average prediction time: 0.5714019536972046
 Looking for: v_I64x64x3CCMCCMCMCMCMF3072S in 
 Found input_shape [64,64,3]
-Average prediction time: 0.4446393847465515
+Average prediction time: 0.567130982875824
 Looking for: v_I64x64x3CCMCCMCMCMCMF3072S in 
 Found input_shape [64,64,3]
-Average prediction time: 0.4491816759109497
+Average prediction time: 0.564250111579895
 Looking for: v_I64x64x3CCMCCMCMCMCMF3072S in 
 Found input_shape [64,64,3]
-Average prediction time: 0.45429152250289917
+Average prediction time: 0.5662943720817566
 Looking for: v_I64x64x3CCMCCMCMCMCMF3072S in 
 Found input_shape [64,64,3]
-Average prediction time: 0.4506034851074219
-Total time: 2698.872803 ms	count: 5
-Total time: 4918.725586 ms	count: 10
-Total time: 7145.185791 ms	count: 15
-Total time: 9381.680176 ms	count: 20
-Total time: 11618.098145 ms	count: 25
-Total time: 13843.896484 ms	count: 30
-Total time: 16061.265869 ms	count: 35
-Total time: 18292.163574 ms	count: 40
-Total time: 20537.344727 ms	count: 45
-Total time: 22777.055664 ms	count: 50
+Average prediction time: 0.5668804049491882
+Total time: 3400.234131 ms	count: 5
+Total time: 6217.429688 ms	count: 10
+Total time: 9034.099609 ms	count: 15
+Total time: 11853.393799 ms	count: 20
+Total time: 14670.246582 ms	count: 25
+Total time: 17509.131592 ms	count: 30
+Total time: 20330.343262 ms	count: 35
+Total time: 23140.863770 ms	count: 40
+Total time: 25963.626221 ms	count: 45
+Total time: 28784.074707 ms	count: 50
 Process has exited

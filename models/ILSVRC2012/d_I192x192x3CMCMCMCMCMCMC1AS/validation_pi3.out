@@ -1,41 +1,41 @@
 Looking for: d_I192x192x3CMCMCMCMCMCMC1AS in 
 Found input_shape [192,192,3]
-Average prediction time: 0.4178190231323242
+Average prediction time: 0.5594785213470459
 Looking for: d_I192x192x3CMCMCMCMCMCMC1AS in 
 Found input_shape [192,192,3]
-Average prediction time: 0.43631917238235474
+Average prediction time: 0.5537338852882385
 Looking for: d_I192x192x3CMCMCMCMCMCMC1AS in 
 Found input_shape [192,192,3]
-Average prediction time: 0.417589008808136
+Average prediction time: 0.5566596388816833
 Looking for: d_I192x192x3CMCMCMCMCMCMC1AS in 
 Found input_shape [192,192,3]
-Average prediction time: 0.41984307765960693
+Average prediction time: 0.5573709607124329
 Looking for: d_I192x192x3CMCMCMCMCMCMC1AS in 
 Found input_shape [192,192,3]
-Average prediction time: 0.4198961853981018
+Average prediction time: 0.5582836866378784
 Looking for: d_I192x192x3CMCMCMCMCMCMC1AS in 
 Found input_shape [192,192,3]
-Average prediction time: 0.42051559686660767
+Average prediction time: 0.5571248531341553
 Looking for: d_I192x192x3CMCMCMCMCMCMC1AS in 
 Found input_shape [192,192,3]
-Average prediction time: 0.41745370626449585
+Average prediction time: 0.5563433766365051
 Looking for: d_I192x192x3CMCMCMCMCMCMC1AS in 
 Found input_shape [192,192,3]
-Average prediction time: 0.42080503702163696
+Average prediction time: 0.5574631094932556
 Looking for: d_I192x192x3CMCMCMCMCMCMC1AS in 
 Found input_shape [192,192,3]
-Average prediction time: 0.41864728927612305
+Average prediction time: 0.5569066405296326
 Looking for: d_I192x192x3CMCMCMCMCMCMC1AS in 
 Found input_shape [192,192,3]
-Average prediction time: 0.4185752272605896
-Total time: 2591.916748 ms	count: 5
-Total time: 4735.023193 ms	count: 10
-Total time: 6804.983887 ms	count: 15
-Total time: 8878.352295 ms	count: 20
-Total time: 10960.109619 ms	count: 25
-Total time: 13036.432129 ms	count: 30
-Total time: 15104.248535 ms	count: 35
-Total time: 17181.500732 ms	count: 40
-Total time: 19249.675049 ms	count: 45
-Total time: 21323.124268 ms	count: 50
+Average prediction time: 0.5575162172317505
+Total time: 3430.689209 ms	count: 5
+Total time: 6187.334961 ms	count: 10
+Total time: 8954.744385 ms	count: 15
+Total time: 11720.074707 ms	count: 20
+Total time: 14486.421631 ms	count: 25
+Total time: 17249.569580 ms	count: 30
+Total time: 20006.341797 ms	count: 35
+Total time: 22768.531250 ms	count: 40
+Total time: 25527.531250 ms	count: 45
+Total time: 28299.284180 ms	count: 50
 Process has exited

@@ -1,0 +1,16 @@
+{
+  "series": "resnet101",
+  "filters_per_layer": [],
+  "activation_function": "relu",
+  "num_classes": 1000,
+  "name": "resnet101_f_I64x64x3_1AS",
+  "index": 0,
+  "image_size": 64,
+  "model": "resnet101",
+  "increase_factor": 112,
+  "separable_convs": false,
+  "filter_size": 3,
+  "retargeting_layers": -1,
+  "depth_multiplier": 1,
+  "trainer": "CNTK 2.3.1"
+}

@@ -1,0 +1,21 @@
+{
+  "separable_convs": false,
+  "filter_size": 3,
+  "trainer": "CNTK 2.3.1",
+  "name": "resnetconf_I64x64x3_ADS",
+  "series": "resnetconf",
+  "activation_function": "relu",
+  "filters_per_layer": [
+    1,
+    1,
+    0,
+    0
+  ],
+  "depth_multiplier": 1,
+  "model": "resnetconf",
+  "num_classes": 1000,
+  "retargeting_layers": -1,
+  "image_size": 64,
+  "increase_factor": 112,
+  "index": 0
+}

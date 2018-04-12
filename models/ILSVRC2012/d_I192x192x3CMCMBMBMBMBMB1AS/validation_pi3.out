@@ -1,41 +1,41 @@
 Looking for: d_I192x192x3CMCMBMBMBMBMB1AS in 
 Found input_shape [192,192,3]
-Average prediction time: 0.46469008922576904
+Average prediction time: 0.5245987176895142
 Looking for: d_I192x192x3CMCMBMBMBMBMB1AS in 
 Found input_shape [192,192,3]
-Average prediction time: 0.43456560373306274
+Average prediction time: 0.5316890478134155
 Looking for: d_I192x192x3CMCMBMBMBMBMB1AS in 
 Found input_shape [192,192,3]
-Average prediction time: 0.4334966540336609
+Average prediction time: 0.5261616110801697
 Looking for: d_I192x192x3CMCMBMBMBMBMB1AS in 
 Found input_shape [192,192,3]
-Average prediction time: 0.43763303756713867
+Average prediction time: 0.5244753360748291
 Looking for: d_I192x192x3CMCMBMBMBMBMB1AS in 
 Found input_shape [192,192,3]
-Average prediction time: 0.43823182582855225
+Average prediction time: 0.5249057412147522
 Looking for: d_I192x192x3CMCMBMBMBMBMB1AS in 
 Found input_shape [192,192,3]
-Average prediction time: 0.4376402497291565
+Average prediction time: 0.5256047248840332
 Looking for: d_I192x192x3CMCMBMBMBMBMB1AS in 
 Found input_shape [192,192,3]
-Average prediction time: 0.4343729615211487
+Average prediction time: 0.525935173034668
 Looking for: d_I192x192x3CMCMBMBMBMBMB1AS in 
 Found input_shape [192,192,3]
-Average prediction time: 0.4351297616958618
+Average prediction time: 0.5255109667778015
 Looking for: d_I192x192x3CMCMBMBMBMBMB1AS in 
 Found input_shape [192,192,3]
-Average prediction time: 0.43687915802001953
+Average prediction time: 0.5262041687965393
 Looking for: d_I192x192x3CMCMBMBMBMBMB1AS in 
 Found input_shape [192,192,3]
-Average prediction time: 0.4381229877471924
-Total time: 2437.605957 ms	count: 5
-Total time: 4592.809814 ms	count: 10
-Total time: 6742.281982 ms	count: 15
-Total time: 8898.181885 ms	count: 20
-Total time: 11067.195801 ms	count: 25
-Total time: 13234.035156 ms	count: 30
-Total time: 15388.676758 ms	count: 35
-Total time: 17535.219238 ms	count: 40
-Total time: 19688.271729 ms	count: 45
-Total time: 21857.757812 ms	count: 50
+Average prediction time: 0.5261313319206238
+Total time: 3135.107422 ms	count: 5
+Total time: 5767.444580 ms	count: 10
+Total time: 8376.234619 ms	count: 15
+Total time: 10980.520752 ms	count: 20
+Total time: 13581.145020 ms	count: 25
+Total time: 16188.849854 ms	count: 30
+Total time: 18799.589600 ms	count: 35
+Total time: 21408.446533 ms	count: 40
+Total time: 24017.244141 ms	count: 45
+Total time: 26627.010986 ms	count: 50
 Process has exited
