@@ -1,41 +1,41 @@
 Looking for: dscs2_I128x128x3CCCCCCC1AS in 
 Found input_shape [128,128,3]
-Average prediction time: 0.21140342950820923
+Average prediction time: 0.21930432319641113
 Looking for: dscs2_I128x128x3CCCCCCC1AS in 
 Found input_shape [128,128,3]
-Average prediction time: 0.19717049598693848
+Average prediction time: 0.2028709053993225
 Looking for: dscs2_I128x128x3CCCCCCC1AS in 
 Found input_shape [128,128,3]
-Average prediction time: 0.19755589962005615
+Average prediction time: 0.1998077630996704
 Looking for: dscs2_I128x128x3CCCCCCC1AS in 
 Found input_shape [128,128,3]
-Average prediction time: 0.19741636514663696
+Average prediction time: 0.2070789337158203
 Looking for: dscs2_I128x128x3CCCCCCC1AS in 
 Found input_shape [128,128,3]
-Average prediction time: 0.19637733697891235
+Average prediction time: 0.20204651355743408
 Looking for: dscs2_I128x128x3CCCCCCC1AS in 
 Found input_shape [128,128,3]
-Average prediction time: 0.1968175768852234
+Average prediction time: 0.20212644338607788
 Looking for: dscs2_I128x128x3CCCCCCC1AS in 
 Found input_shape [128,128,3]
-Average prediction time: 0.19665253162384033
+Average prediction time: 0.20206934213638306
 Looking for: dscs2_I128x128x3CCCCCCC1AS in 
 Found input_shape [128,128,3]
-Average prediction time: 0.19734978675842285
+Average prediction time: 0.20088738203048706
 Looking for: dscs2_I128x128x3CCCCCCC1AS in 
 Found input_shape [128,128,3]
-Average prediction time: 0.1966344118118286
+Average prediction time: 0.2020026445388794
 Looking for: dscs2_I128x128x3CCCCCCC1AS in 
 Found input_shape [128,128,3]
-Average prediction time: 0.19686996936798096
-Total time: 1556.481445 ms	count: 5
-Total time: 2525.580078 ms	count: 10
-Total time: 3493.392822 ms	count: 15
-Total time: 4460.421143 ms	count: 20
-Total time: 5422.110596 ms	count: 25
-Total time: 6391.588867 ms	count: 30
-Total time: 7357.924805 ms	count: 35
-Total time: 8329.525146 ms	count: 40
-Total time: 9298.853027 ms	count: 45
-Total time: 10269.190430 ms	count: 50
+Average prediction time: 0.20145779848098755
+Total time: 1491.120361 ms	count: 5
+Total time: 2482.911865 ms	count: 10
+Total time: 3462.673828 ms	count: 15
+Total time: 4474.919922 ms	count: 20
+Total time: 5470.060303 ms	count: 25
+Total time: 6465.682373 ms	count: 30
+Total time: 7459.126465 ms	count: 35
+Total time: 8447.966309 ms	count: 40
+Total time: 9441.442383 ms	count: 45
+Total time: 10432.646729 ms	count: 50
 Process has exited

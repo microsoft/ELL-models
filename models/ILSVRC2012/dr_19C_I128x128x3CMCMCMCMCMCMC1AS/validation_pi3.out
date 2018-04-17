@@ -1,41 +1,41 @@
 Looking for: dr_19C_I128x128x3CMCMCMCMCMCMC1AS in 
 Found input_shape [128,128,3]
-Average prediction time: 0.7563005685806274
+Average prediction time: 0.9113768935203552
 Looking for: dr_19C_I128x128x3CMCMCMCMCMCMC1AS in 
 Found input_shape [128,128,3]
-Average prediction time: 0.7531943917274475
+Average prediction time: 0.910478949546814
 Looking for: dr_19C_I128x128x3CMCMCMCMCMCMC1AS in 
 Found input_shape [128,128,3]
-Average prediction time: 0.756040096282959
+Average prediction time: 0.9095084071159363
 Looking for: dr_19C_I128x128x3CMCMCMCMCMCMC1AS in 
 Found input_shape [128,128,3]
-Average prediction time: 0.7563256025314331
+Average prediction time: 0.9124131798744202
 Looking for: dr_19C_I128x128x3CMCMCMCMCMCMC1AS in 
 Found input_shape [128,128,3]
-Average prediction time: 0.758807361125946
+Average prediction time: 0.9087563753128052
 Looking for: dr_19C_I128x128x3CMCMCMCMCMCMC1AS in 
 Found input_shape [128,128,3]
-Average prediction time: 0.7622556686401367
+Average prediction time: 0.9097191691398621
 Looking for: dr_19C_I128x128x3CMCMCMCMCMCMC1AS in 
 Found input_shape [128,128,3]
-Average prediction time: 0.7562825679779053
+Average prediction time: 0.9103138446807861
 Looking for: dr_19C_I128x128x3CMCMCMCMCMCMC1AS in 
 Found input_shape [128,128,3]
-Average prediction time: 0.7578564882278442
+Average prediction time: 0.9095894694328308
 Looking for: dr_19C_I128x128x3CMCMCMCMCMCMC1AS in 
 Found input_shape [128,128,3]
-Average prediction time: 0.7553704380989075
+Average prediction time: 0.9106261134147644
 Looking for: dr_19C_I128x128x3CMCMCMCMCMCMC1AS in 
 Found input_shape [128,128,3]
-Average prediction time: 0.75534987449646
-Total time: 4249.339600 ms	count: 5
-Total time: 8006.706055 ms	count: 10
-Total time: 11769.853760 ms	count: 15
-Total time: 15531.118164 ms	count: 20
-Total time: 19303.298584 ms	count: 25
-Total time: 23094.994385 ms	count: 30
-Total time: 26866.986816 ms	count: 35
-Total time: 30636.760254 ms	count: 40
-Total time: 34397.351807 ms	count: 45
-Total time: 38162.862793 ms	count: 50
+Average prediction time: 0.9075136780738831
+Total time: 5210.057617 ms	count: 5
+Total time: 9756.326172 ms	count: 10
+Total time: 14286.836670 ms	count: 15
+Total time: 18831.516357 ms	count: 20
+Total time: 23365.673096 ms	count: 25
+Total time: 27902.397217 ms	count: 30
+Total time: 32440.423828 ms	count: 35
+Total time: 36979.128906 ms	count: 40
+Total time: 41524.069336 ms	count: 45
+Total time: 46056.841064 ms	count: 50
 Process has exited

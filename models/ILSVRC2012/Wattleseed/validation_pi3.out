@@ -1,0 +1,41 @@
+Looking for: resnet101_f_I64x64x3_1AS in 
+Found input_shape [64,64,3]
+Average prediction time: 0.5259811282157898
+Looking for: resnet101_f_I64x64x3_1AS in 
+Found input_shape [64,64,3]
+Average prediction time: 0.5298570394515991
+Looking for: resnet101_f_I64x64x3_1AS in 
+Found input_shape [64,64,3]
+Average prediction time: 0.5279111862182617
+Looking for: resnet101_f_I64x64x3_1AS in 
+Found input_shape [64,64,3]
+Average prediction time: 0.5286198258399963
+Looking for: resnet101_f_I64x64x3_1AS in 
+Found input_shape [64,64,3]
+Average prediction time: 0.526100218296051
+Looking for: resnet101_f_I64x64x3_1AS in 
+Found input_shape [64,64,3]
+Average prediction time: 0.5263180136680603
+Looking for: resnet101_f_I64x64x3_1AS in 
+Found input_shape [64,64,3]
+Average prediction time: 0.5275874137878418
+Looking for: resnet101_f_I64x64x3_1AS in 
+Found input_shape [64,64,3]
+Average prediction time: 0.5275576114654541
+Looking for: resnet101_f_I64x64x3_1AS in 
+Found input_shape [64,64,3]
+Average prediction time: 0.5264376401901245
+Looking for: resnet101_f_I64x64x3_1AS in 
+Found input_shape [64,64,3]
+Average prediction time: 0.5274574160575867
+Total time: 3341.213135 ms	count: 5
+Total time: 5971.446777 ms	count: 10
+Total time: 8604.179199 ms	count: 15
+Total time: 11235.556152 ms	count: 20
+Total time: 13855.372559 ms	count: 25
+Total time: 16476.464111 ms	count: 30
+Total time: 19102.877686 ms	count: 35
+Total time: 21729.313232 ms	count: 40
+Total time: 24349.272461 ms	count: 45
+Total time: 26978.799072 ms	count: 50
+Process has exited

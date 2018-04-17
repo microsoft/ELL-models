@@ -1,41 +1,41 @@
 Looking for: ddcs2_I128x128x3CCCCCCCCCCCCCC1AS in 
 Found input_shape [128,128,3]
-Average prediction time: 0.3970838189125061
+Average prediction time: 0.39724260568618774
 Looking for: ddcs2_I128x128x3CCCCCCCCCCCCCC1AS in 
 Found input_shape [128,128,3]
-Average prediction time: 0.398728609085083
+Average prediction time: 0.4073931574821472
 Looking for: ddcs2_I128x128x3CCCCCCCCCCCCCC1AS in 
 Found input_shape [128,128,3]
-Average prediction time: 0.39605289697647095
+Average prediction time: 0.3963664770126343
 Looking for: ddcs2_I128x128x3CCCCCCCCCCCCCC1AS in 
 Found input_shape [128,128,3]
-Average prediction time: 0.3976004123687744
+Average prediction time: 0.39772480726242065
 Looking for: ddcs2_I128x128x3CCCCCCCCCCCCCC1AS in 
 Found input_shape [128,128,3]
-Average prediction time: 0.39392465353012085
+Average prediction time: 0.4028767943382263
 Looking for: ddcs2_I128x128x3CCCCCCCCCCCCCC1AS in 
 Found input_shape [128,128,3]
-Average prediction time: 0.399231493473053
+Average prediction time: 0.39483481645584106
 Looking for: ddcs2_I128x128x3CCCCCCCCCCCCCC1AS in 
 Found input_shape [128,128,3]
-Average prediction time: 0.3958280086517334
+Average prediction time: 0.39868736267089844
 Looking for: ddcs2_I128x128x3CCCCCCCCCCCCCC1AS in 
 Found input_shape [128,128,3]
-Average prediction time: 0.398739218711853
+Average prediction time: 0.393521249294281
 Looking for: ddcs2_I128x128x3CCCCCCCCCCCCCC1AS in 
 Found input_shape [128,128,3]
-Average prediction time: 0.3956371545791626
+Average prediction time: 0.39511996507644653
 Looking for: ddcs2_I128x128x3CCCCCCCCCCCCCC1AS in 
 Found input_shape [128,128,3]
-Average prediction time: 0.3992214798927307
-Total time: 2428.126221 ms	count: 5
-Total time: 4404.885254 ms	count: 10
-Total time: 6372.285400 ms	count: 15
-Total time: 8348.535156 ms	count: 20
-Total time: 10304.735352 ms	count: 25
-Total time: 12283.199951 ms	count: 30
-Total time: 14248.936279 ms	count: 35
-Total time: 16224.356201 ms	count: 40
-Total time: 18188.567139 ms	count: 45
-Total time: 20162.217529 ms	count: 50
+Average prediction time: 0.3982003331184387
+Total time: 2392.804443 ms	count: 5
+Total time: 4403.418945 ms	count: 10
+Total time: 6367.086426 ms	count: 15
+Total time: 8338.179443 ms	count: 20
+Total time: 10331.616455 ms	count: 25
+Total time: 12295.178955 ms	count: 30
+Total time: 14264.136963 ms	count: 35
+Total time: 16218.462402 ms	count: 40
+Total time: 18178.796631 ms	count: 45
+Total time: 20151.571533 ms	count: 50
 Process has exited

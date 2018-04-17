@@ -1,0 +1,21 @@
+{
+  "filters_per_layer": [
+    1,
+    1,
+    1,
+    0
+  ],
+  "image_size": 64,
+  "filter_size": 3,
+  "increase_factor": 112,
+  "retargeting_layers": -1,
+  "activation_function": "relu",
+  "model": "resnetconf_bottleneck",
+  "name": "resnetconf_bottleneck_I64x64x3_1AS",
+  "index": 0,
+  "depth_multiplier": 1,
+  "trainer": "CNTK 2.3.1",
+  "series": "resnetconf_bottleneck",
+  "num_classes": 1000,
+  "separable_convs": false
+}

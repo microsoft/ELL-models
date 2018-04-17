@@ -1,41 +1,41 @@
 Looking for: dst_I64x64x3CCCMCMCMCMCMC1AS in 
 Found input_shape [64,64,3]
-Average prediction time: 0.2322685718536377
+Average prediction time: 0.2726143002510071
 Looking for: dst_I64x64x3CCCMCMCMCMCMC1AS in 
 Found input_shape [64,64,3]
-Average prediction time: 0.17429006099700928
+Average prediction time: 0.2734711766242981
 Looking for: dst_I64x64x3CCCMCMCMCMCMC1AS in 
 Found input_shape [64,64,3]
-Average prediction time: 0.17075711488723755
+Average prediction time: 0.2730291485786438
 Looking for: dst_I64x64x3CCCMCMCMCMCMC1AS in 
 Found input_shape [64,64,3]
-Average prediction time: 0.1724420189857483
+Average prediction time: 0.2741519808769226
 Looking for: dst_I64x64x3CCCMCMCMCMCMC1AS in 
 Found input_shape [64,64,3]
-Average prediction time: 0.17140108346939087
+Average prediction time: 0.2725535035133362
 Looking for: dst_I64x64x3CCCMCMCMCMCMC1AS in 
 Found input_shape [64,64,3]
-Average prediction time: 0.17098510265350342
+Average prediction time: 0.2752460837364197
 Looking for: dst_I64x64x3CCCMCMCMCMCMC1AS in 
 Found input_shape [64,64,3]
-Average prediction time: 0.17133009433746338
+Average prediction time: 0.2725776433944702
 Looking for: dst_I64x64x3CCCMCMCMCMCMC1AS in 
 Found input_shape [64,64,3]
-Average prediction time: 0.17209792137145996
+Average prediction time: 0.2741847634315491
 Looking for: dst_I64x64x3CCCMCMCMCMCMC1AS in 
 Found input_shape [64,64,3]
-Average prediction time: 0.16973966360092163
+Average prediction time: 0.2745240330696106
 Looking for: dst_I64x64x3CCCMCMCMCMCMC1AS in 
 Found input_shape [64,64,3]
-Average prediction time: 0.1719704270362854
-Total time: 1373.194336 ms	count: 5
-Total time: 2228.525391 ms	count: 10
-Total time: 3075.818848 ms	count: 15
-Total time: 3923.382568 ms	count: 20
-Total time: 4766.925781 ms	count: 25
-Total time: 5609.716553 ms	count: 30
-Total time: 6457.525879 ms	count: 35
-Total time: 7309.272949 ms	count: 40
-Total time: 8146.518066 ms	count: 45
-Total time: 8996.027832 ms	count: 50
+Average prediction time: 0.2733805179595947
+Total time: 1944.128174 ms	count: 5
+Total time: 3299.043945 ms	count: 10
+Total time: 4652.653076 ms	count: 15
+Total time: 6015.976318 ms	count: 20
+Total time: 7366.617432 ms	count: 25
+Total time: 8729.384033 ms	count: 30
+Total time: 10079.670898 ms	count: 35
+Total time: 11440.445312 ms	count: 40
+Total time: 12802.910400 ms	count: 45
+Total time: 14161.304688 ms	count: 50
 Process has exited

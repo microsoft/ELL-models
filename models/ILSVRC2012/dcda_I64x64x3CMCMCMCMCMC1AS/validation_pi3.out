@@ -1,41 +1,41 @@
 Looking for: dcda_I64x64x3CMCMCMCMCMC1AS in 
 Found input_shape [64,64,3]
-Average prediction time: 0.6640392541885376
+Average prediction time: 0.574845016002655
 Looking for: dcda_I64x64x3CMCMCMCMCMC1AS in 
 Found input_shape [64,64,3]
-Average prediction time: 0.6631853580474854
+Average prediction time: 0.596107006072998
 Looking for: dcda_I64x64x3CMCMCMCMCMC1AS in 
 Found input_shape [64,64,3]
-Average prediction time: 0.6631748676300049
+Average prediction time: 0.5825706720352173
 Looking for: dcda_I64x64x3CMCMCMCMCMC1AS in 
 Found input_shape [64,64,3]
-Average prediction time: 0.6625788807868958
+Average prediction time: 0.5818637013435364
 Looking for: dcda_I64x64x3CMCMCMCMCMC1AS in 
 Found input_shape [64,64,3]
-Average prediction time: 0.6622851490974426
+Average prediction time: 0.5808593034744263
 Looking for: dcda_I64x64x3CMCMCMCMCMC1AS in 
 Found input_shape [64,64,3]
-Average prediction time: 0.6620731949806213
+Average prediction time: 0.5818748474121094
 Looking for: dcda_I64x64x3CMCMCMCMCMC1AS in 
 Found input_shape [64,64,3]
-Average prediction time: 0.6638592481613159
+Average prediction time: 0.5806137323379517
 Looking for: dcda_I64x64x3CMCMCMCMCMC1AS in 
 Found input_shape [64,64,3]
-Average prediction time: 0.6618271470069885
+Average prediction time: 0.5803807973861694
 Looking for: dcda_I64x64x3CMCMCMCMCMC1AS in 
 Found input_shape [64,64,3]
-Average prediction time: 0.6619070172309875
+Average prediction time: 0.5808268189430237
 Looking for: dcda_I64x64x3CMCMCMCMCMC1AS in 
 Found input_shape [64,64,3]
-Average prediction time: 0.6628207564353943
-Total time: 3671.219727 ms	count: 5
-Total time: 6972.855225 ms	count: 10
-Total time: 10272.634033 ms	count: 15
-Total time: 13577.299805 ms	count: 20
-Total time: 16877.596680 ms	count: 25
-Total time: 20178.598389 ms	count: 30
-Total time: 23485.542236 ms	count: 35
-Total time: 26782.256836 ms	count: 40
-Total time: 30085.005859 ms	count: 45
-Total time: 33387.214600 ms	count: 50
+Average prediction time: 0.5810139775276184
+Total time: 3423.175049 ms	count: 5
+Total time: 6373.666748 ms	count: 10
+Total time: 9277.929443 ms	count: 15
+Total time: 12175.086914 ms	count: 20
+Total time: 15070.530518 ms	count: 25
+Total time: 17967.040283 ms	count: 30
+Total time: 20865.368164 ms	count: 35
+Total time: 23755.658691 ms	count: 40
+Total time: 26654.258057 ms	count: 45
+Total time: 29547.162842 ms	count: 50
 Process has exited

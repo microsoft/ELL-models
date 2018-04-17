@@ -1,41 +1,41 @@
 Looking for: d_I224x224x3CMCMBMBMBMBMC1AS in 
 Found input_shape [224,224,3]
-Average prediction time: 0.5813819766044617
+Average prediction time: 0.7204982042312622
 Looking for: d_I224x224x3CMCMBMBMBMBMC1AS in 
 Found input_shape [224,224,3]
-Average prediction time: 0.5835123062133789
+Average prediction time: 0.723391592502594
 Looking for: d_I224x224x3CMCMBMBMBMBMC1AS in 
 Found input_shape [224,224,3]
-Average prediction time: 0.5804623961448669
+Average prediction time: 0.7185830473899841
 Looking for: d_I224x224x3CMCMBMBMBMBMC1AS in 
 Found input_shape [224,224,3]
-Average prediction time: 0.5838456749916077
+Average prediction time: 0.7186293005943298
 Looking for: d_I224x224x3CMCMBMBMBMBMC1AS in 
 Found input_shape [224,224,3]
-Average prediction time: 0.5820164680480957
+Average prediction time: 0.7195023894309998
 Looking for: d_I224x224x3CMCMBMBMBMBMC1AS in 
 Found input_shape [224,224,3]
-Average prediction time: 0.5803638696670532
+Average prediction time: 0.7189127206802368
 Looking for: d_I224x224x3CMCMBMBMBMBMC1AS in 
 Found input_shape [224,224,3]
-Average prediction time: 0.5829925537109375
+Average prediction time: 0.7211186289787292
 Looking for: d_I224x224x3CMCMBMBMBMBMC1AS in 
 Found input_shape [224,224,3]
-Average prediction time: 0.5803650617599487
+Average prediction time: 0.7213436365127563
 Looking for: d_I224x224x3CMCMBMBMBMBMC1AS in 
 Found input_shape [224,224,3]
-Average prediction time: 0.5829958319664001
+Average prediction time: 0.7188925743103027
 Looking for: d_I224x224x3CMCMBMBMBMBMC1AS in 
 Found input_shape [224,224,3]
-Average prediction time: 0.5811124444007874
-Total time: 3096.332520 ms	count: 5
-Total time: 5981.233643 ms	count: 10
-Total time: 8853.597168 ms	count: 15
-Total time: 11760.729736 ms	count: 20
-Total time: 14633.932129 ms	count: 25
-Total time: 17506.800293 ms	count: 30
-Total time: 20393.920410 ms	count: 35
-Total time: 23266.177002 ms	count: 40
-Total time: 26149.240479 ms	count: 45
-Total time: 29023.954590 ms	count: 50
+Average prediction time: 0.7173563241958618
+Total time: 4193.280762 ms	count: 5
+Total time: 7775.565430 ms	count: 10
+Total time: 11338.436768 ms	count: 15
+Total time: 14901.330566 ms	count: 20
+Total time: 18476.798096 ms	count: 25
+Total time: 22040.645752 ms	count: 30
+Total time: 25614.576172 ms	count: 35
+Total time: 29194.243652 ms	count: 40
+Total time: 32764.439697 ms	count: 45
+Total time: 36323.472656 ms	count: 50
 Process has exited

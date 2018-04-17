@@ -3,103 +3,164 @@
     "platform": "pi3",
     "frontier_models": [
       [
-        "dsb_I64x64x3CMCMCMCMCCCMC1AS",
-        "dstackedbottom",
-        "D:\\Work\\ELL-models\\models\\ILSVRC2012\\dsb_I64x64x3CMCMCMCMCCCMC1AS\\dsb_I64x64x3CMCMCMCMCCCMC1AS.ell.zip",
+        "resnetconf_I64x64x3_ADS",
+        "resnetconf",
+        "D:\\Work\\ELL-models\\models\\resnet_bottleneck_selected_for_pr\\application_1521072110030_2396\\resnetconf_I64x64x3_ADS.ell.zip",
         64,
         3,
-        0,
-        0.1,
-        41.07,
-        66.34
+        112,
+        [
+          1,
+          1,
+          0,
+          0
+        ],
+        0.08,
+        44.01,
+        68.64
       ],
       [
-        "dr_19_I64x64x3CMCMCMCMCMC1AS",
-        "d_19",
-        "D:\\Work\\ELL-models\\models\\ILSVRC2012\\dr_19_I64x64x3CMCMCMCMCMC1AS\\dr_19_I64x64x3CMCMCMCMCMC1AS.ell.zip",
+        "resnetconf_I64x64x3_ADS",
+        "resnetconf",
+        "D:\\Work\\ELL-models\\models\\resnet_bottleneck_selected_for_pr\\application_1520472137500_3282\\resnetconf_I64x64x3_ADS.ell.zip",
         64,
         3,
-        0,
-        0.16,
-        52.96,
-        76.8
+        112,
+        [
+          1,
+          2,
+          2,
+          2
+        ],
+        0.11,
+        49.32,
+        73.99
+      ],
+      [
+        "resnetconf_bottleneck_I64x64x3_1AS",
+        "resnetconf_bottleneck",
+        "D:\\Work\\ELL-models\\models\\resnet_bottleneck_selected_for_pr\\application_1522187747072_0789\\resnetconf_bottleneck_I64x64x3_1AS.ell.zip",
+        64,
+        3,
+        112,
+        [
+          1,
+          1,
+          1,
+          0
+        ],
+        0.18,
+        54.39,
+        78.02
       ],
       [
         "dr_19A_I128x128x3CMCMCMCMCMCMC1AS",
         "d_19A",
-        "D:\\Work\\ELL-models\\models\\ILSVRC2012\\dr_19A_I128x128x3CMCMCMCMCMCMC1AS\\dr_19A_I128x128x3CMCMCMCMCMCMC1AS.ell.zip",
+        "D:\\Work\\ELL-models\\models\\resnet_bottleneck_selected_for_pr\\dr_19A_I128x128x3CMCMCMCMCMCMC1AS\\dr_19A_I128x128x3CMCMCMCMCMCMC1AS.ell.zip",
         128,
         3,
         112,
-        0.17,
+        [],
+        0.22,
         55.0,
         78.75
       ],
       [
-        "dr_cD_313_2X_I256x256x3CMCMCMCMCMCMCMC1AS_v2",
-        "d_reference_configurable_313_2X",
-        "D:\\Work\\ELL-models\\models\\ILSVRC2012\\dr_cD_313_2X_I256x256x3CMCMCMCMCMCMCMC1AS_v2\\dr_cD_313_2X_I256x256x3CMCMCMCMCMCMCMC1AS_v2.ell.zip",
-        256,
+        "resnetconf_bottleneck_I64x64x3_1AS",
+        "resnetconf_bottleneck",
+        "D:\\Work\\ELL-models\\models\\resnet_bottleneck_selected_for_pr\\application_1522191724086_0185\\resnetconf_bottleneck_I64x64x3_1AS.ell.zip",
+        64,
         3,
         112,
-        0.29,
-        57.43,
-        80.91
+        [
+          1,
+          1,
+          5,
+          1
+        ],
+        0.24,
+        58.74,
+        81.59
       ],
       [
-        "dr_cD_313_2X_I256x256x3CMCMCMCMCMCMCMC1AS",
-        "d_reference_configurable_313_2X",
-        "D:\\Work\\ELL-models\\models\\ILSVRC2012\\dr_cD_313_2X_I256x256x3CMCMCMCMCMCMCMC1AS\\dr_cD_313_2X_I256x256x3CMCMCMCMCMCMCMC1AS.ell.zip",
-        256,
-        3,
-        112,
-        0.54,
-        61.56,
-        83.93
-      ],
-      [
-        "dr_313_I256x256x3CMCMCMCMCMCMCMC1AS",
-        "d_313",
-        "D:\\Work\\ELL-models\\models\\ILSVRC2012\\dr_313_I256x256x3CMCMCMCMCMCMCMC1AS\\dr_313_I256x256x3CMCMCMCMCMCMCMC1AS.ell.zip",
-        256,
-        3,
-        112,
-        0.68,
-        63.68,
-        85.31
-      ],
-      [
-        "dr_19C_I128x128x3CMCMCMCMCMCMC1AS",
-        "d_19C",
-        "D:\\Work\\ELL-models\\models\\ILSVRC2012\\dr_19C_I128x128x3CMCMCMCMCMCMC1AS\\dr_19C_I128x128x3CMCMCMCMCMCMC1AS.ell.zip",
+        "resnetconf_I128x128x3_ADS",
+        "resnetconf",
+        "D:\\Work\\ELL-models\\models\\resnet_bottleneck_selected_for_pr\\application_1520472137500_3075\\resnetconf_I128x128x3_ADS.ell.zip",
         128,
         3,
         112,
-        0.76,
-        63.76,
-        85.08
+        [
+          1,
+          1,
+          0,
+          0
+        ],
+        0.32,
+        59.59,
+        82.15
       ],
       [
-        "dr_313B_I256x256x3CMCMCMCMCMCMCMC1AS",
-        "d_313B",
-        "D:\\Work\\ELL-models\\models\\ILSVRC2012\\dr_313B_I256x256x3CMCMCMCMCMCMCMC1AS\\dr_313B_I256x256x3CMCMCMCMCMCMCMC1AS.ell.zip",
-        256,
+        "resnetconf_bottleneck_I64x64x3_1AS",
+        "resnetconf_bottleneck",
+        "D:\\Work\\ELL-models\\models\\resnet_bottleneck_selected_for_pr\\application_1522193514033_0457\\resnetconf_bottleneck_I64x64x3_1AS.ell.zip",
+        64,
         3,
         112,
-        0.83,
-        64.84,
-        85.89
+        [
+          3,
+          4,
+          8,
+          0
+        ],
+        0.38,
+        62.05,
+        83.8
       ],
       [
-        "dr_313C_I256x256x3CMCMCMCMCMCMCMC1AS",
-        "d_313C",
-        "D:\\Work\\ELL-models\\models\\ILSVRC2012\\dr_313C_I256x256x3CMCMCMCMCMCMCMC1AS\\dr_313C_I256x256x3CMCMCMCMCMCMCMC1AS.ell.zip",
-        256,
+        "resnetconf_I128x128x3_1AS",
+        "resnetconf",
+        "D:\\Work\\ELL-models\\models\\resnet_bottleneck_selected_for_pr\\application_1520472137500_3092\\resnetconf_I128x128x3_1AS.ell.zip",
+        128,
         3,
         112,
-        0.95,
-        65.18,
-        86.31
+        [
+          1,
+          1,
+          2,
+          1
+        ],
+        0.45,
+        64.61,
+        85.63
+      ],
+      [
+        "resnetconf_I128x128x3_ADS",
+        "resnetconf",
+        "D:\\Work\\ELL-models\\models\\resnet_bottleneck_selected_for_pr\\application_1520472137500_3169\\resnetconf_I128x128x3_ADS.ell.zip",
+        128,
+        3,
+        112,
+        [
+          1,
+          2,
+          2,
+          2
+        ],
+        0.56,
+        66.04,
+        86.59
+      ],
+      [
+        "resnet34_f_I128x128x3_ADS",
+        "resnet34",
+        "D:\\Work\\ELL-models\\models\\resnet_bottleneck_selected_for_pr\\application_1520472137500_1117\\resnet34_f_I128x128x3_ADS.ell.zip",
+        128,
+        3,
+        112,
+        [],
+        0.86,
+        68.19,
+        88.24
       ]
     ]
   }

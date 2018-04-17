@@ -1,41 +1,41 @@
 Looking for: d_I160x160x3CMCMCMCMCMCMC1AS in 
 Found input_shape [160,160,3]
-Average prediction time: 0.31362617015838623
+Average prediction time: 0.4335775375366211
 Looking for: d_I160x160x3CMCMCMCMCMCMC1AS in 
 Found input_shape [160,160,3]
-Average prediction time: 0.3155668377876282
+Average prediction time: 0.4322695732116699
 Looking for: d_I160x160x3CMCMCMCMCMCMC1AS in 
 Found input_shape [160,160,3]
-Average prediction time: 0.3139234185218811
+Average prediction time: 0.4337849020957947
 Looking for: d_I160x160x3CMCMCMCMCMCMC1AS in 
 Found input_shape [160,160,3]
-Average prediction time: 0.31455063819885254
+Average prediction time: 0.4290693998336792
 Looking for: d_I160x160x3CMCMCMCMCMCMC1AS in 
 Found input_shape [160,160,3]
-Average prediction time: 0.31521958112716675
+Average prediction time: 0.43027418851852417
 Looking for: d_I160x160x3CMCMCMCMCMCMC1AS in 
 Found input_shape [160,160,3]
-Average prediction time: 0.31815147399902344
+Average prediction time: 0.4289149045944214
 Looking for: d_I160x160x3CMCMCMCMCMCMC1AS in 
 Found input_shape [160,160,3]
-Average prediction time: 0.3160724639892578
+Average prediction time: 0.43255704641342163
 Looking for: d_I160x160x3CMCMCMCMCMCMC1AS in 
 Found input_shape [160,160,3]
-Average prediction time: 0.3146544098854065
+Average prediction time: 0.42864251136779785
 Looking for: d_I160x160x3CMCMCMCMCMCMC1AS in 
 Found input_shape [160,160,3]
-Average prediction time: 0.3129734396934509
+Average prediction time: 0.4298543930053711
 Looking for: d_I160x160x3CMCMCMCMCMCMC1AS in 
 Found input_shape [160,160,3]
-Average prediction time: 0.31504541635513306
-Total time: 2068.306396 ms	count: 5
-Total time: 3626.913330 ms	count: 10
-Total time: 5178.458008 ms	count: 15
-Total time: 6734.275879 ms	count: 20
-Total time: 8291.937744 ms	count: 25
-Total time: 9860.963135 ms	count: 30
-Total time: 11423.578857 ms	count: 35
-Total time: 12976.947998 ms	count: 40
-Total time: 14529.775391 ms	count: 45
-Total time: 16086.399902 ms	count: 50
+Average prediction time: 0.4318215847015381
+Total time: 2869.108887 ms	count: 5
+Total time: 5006.446533 ms	count: 10
+Total time: 7156.773438 ms	count: 15
+Total time: 9281.897949 ms	count: 20
+Total time: 11417.551025 ms	count: 25
+Total time: 13547.858398 ms	count: 30
+Total time: 15685.813232 ms	count: 35
+Total time: 17816.085938 ms	count: 40
+Total time: 19944.597900 ms	count: 45
+Total time: 22086.485107 ms	count: 50
 Process has exited

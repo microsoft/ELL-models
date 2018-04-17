@@ -1,41 +1,41 @@
-Looking for: dr_c_I256x256x3CMCMCMCMCMCMCMC1AS in 
+Looking for: dr_c_I256x256x3CMCMCMCMCMCMCMC1AS_v2 in 
 Found input_shape [256,256,3]
-Average prediction time: 0.4209855794906616
-Looking for: dr_c_I256x256x3CMCMCMCMCMCMCMC1AS in 
+Average prediction time: 0.6050636172294617
+Looking for: dr_c_I256x256x3CMCMCMCMCMCMCMC1AS_v2 in 
 Found input_shape [256,256,3]
-Average prediction time: 0.4127519726753235
-Looking for: dr_c_I256x256x3CMCMCMCMCMCMCMC1AS in 
+Average prediction time: 0.6048963665962219
+Looking for: dr_c_I256x256x3CMCMCMCMCMCMCMC1AS_v2 in 
 Found input_shape [256,256,3]
-Average prediction time: 0.41208356618881226
-Looking for: dr_c_I256x256x3CMCMCMCMCMCMCMC1AS in 
+Average prediction time: 0.6013270616531372
+Looking for: dr_c_I256x256x3CMCMCMCMCMCMCMC1AS_v2 in 
 Found input_shape [256,256,3]
-Average prediction time: 0.41627466678619385
-Looking for: dr_c_I256x256x3CMCMCMCMCMCMCMC1AS in 
+Average prediction time: 0.6017261147499084
+Looking for: dr_c_I256x256x3CMCMCMCMCMCMCMC1AS_v2 in 
 Found input_shape [256,256,3]
-Average prediction time: 0.41731172800064087
-Looking for: dr_c_I256x256x3CMCMCMCMCMCMCMC1AS in 
+Average prediction time: 0.6041494607925415
+Looking for: dr_c_I256x256x3CMCMCMCMCMCMCMC1AS_v2 in 
 Found input_shape [256,256,3]
-Average prediction time: 0.41253048181533813
-Looking for: dr_c_I256x256x3CMCMCMCMCMCMCMC1AS in 
+Average prediction time: 0.6011589169502258
+Looking for: dr_c_I256x256x3CMCMCMCMCMCMCMC1AS_v2 in 
 Found input_shape [256,256,3]
-Average prediction time: 0.4124370217323303
-Looking for: dr_c_I256x256x3CMCMCMCMCMCMCMC1AS in 
+Average prediction time: 0.602704644203186
+Looking for: dr_c_I256x256x3CMCMCMCMCMCMCMC1AS_v2 in 
 Found input_shape [256,256,3]
-Average prediction time: 0.4148673415184021
-Looking for: dr_c_I256x256x3CMCMCMCMCMCMCMC1AS in 
+Average prediction time: 0.6020724177360535
+Looking for: dr_c_I256x256x3CMCMCMCMCMCMCMC1AS_v2 in 
 Found input_shape [256,256,3]
-Average prediction time: 0.4147629737854004
-Looking for: dr_c_I256x256x3CMCMCMCMCMCMCMC1AS in 
+Average prediction time: 0.6084255576133728
+Looking for: dr_c_I256x256x3CMCMCMCMCMCMCMC1AS_v2 in 
 Found input_shape [256,256,3]
-Average prediction time: 0.4136471152305603
-Total time: 2417.575928 ms	count: 5
-Total time: 4446.633789 ms	count: 10
-Total time: 6477.135254 ms	count: 15
-Total time: 8525.052246 ms	count: 20
-Total time: 10568.177490 ms	count: 25
-Total time: 12595.008057 ms	count: 30
-Total time: 14620.542236 ms	count: 35
-Total time: 16659.551758 ms	count: 40
-Total time: 18694.340088 ms	count: 45
-Total time: 20732.541260 ms	count: 50
+Average prediction time: 0.6030243635177612
+Total time: 3549.663086 ms	count: 5
+Total time: 6533.254150 ms	count: 10
+Total time: 9502.258789 ms	count: 15
+Total time: 12473.821777 ms	count: 20
+Total time: 15451.422363 ms	count: 25
+Total time: 18423.557861 ms	count: 30
+Total time: 21400.586426 ms	count: 35
+Total time: 24376.077148 ms	count: 40
+Total time: 27379.174561 ms	count: 45
+Total time: 30356.646729 ms	count: 50
 Process has exited

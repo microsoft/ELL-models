@@ -1,0 +1,16 @@
+{
+  "separable_convs": false,
+  "filter_size": 3,
+  "num_classes": 1000,
+  "depth_multiplier": 1,
+  "retargeting_layers": -1,
+  "filters_per_layer": [],
+  "image_size": 128,
+  "series": "resnet34",
+  "model": "resnet34",
+  "index": 0,
+  "trainer": "CNTK 2.3.1",
+  "activation_function": "relu",
+  "increase_factor": 112,
+  "name": "resnet34_f_I128x128x3_ADS"
+}

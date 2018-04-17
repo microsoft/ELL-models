@@ -1,41 +1,41 @@
 Looking for: v_I64x64x3CCMCCMCCCMCCCMCCCMF2048S in 
 Found input_shape [64,64,3]
-Average prediction time: 0.7706770896911621
+Average prediction time: 0.8634774684906006
 Looking for: v_I64x64x3CCMCCMCCCMCCCMCCCMF2048S in 
 Found input_shape [64,64,3]
-Average prediction time: 0.7725564241409302
+Average prediction time: 0.8630326986312866
 Looking for: v_I64x64x3CCMCCMCCCMCCCMCCCMF2048S in 
 Found input_shape [64,64,3]
-Average prediction time: 0.7719741463661194
+Average prediction time: 0.8726393580436707
 Looking for: v_I64x64x3CCMCCMCCCMCCCMCCCMF2048S in 
 Found input_shape [64,64,3]
-Average prediction time: 0.7722578048706055
+Average prediction time: 0.8621581196784973
 Looking for: v_I64x64x3CCMCCMCCCMCCCMCCCMF2048S in 
 Found input_shape [64,64,3]
-Average prediction time: 0.7706365585327148
+Average prediction time: 0.8646014928817749
 Looking for: v_I64x64x3CCMCCMCCCMCCCMCCCMF2048S in 
 Found input_shape [64,64,3]
-Average prediction time: 0.7791932821273804
+Average prediction time: 0.8624754548072815
 Looking for: v_I64x64x3CCMCCMCCCMCCCMCCCMF2048S in 
 Found input_shape [64,64,3]
-Average prediction time: 0.772312343120575
+Average prediction time: 0.8642880916595459
 Looking for: v_I64x64x3CCMCCMCCCMCCCMCCCMF2048S in 
 Found input_shape [64,64,3]
-Average prediction time: 0.7726415395736694
+Average prediction time: 0.8605812191963196
 Looking for: v_I64x64x3CCMCCMCCCMCCCMCCCMF2048S in 
 Found input_shape [64,64,3]
-Average prediction time: 0.7713408470153809
+Average prediction time: 0.8654781579971313
 Looking for: v_I64x64x3CCMCCMCCCMCCCMCCCMF2048S in 
 Found input_shape [64,64,3]
-Average prediction time: 0.7720522880554199
-Total time: 4370.478027 ms	count: 5
-Total time: 8223.434082 ms	count: 10
-Total time: 12070.808105 ms	count: 15
-Total time: 15918.983887 ms	count: 20
-Total time: 19763.822754 ms	count: 25
-Total time: 23640.918213 ms	count: 30
-Total time: 27487.802490 ms	count: 35
-Total time: 31337.535156 ms	count: 40
-Total time: 35184.617920 ms	count: 45
-Total time: 39034.305664 ms	count: 50
+Average prediction time: 0.8642187714576721
+Total time: 4940.853760 ms	count: 5
+Total time: 9243.678223 ms	count: 10
+Total time: 13586.285400 ms	count: 15
+Total time: 17892.545410 ms	count: 20
+Total time: 22199.740723 ms	count: 25
+Total time: 26499.149658 ms	count: 30
+Total time: 30801.199707 ms	count: 35
+Total time: 35097.072266 ms	count: 40
+Total time: 39407.793213 ms	count: 45
+Total time: 43712.333008 ms	count: 50
 Process has exited
