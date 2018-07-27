@@ -5,162 +5,123 @@
       [
         "resnetconf_I64x64x3_ADS",
         "resnetconf",
-        "D:\\Work\\ELL-models\\models\\resnet_bottleneck_selected_for_pr\\application_1521072110030_2396\\resnetconf_I64x64x3_ADS.ell.zip",
+        "D:\\Work\\ELL-models\\models\\ILSVRC2012\\07252018\\Coconut\\Coconut.ell",
         64,
         3,
-        112,
-        [
-          1,
-          1,
-          0,
-          0
-        ],
-        0.08,
-        44.01,
-        68.64
+        0,
+        0.049,
+        44.41,
+        69.41
       ],
       [
         "resnetconf_I64x64x3_ADS",
         "resnetconf",
-        "D:\\Work\\ELL-models\\models\\resnet_bottleneck_selected_for_pr\\application_1520472137500_3282\\resnetconf_I64x64x3_ADS.ell.zip",
+        "D:\\Work\\ELL-models\\models\\ILSVRC2012\\07252018\\Elderflower\\Elderflower.ell",
         64,
         3,
         112,
-        [
-          1,
-          2,
-          2,
-          2
-        ],
-        0.11,
+        0.109,
         49.32,
         73.99
       ],
       [
         "resnetconf_bottleneck_I64x64x3_1AS",
         "resnetconf_bottleneck",
-        "D:\\Work\\ELL-models\\models\\resnet_bottleneck_selected_for_pr\\application_1522187747072_0789\\resnetconf_bottleneck_I64x64x3_1AS.ell.zip",
+        "D:\\Work\\ELL-models\\models\\ILSVRC2012\\07252018\\Clover\\Clover.ell",
         64,
         3,
-        112,
-        [
-          1,
-          1,
-          1,
-          0
-        ],
-        0.18,
-        54.39,
-        78.02
-      ],
-      [
-        "dr_19A_I128x128x3CMCMCMCMCMCMC1AS",
-        "d_19A",
-        "D:\\Work\\ELL-models\\models\\resnet_bottleneck_selected_for_pr\\dr_19A_I128x128x3CMCMCMCMCMCMC1AS\\dr_19A_I128x128x3CMCMCMCMCMCMC1AS.ell.zip",
-        128,
-        3,
-        112,
-        [],
-        0.22,
-        55.0,
-        78.75
-      ],
-      [
-        "resnetconf_bottleneck_I64x64x3_1AS",
-        "resnetconf_bottleneck",
-        "D:\\Work\\ELL-models\\models\\resnet_bottleneck_selected_for_pr\\application_1522191724086_0185\\resnetconf_bottleneck_I64x64x3_1AS.ell.zip",
-        64,
-        3,
-        112,
-        [
-          1,
-          1,
-          5,
-          1
-        ],
-        0.24,
-        58.74,
-        81.59
+        0,
+        0.145,
+        53.04,
+        77.12
       ],
       [
         "resnetconf_I128x128x3_ADS",
         "resnetconf",
-        "D:\\Work\\ELL-models\\models\\resnet_bottleneck_selected_for_pr\\application_1520472137500_3075\\resnetconf_I128x128x3_ADS.ell.zip",
+        "D:\\Work\\ELL-models\\models\\ILSVRC2012\\07252018\\Bean\\Bean.ell",
         128,
         3,
-        112,
-        [
-          1,
-          1,
-          0,
-          0
-        ],
-        0.32,
-        59.59,
-        82.15
-      ],
-      [
-        "resnetconf_bottleneck_I64x64x3_1AS",
-        "resnetconf_bottleneck",
-        "D:\\Work\\ELL-models\\models\\resnet_bottleneck_selected_for_pr\\application_1522193514033_0457\\resnetconf_bottleneck_I64x64x3_1AS.ell.zip",
-        64,
-        3,
-        112,
-        [
-          3,
-          4,
-          8,
-          0
-        ],
-        0.38,
-        62.05,
-        83.8
+        0,
+        0.145,
+        55.12,
+        78.21
       ],
       [
         "resnetconf_I128x128x3_1AS",
         "resnetconf",
-        "D:\\Work\\ELL-models\\models\\resnet_bottleneck_selected_for_pr\\application_1520472137500_3092\\resnetconf_I128x128x3_1AS.ell.zip",
+        "D:\\Work\\ELL-models\\models\\ILSVRC2012\\07252018\\CashewNut\\CashewNut.ell",
+        128,
+        3,
+        0,
+        0.176,
+        60.22,
+        82.44
+      ],
+      [
+        "resnetconf_I128x128x3_ADS",
+        "resnetconf",
+        "D:\\Work\\ELL-models\\models\\ILSVRC2012\\07252018\\Ginger\\Ginger.ell",
+        128,
+        3,
+        0,
+        0.21,
+        62.33,
+        84.14
+      ],
+      [
+        "resnetconf_I128x128x3_1AS",
+        "resnetconf",
+        "D:\\Work\\ELL-models\\models\\ILSVRC2012\\07252018\\Carrot\\Carrot.ell",
         128,
         3,
         112,
-        [
-          1,
-          1,
-          2,
-          1
-        ],
-        0.45,
+        0.444,
         64.61,
         85.63
       ],
       [
         "resnetconf_I128x128x3_ADS",
         "resnetconf",
-        "D:\\Work\\ELL-models\\models\\resnet_bottleneck_selected_for_pr\\application_1520472137500_3169\\resnetconf_I128x128x3_ADS.ell.zip",
+        "D:\\Work\\ELL-models\\models\\ILSVRC2012\\07252018\\SevenSisters\\SevenSisters.ell",
         128,
         3,
         112,
-        [
-          1,
-          2,
-          2,
-          2
-        ],
-        0.56,
+        0.552,
         66.04,
         86.59
       ],
       [
-        "resnet34_f_I128x128x3_ADS",
-        "resnet34",
-        "D:\\Work\\ELL-models\\models\\resnet_bottleneck_selected_for_pr\\application_1520472137500_1117\\resnet34_f_I128x128x3_ADS.ell.zip",
+        "resnetconf_bottleneck_I128x128x3_1AS",
+        "resnetconf_bottleneck",
+        "D:\\Work\\ELL-models\\models\\ILSVRC2012\\07252018\\Clary\\Clary.ell",
         128,
         3,
-        112,
-        [],
-        0.86,
-        68.19,
-        88.24
+        0,
+        0.597,
+        66.65,
+        87.17
+      ],
+      [
+        "resnetconf_bottleneck_I128x128x3_1AS",
+        "resnetconf_bottleneck",
+        "D:\\Work\\ELL-models\\models\\ILSVRC2012\\07252018\\Tamarind\\Tamarind.ell",
+        128,
+        3,
+        0,
+        0.753,
+        70.46,
+        89.57
+      ],
+      [
+        "resnetconf_bottleneck_I128x128x3_1AS",
+        "resnetconf_bottleneck",
+        "D:\\Work\\ELL-models\\models\\ILSVRC2012\\07252018\\Sweetsop\\Sweetsop.ell",
+        128,
+        3,
+        0,
+        1.126,
+        72.24,
+        90.78
       ]
     ]
   }

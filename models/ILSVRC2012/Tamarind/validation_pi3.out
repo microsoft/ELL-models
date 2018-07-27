@@ -1,0 +1,4 @@
+Looking for: resnetconf_bottleneck_I128x128x3_1AS in 
+Found input_shape [128,128,3]
+Average prediction time: 0.7527506947517395
+Process has exited

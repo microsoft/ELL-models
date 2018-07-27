@@ -1,0 +1,150 @@
+{
+  "stats": [
+    {
+      "cpu_percent": 392.6,
+      "cpu_times": [
+        10.47,
+        0.2,
+        0.0,
+        0.0
+      ],
+      "memory_info": [
+        72269824,
+        300892160,
+        30683136,
+        4096,
+        0,
+        153583616,
+        0
+      ],
+      "num_threads": 5,
+      "system_cpu_freq": [
+        [
+          700.0,
+          600.0,
+          700.0
+        ]
+      ],
+      "system_cpu_percent": [
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "timestamp": 1528942580.0
+    },
+    {
+      "cpu_percent": 397.7,
+      "cpu_times": [
+        11.49,
+        0.2,
+        0.0,
+        0.0
+      ],
+      "memory_info": [
+        72863744,
+        301486080,
+        30683136,
+        4096,
+        0,
+        154177536,
+        0
+      ],
+      "num_threads": 5,
+      "system_cpu_freq": [
+        [
+          700.0,
+          600.0,
+          700.0
+        ]
+      ],
+      "system_cpu_percent": [
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "timestamp": 1528942580.0
+    },
+    {
+      "cpu_percent": 402.8,
+      "cpu_times": [
+        12.51,
+        0.21,
+        0.0,
+        0.0
+      ],
+      "memory_info": [
+        73461760,
+        302080000,
+        30683136,
+        4096,
+        0,
+        154771456,
+        0
+      ],
+      "num_threads": 5,
+      "system_cpu_freq": [
+        [
+          700.0,
+          600.0,
+          700.0
+        ]
+      ],
+      "system_cpu_percent": [
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "timestamp": 1528942580.0
+    },
+    {
+      "cpu_percent": 386.9,
+      "cpu_times": [
+        13.5,
+        0.21,
+        0.0,
+        0.0
+      ],
+      "memory_info": [
+        69705728,
+        297521152,
+        31064064,
+        4096,
+        0,
+        150212608,
+        0
+      ],
+      "num_threads": 4,
+      "system_cpu_freq": [
+        [
+          700.0,
+          600.0,
+          700.0
+        ]
+      ],
+      "system_cpu_percent": [
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "timestamp": 1528942580.0
+    }
+  ],
+  "summary": {
+    "mean_cpu_percent": 395.0,
+    "mean_num_threads": 4.75,
+    "mean_resident_set_b": 72075264.0,
+    "mean_system_cpu_percent": [
+      100.0,
+      100.0,
+      100.0,
+      100.0
+    ],
+    "mean_virtual_memory_b": 300494848.0,
+    "system_cpu_time_s": 0.21,
+    "user_cpu_time_s": 13.5
+  }
+}

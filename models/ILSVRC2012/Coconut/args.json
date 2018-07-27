@@ -1,0 +1,13 @@
+{
+  "keep_all_checkpoints": false,
+  "epoch_size": 1281167,
+  "momentum": 0.9,
+  "max_epochs": 112,
+  "num_quantization_bits": 32,
+  "l2_reg_weight": 0.0001,
+  "warm_up": 0,
+  "lr_scale": 1.0,
+  "restore": true,
+  "minibatch_size": 128,
+  "block_size": null
+}
