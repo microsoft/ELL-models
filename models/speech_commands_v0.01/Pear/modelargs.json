@@ -7,7 +7,7 @@
     "filterbank_type": "mel",
     "filterbank_size": 40,
     "num_filters": 40,
-    "sample_rate": 16000,
+    "sample_rate": 8000,
     "has_prefilter": false,
     "has_log": true,
     "has_dct": false,
@@ -19,8 +19,8 @@
     "model_type": "gru",
     "num_classes": 31,
     "window_size": 80,
-    "sample_rate": 16000,
-    "batch_size": 64,
+    "sample_rate": 8000,
+    "batch_size": 128,
     "num_epochs": 30
    }
 }
