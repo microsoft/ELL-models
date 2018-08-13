@@ -1,26 +1,26 @@
 {
-   "f_16000_256_256_mel_40_40_log": {
-    "script": "make_feature_models.py",
-    "type": "real",
-    "input_size": 512,
-    "input_buffer_size": 160,
-    "filterbank_type": "mel",
-    "filterbank_size": 40,
-    "num_filters": 40,
-    "sample_rate": 16000,
-    "has_prefilter": false,
-    "has_log": true,
-    "has_dct": false,
-    "skip_fft": false
-   },
-   "gru_f_16000_512_160_mel_40_40_log": {     
-    "script": "train_keras_model.py",
-    "max_files_per_directory": 1600,
-    "model_type": "gru",
-    "num_classes": 31,
-    "window_size": 80,
-    "sample_rate": 16000,
-    "batch_size": 64,
-    "num_epochs": 30
-   }
+    "f_16000_512_512_mel_40_40_log": {
+        "script": "make_feature_models.py",
+        "type": "real",
+        "input_size": 512,
+        "input_buffer_size": 512,
+        "filterbank_type": "mel",
+        "filterbank_size": 40,
+        "num_filters": 40,
+        "sample_rate": 16000,
+        "has_prefilter": false,
+        "has_log": true,
+        "has_dct": false,
+        "skip_fft": false
+    },
+    "gru_f_16000_512_512_mel_40_40_log": {
+        "script": "train_keras_model.py",
+        "max_files_per_directory": 1600,
+        "model_type": "gru",
+        "num_classes": 31,
+        "window_size": 80,
+        "sample_rate": 16000,
+        "batch_size": 128,
+        "num_epochs": 30
+    }
 }
