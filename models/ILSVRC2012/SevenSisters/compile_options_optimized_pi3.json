@@ -1,0 +1,79 @@
+{
+  "nodes": {
+    "1278": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1284": {
+      "preferredConvolutionMethod": "winograd"
+    },
+    "1289": {
+      "preferredConvolutionMethod": "winograd"
+    },
+    "1296": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1301": {
+      "preferredConvolutionMethod": "winograd"
+    },
+    "1305": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1311": {
+      "preferredConvolutionMethod": "winograd"
+    },
+    "1316": {
+      "preferredConvolutionMethod": "winograd"
+    },
+    "1322": {
+      "preferredConvolutionMethod": "winograd"
+    },
+    "1327": {
+      "preferredConvolutionMethod": "winograd"
+    },
+    "1334": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1339": {
+      "preferredConvolutionMethod": "winograd"
+    },
+    "1343": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1349": {
+      "preferredConvolutionMethod": "winograd"
+    },
+    "1354": {
+      "preferredConvolutionMethod": "winograd"
+    },
+    "1360": {
+      "preferredConvolutionMethod": "winograd"
+    },
+    "1365": {
+      "preferredConvolutionMethod": "winograd"
+    },
+    "1372": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1377": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1381": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1387": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1392": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1398": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1403": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1409": {
+      "preferredConvolutionMethod": "unrolled"
+    }
+  }
+}
