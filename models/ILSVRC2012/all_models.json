@@ -17,38 +17,6 @@
   },
   {
     "accuracy": {
-      "top1": "57.57",
-      "top5": "80.55"
-    },
-    "directory": "D:\\Work\\ELL-models\\models\\ILSVRC2012\\Buckthorn\\Buckthorn.ell",
-    "filter_size": 3,
-    "image_size": "64x64",
-    "increase_factor": 0,
-    "model": "resnetconf_bottleneck",
-    "name": "resnetconf_bottleneck_I64x64x3_1AS",
-    "secs_per_frame": {
-      "pi3": "0.192"
-    },
-    "friendly_name": "Buckthorn"
-  },
-  {
-    "accuracy": {
-      "top1": "54.39",
-      "top5": "78.02"
-    },
-    "directory": "D:\\Work\\ELL-models\\models\\ILSVRC2012\\Candlenut\\Candlenut.ell",
-    "filter_size": 3,
-    "image_size": "64x64",
-    "increase_factor": 112,
-    "model": "resnetconf_bottleneck",
-    "name": "resnetconf_bottleneck_I64x64x3_1AS",
-    "secs_per_frame": {
-      "pi3": "0.166"
-    },
-    "friendly_name": "Candlenut"
-  },
-  {
-    "accuracy": {
       "top1": "64.61",
       "top5": "85.63"
     },
@@ -62,22 +30,6 @@
       "pi3": "0.401"
     },
     "friendly_name": "Carrot"
-  },
-  {
-    "accuracy": {
-      "top1": "60.22",
-      "top5": "82.44"
-    },
-    "directory": "D:\\Work\\ELL-models\\models\\ILSVRC2012\\CashewNut\\CashewNut.ell",
-    "filter_size": 3,
-    "image_size": "128x128",
-    "increase_factor": 0,
-    "model": "resnetconf",
-    "name": "resnetconf_I128x128x3_1AS",
-    "secs_per_frame": {
-      "pi3": "0.155"
-    },
-    "friendly_name": "CashewNut"
   },
   {
     "accuracy": {
