@@ -11,7 +11,7 @@
     "model": "resnetconf",
     "name": "resnetconf_I128x128x3_ADS",
     "secs_per_frame": {
-      "pi3": "0.145"
+      "pi3": "0.118"
     },
     "friendly_name": "Bean"
   },
@@ -75,7 +75,7 @@
     "model": "resnetconf",
     "name": "resnetconf_I128x128x3_1AS",
     "secs_per_frame": {
-      "pi3": "0.176"
+      "pi3": "0.157"
     },
     "friendly_name": "CashewNut"
   },
@@ -107,7 +107,7 @@
     "model": "resnetconf_bottleneck",
     "name": "resnetconf_bottleneck_I128x128x3_1AS",
     "secs_per_frame": {
-      "pi3": "0.597"
+      "pi3": "0.557"
     },
     "friendly_name": "Clary"
   },
@@ -123,7 +123,7 @@
     "model": "resnetconf_bottleneck",
     "name": "resnetconf_bottleneck_I64x64x3_1AS",
     "secs_per_frame": {
-      "pi3": "0.145"
+      "pi3": "0.124"
     },
     "friendly_name": "Clover"
   },
@@ -139,7 +139,7 @@
     "model": "resnetconf",
     "name": "resnetconf_I64x64x3_ADS",
     "secs_per_frame": {
-      "pi3": "0.049"
+      "pi3": "0.039"
     },
     "friendly_name": "Coconut"
   },
@@ -171,7 +171,7 @@
     "model": "resnetconf",
     "name": "resnetconf_I128x128x3_ADS",
     "secs_per_frame": {
-      "pi3": "0.210"
+      "pi3": "0.179"
     },
     "friendly_name": "Ginger"
   },
@@ -251,7 +251,7 @@
     "model": "resnetconf_bottleneck",
     "name": "resnetconf_bottleneck_I128x128x3_1AS",
     "secs_per_frame": {
-      "pi3": "0.753"
+      "pi3": "0.707"
     },
     "friendly_name": "Tamarind"
   },

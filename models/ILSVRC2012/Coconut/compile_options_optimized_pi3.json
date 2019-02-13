@@ -1,0 +1,128 @@
+{
+  "nodes": {
+    "1230": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1236": {
+      "preferredConvolutionMethod": "simple",
+      "parallelize": "true"
+    },
+    "1237": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true"
+    },
+    "1242": {
+      "preferredConvolutionMethod": "simple",
+      "parallelize": "true"
+    },
+    "1243": {
+      "preferredConvolutionMethod": "unrolled",
+      "separableBlockDepth": 1,
+      "nonseparableFilterBlockDepth": 2,
+      "nonseparableChannelDepth": 4
+    },
+    "1250": {
+      "preferredConvolutionMethod": "simple",
+      "parallelize": "true"
+    },
+    "1251": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1256": {
+      "preferredConvolutionMethod": "simple",
+      "parallelize": "true"
+    },
+    "1257": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1261": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true"
+    },
+    "1267": {
+      "preferredConvolutionMethod": "simple",
+      "parallelize": "true"
+    },
+    "1268": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1273": {
+      "preferredConvolutionMethod": "simple",
+      "parallelize": "true"
+    },
+    "1274": {
+      "preferredConvolutionMethod": "unrolled",
+      "separableBlockDepth": 1,
+      "nonseparableFilterBlockDepth": 1,
+      "nonseparableChannelDepth": 2
+    },
+    "1280": {
+      "preferredConvolutionMethod": "simple",
+      "parallelize": "true"
+    },
+    "1281": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1286": {
+      "preferredConvolutionMethod": "simple",
+      "parallelize": "true"
+    },
+    "1287": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1294": {
+      "preferredConvolutionMethod": "simple",
+      "parallelize": "true"
+    },
+    "1295": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1300": {
+      "preferredConvolutionMethod": "simple",
+      "parallelize": "true"
+    },
+    "1301": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1305": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1311": {
+      "preferredConvolutionMethod": "simple",
+      "parallelize": "true"
+    },
+    "1312": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1317": {
+      "preferredConvolutionMethod": "simple",
+      "parallelize": "true"
+    },
+    "1318": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1324": {
+      "preferredConvolutionMethod": "simple",
+      "parallelize": "true"
+    },
+    "1325": {
+      "preferredConvolutionMethod": "unrolled",
+      "separableBlockDepth": 16,
+      "nonseparableFilterBlockDepth": 1,
+      "nonseparableChannelDepth": 2
+    },
+    "1330": {
+      "preferredConvolutionMethod": "simple",
+      "parallelize": "true"
+    },
+    "1331": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1337": {
+      "preferredConvolutionMethod": "unrolled",
+      "separableBlockDepth": 16,
+      "nonseparableFilterBlockDepth": 1,
+      "nonseparableChannelDepth": 2
+    }
+  }
+}
