@@ -33,6 +33,22 @@
   },
   {
     "accuracy": {
+      "top1": "60.22",
+      "top5": "82.44"
+    },
+    "directory": "D:\\Work\\ELL-models\\models\\ILSVRC2012\\CashewNut\\CashewNut.ell",
+    "filter_size": 3,
+    "image_size": "128x128",
+    "increase_factor": 0,
+    "model": "resnetconf",
+    "name": "resnetconf_I128x128x3_1AS",
+    "secs_per_frame": {
+      "pi3": "0.155"
+    },
+    "friendly_name": "CashewNut"
+  },
+  {
+    "accuracy": {
       "top1": "58.74",
       "top5": "81.59"
     },

@@ -1,0 +1,188 @@
+{
+  "nodes": {
+    "1628": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1634": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1639": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1644": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1648": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1654": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1659": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1664": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1670": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1675": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1680": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1686": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1691": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1696": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1702": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1707": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true"
+    },
+    "1712": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1716": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1722": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1727": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1732": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1738": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1743": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1748": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1754": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1759": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1764": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1770": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1775": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1780": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1786": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1791": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1796": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1800": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1806": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1811": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true"
+    },
+    "1816": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1822": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1827": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1832": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true"
+    },
+    "1838": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1843": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1848": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1854": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1859": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1864": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1870": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true"
+    },
+    "1875": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1880": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1886": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1891": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true"
+    },
+    "1896": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1902": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1907": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1912": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1918": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true"
+    },
+    "1923": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1928": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1934": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true"
+    }
+  }
+}

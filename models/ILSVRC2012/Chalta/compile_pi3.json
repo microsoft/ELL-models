@@ -1,0 +1,122 @@
+{
+  "nodes": {
+    "1372": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1378": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1383": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1388": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1392": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1398": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1403": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1408": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1414": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1419": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true"
+    },
+    "1424": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1428": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true"
+    },
+    "1434": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1439": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1444": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1450": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1455": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true"
+    },
+    "1460": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true"
+    },
+    "1464": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1470": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true"
+    },
+    "1475": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1480": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true"
+    },
+    "1486": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true"
+    },
+    "1491": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1496": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true"
+    },
+    "1502": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true"
+    },
+    "1507": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1512": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1518": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true"
+    },
+    "1523": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1528": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true"
+    },
+    "1534": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true"
+    },
+    "1539": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1544": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true"
+    },
+    "1550": {
+      "preferredConvolutionMethod": "unrolled"
+    }
+  }
+}

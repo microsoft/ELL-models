@@ -11,11 +11,6 @@ Predict:
 	task: classification
 	threshold: 0.15
 
-Machine:
-	mac_address: B8:27:EB:25:82:55
-	ip_address: 157.54.156.158
-	hostname: yellowpi
-
 OpenBlas: /home/pi/miniconda3/envs/py34/lib/libopenblas_armv7p-r0.2.14.so
 
 Running predict for 10 images 5 times each
