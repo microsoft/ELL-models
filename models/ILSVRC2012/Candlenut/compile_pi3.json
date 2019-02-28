@@ -1,0 +1,78 @@
+{
+  "nodes": {
+    "1244": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true"
+    },
+    "1250": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true"
+    },
+    "1255": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1260": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1264": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1270": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1275": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1280": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1286": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1291": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1296": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1300": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1306": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1311": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1316": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1322": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true"
+    },
+    "1327": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true"
+    },
+    "1332": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1336": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1342": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1347": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true"
+    },
+    "1352": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1358": {
+      "preferredConvolutionMethod": "unrolled"
+    }
+  }
+}
