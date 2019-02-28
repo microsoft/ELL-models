@@ -203,7 +203,7 @@
     "model": "resnetconf_bottleneck",
     "name": "resnetconf_bottleneck_I128x128x3_1AS",
     "secs_per_frame": {
-      "pi3": "0.1012"
+      "pi3": "1.012"
     },
     "friendly_name": "Sweetsop"
   },
