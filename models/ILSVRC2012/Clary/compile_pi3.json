@@ -1,0 +1,111 @@
+{
+  "nodes": {
+    "1294": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1300": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1305": {
+      "preferredConvolutionMethod": "winograd",
+      "parallelize": "true"
+    },
+    "1310": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1314": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1320": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1325": {
+      "preferredConvolutionMethod": "simple",
+      "parallelize": "true"
+    },
+    "1326": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true"
+    },
+    "1331": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true"
+    },
+    "1337": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true"
+    },
+    "1342": {
+      "preferredConvolutionMethod": "simple",
+      "parallelize": "true"
+    },
+    "1343": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1348": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1352": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true"
+    },
+    "1358": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1363": {
+      "preferredConvolutionMethod": "winograd"
+    },
+    "1368": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1374": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1379": {
+      "preferredConvolutionMethod": "simple",
+      "parallelize": "true"
+    },
+    "1380": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true"
+    },
+    "1385": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1389": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1395": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1400": {
+      "preferredConvolutionMethod": "simple",
+      "parallelize": "true"
+    },
+    "1401": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1406": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1412": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1417": {
+      "preferredConvolutionMethod": "simple",
+      "parallelize": "true"
+    },
+    "1418": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1423": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1427": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1433": {
+      "preferredConvolutionMethod": "unrolled"
+    }
+  }
+}

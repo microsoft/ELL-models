@@ -1,0 +1,171 @@
+{
+  "nodes": {
+    "1318": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1324": {
+      "preferredConvolutionMethod": "simple",
+      "parallelize": "true"
+    },
+    "1325": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1330": {
+      "preferredConvolutionMethod": "simple",
+      "parallelize": "true"
+    },
+    "1331": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1338": {
+      "preferredConvolutionMethod": "simple",
+      "parallelize": "true"
+    },
+    "1339": {
+      "preferredConvolutionMethod": "unrolled",
+      "separableBlockDepth": 8,
+      "nonseparableFilterBlockDepth": 8,
+      "nonseparableChannelDepth": 2
+    },
+    "1344": {
+      "preferredConvolutionMethod": "simple",
+      "parallelize": "true"
+    },
+    "1345": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1349": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1355": {
+      "preferredConvolutionMethod": "simple",
+      "parallelize": "true"
+    },
+    "1356": {
+      "preferredConvolutionMethod": "unrolled",
+      "separableBlockDepth": 6,
+      "nonseparableFilterBlockDepth": 6,
+      "nonseparableChannelDepth": 2
+    },
+    "1361": {
+      "preferredConvolutionMethod": "simple",
+      "parallelize": "true"
+    },
+    "1362": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1368": {
+      "preferredConvolutionMethod": "simple",
+      "parallelize": "true"
+    },
+    "1369": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1374": {
+      "preferredConvolutionMethod": "simple",
+      "parallelize": "true"
+    },
+    "1375": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1382": {
+      "preferredConvolutionMethod": "simple",
+      "parallelize": "true"
+    },
+    "1383": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1388": {
+      "preferredConvolutionMethod": "simple",
+      "parallelize": "true"
+    },
+    "1389": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1393": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1399": {
+      "preferredConvolutionMethod": "simple",
+      "parallelize": "true"
+    },
+    "1400": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1405": {
+      "preferredConvolutionMethod": "simple",
+      "parallelize": "true"
+    },
+    "1406": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1412": {
+      "preferredConvolutionMethod": "simple",
+      "parallelize": "true"
+    },
+    "1413": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1418": {
+      "preferredConvolutionMethod": "simple",
+      "parallelize": "true"
+    },
+    "1419": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1426": {
+      "preferredConvolutionMethod": "simple",
+      "parallelize": "true"
+    },
+    "1427": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1432": {
+      "preferredConvolutionMethod": "simple",
+      "parallelize": "true"
+    },
+    "1433": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1437": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1443": {
+      "preferredConvolutionMethod": "simple",
+      "parallelize": "true"
+    },
+    "1444": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1449": {
+      "preferredConvolutionMethod": "simple",
+      "parallelize": "true"
+    },
+    "1450": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1456": {
+      "preferredConvolutionMethod": "simple",
+      "parallelize": "true"
+    },
+    "1457": {
+      "preferredConvolutionMethod": "unrolled",
+      "separableBlockDepth": 1,
+      "nonseparableFilterBlockDepth": 1,
+      "nonseparableChannelDepth": 2
+    },
+    "1462": {
+      "preferredConvolutionMethod": "simple",
+      "parallelize": "true"
+    },
+    "1463": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1469": {
+      "preferredConvolutionMethod": "unrolled",
+      "separableBlockDepth": 1,
+      "nonseparableFilterBlockDepth": 1,
+      "nonseparableChannelDepth": 1
+    }
+  }
+}

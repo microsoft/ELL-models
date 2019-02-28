@@ -1,0 +1,91 @@
+{
+  "nodes": {
+    "1234": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1240": {
+      "preferredConvolutionMethod": "winograd",
+      "parallelize": "true"
+    },
+    "1245": {
+      "preferredConvolutionMethod": "winograd",
+      "parallelize": "true"
+    },
+    "1252": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true"
+    },
+    "1257": {
+      "preferredConvolutionMethod": "winograd",
+      "parallelize": "true"
+    },
+    "1261": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1267": {
+      "preferredConvolutionMethod": "winograd",
+      "parallelize": "true"
+    },
+    "1272": {
+      "preferredConvolutionMethod": "winograd",
+      "parallelize": "true"
+    },
+    "1279": {
+      "preferredConvolutionMethod": "unrolled",
+      "separableBlockDepth": 1,
+      "nonseparableFilterBlockDepth": 1,
+      "nonseparableChannelDepth": 1
+    },
+    "1284": {
+      "preferredConvolutionMethod": "winograd",
+      "parallelize": "true"
+    },
+    "1288": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1294": {
+      "preferredConvolutionMethod": "winograd",
+      "parallelize": "true"
+    },
+    "1299": {
+      "preferredConvolutionMethod": "winograd",
+      "separableBlockDepth": 1,
+      "nonseparableFilterBlockDepth": 1,
+      "nonseparableChannelDepth": 1
+    },
+    "1305": {
+      "preferredConvolutionMethod": "winograd",
+      "separableBlockDepth": 1,
+      "nonseparableFilterBlockDepth": 1,
+      "nonseparableChannelDepth": 1
+    },
+    "1310": {
+      "preferredConvolutionMethod": "winograd",
+      "separableBlockDepth": 1,
+      "nonseparableFilterBlockDepth": 1,
+      "nonseparableChannelDepth": 1
+    },
+    "1317": {
+      "preferredConvolutionMethod": "unrolled",
+      "separableBlockDepth": 1,
+      "nonseparableFilterBlockDepth": 1,
+      "nonseparableChannelDepth": 1
+    },
+    "1322": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true"
+    },
+    "1326": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1332": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1337": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1343": {
+      "preferredConvolutionMethod": "unrolled"
+    }
+  }
+}

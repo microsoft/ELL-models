@@ -1,0 +1,234 @@
+{
+  "nodes": {
+    "1654": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1660": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1665": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1670": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1674": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1680": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true"
+    },
+    "1685": {
+      "preferredConvolutionMethod": "simple",
+      "parallelize": "true"
+    },
+    "1686": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1691": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1697": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1702": {
+      "preferredConvolutionMethod": "simple",
+      "parallelize": "true"
+    },
+    "1703": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1708": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1714": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1719": {
+      "preferredConvolutionMethod": "simple",
+      "parallelize": "true"
+    },
+    "1720": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1725": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1731": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1736": {
+      "preferredConvolutionMethod": "simple",
+      "parallelize": "true"
+    },
+    "1737": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1742": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1746": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1752": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1757": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1762": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1768": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1773": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1778": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true"
+    },
+    "1784": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1789": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1794": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true"
+    },
+    "1800": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true"
+    },
+    "1805": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1810": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1816": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1821": {
+      "preferredConvolutionMethod": "simple",
+      "parallelize": "true"
+    },
+    "1822": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1827": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true"
+    },
+    "1831": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1837": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1842": {
+      "preferredConvolutionMethod": "simple"
+    },
+    "1843": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1848": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1854": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1859": {
+      "preferredConvolutionMethod": "simple",
+      "parallelize": "true"
+    },
+    "1860": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1865": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1871": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1876": {
+      "preferredConvolutionMethod": "simple",
+      "parallelize": "true"
+    },
+    "1877": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1882": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1888": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1893": {
+      "preferredConvolutionMethod": "simple"
+    },
+    "1894": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1899": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1905": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1910": {
+      "preferredConvolutionMethod": "simple",
+      "parallelize": "true"
+    },
+    "1911": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1916": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1922": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1927": {
+      "preferredConvolutionMethod": "simple"
+    },
+    "1928": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1933": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true"
+    },
+    "1939": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1944": {
+      "preferredConvolutionMethod": "simple"
+    },
+    "1945": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1950": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1956": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1961": {
+      "preferredConvolutionMethod": "simple"
+    },
+    "1962": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1967": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "1973": {
+      "preferredConvolutionMethod": "unrolled"
+    }
+  }
+}

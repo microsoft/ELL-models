@@ -1,0 +1,20 @@
+Dataset contains 10 images.
+select conditions:
+	tasks: ['classification']
+	sets: ['train', 'val', 'test']
+	categories: [640, 97, 611, 428, 756, 884, 980, 764, 445]
+	count: -1
+Found 10 images match all the conditions.
+Load 10 images self.
+
+Predict:
+	task: classification
+	threshold: 0.15
+
+Running predict for 10 images 5 times each
+
+Evaluate for top classification accuracy:
+Total of 10 images:
+	top1 accuracy : 80.000%
+	top5 accuracy : 90.000%
+	Average prediction time: 664.932 ms
