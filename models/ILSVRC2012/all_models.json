@@ -17,6 +17,22 @@
   },
   {
     "accuracy": {
+      "top1": "57.57",
+      "top5": "80.55"
+    },
+    "directory": "D:\\Work\\ELL-models\\models\\ILSVRC2012\\Buckthorn\\Buckthorn.ell",
+    "filter_size": 3,
+    "image_size": "64x64",
+    "increase_factor": 0,
+    "model": "resnetconf_bottleneck",
+    "name": "resnetconf_bottleneck_I64x64x3_1AS",
+    "secs_per_frame": {
+      "pi3": "0.171"
+    },
+    "friendly_name": "Buckthorn"
+  },
+  {
+    "accuracy": {
       "top1": "64.61",
       "top5": "85.63"
     },
@@ -43,7 +59,7 @@
     "model": "resnetconf",
     "name": "resnetconf_I128x128x3_1AS",
     "secs_per_frame": {
-      "pi3": "0.176"
+      "pi3": "0.178"
     },
     "friendly_name": "CashewNut"
   },
