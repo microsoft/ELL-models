@@ -1,17 +1,17 @@
 [
   {
-    "accuracy": 0.9027122641509434,
-    "architecture": "GRU",
+    "accuracy": 0.9152417452830188,
+    "architecture": "LSTM",
     "batch_size": 128,
     "epochs": 30,
-    "filename": "GRU80KeywordSpotter.pt",
-    "hidden_size": 80,
+    "filename": "LSTM140KeywordSpotter.pt",
+    "hidden_size": 140,
     "input_size": 512,
     "learning_rate": 0.001,
     "num_filters": 80,
     "num_layers": 2,
     "sample_rate": 16000,
-    "seconds": 536.5557713508606,
+    "seconds": 553.1643934249878,
     "weight_decay": 1e-05
   }
 ]

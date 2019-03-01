@@ -1,17 +1,17 @@
 [
   {
-    "accuracy": 0.9027122641509434,
+    "accuracy": 0.9038915094339622,
     "architecture": "GRU",
     "batch_size": 128,
     "epochs": 30,
-    "filename": "GRU80KeywordSpotter.pt",
-    "hidden_size": 80,
+    "filename": "GRU70KeywordSpotter.pt",
+    "hidden_size": 70,
     "input_size": 512,
     "learning_rate": 0.001,
     "num_filters": 80,
     "num_layers": 2,
     "sample_rate": 16000,
-    "seconds": 536.5557713508606,
+    "seconds": 559.906528711319,
     "weight_decay": 1e-05
   }
 ]
