@@ -1,0 +1,39 @@
+MODEL:
+  TASK: classifier
+  ARCH: basic
+  BASE_NET: densenet_test_3_bn_dw
+  IMAGE_SIZE: [64, 64]
+  NUM_CLASSES: 1000
+  HALF_PRECISION: False
+
+TRAIN:
+  MAX_EPOCHS: 90
+  CHECKPOINT_FREQUENCY: 5
+  BATCH_SIZE: 256
+  TRAINABLE_SCOPE: 'base,norm'
+  RESUME_SCOPE: 'base,norm'
+  CRITERION: CrossEntropy
+  OPTIMIZER:
+    OPTIMIZER: sgd
+    LEARNING_RATE: 0.1
+    MOMENTUM: 0.9
+    WEIGHT_DECAY: 0.0001
+  LR_SCHEDULER:
+    SCHEDULER: multi_step
+    STEPS: [30, 60]
+    GAMMA: 0.1
+    WARM_UP_EPOCHS: 3
+
+TEST:
+  BATCH_SIZE: 64
+  TEST_SCOPE: [135, 150]
+
+DATASET:
+  DATASET: 'default'
+  DATASET_FILE: 'ilsvrc.json'
+  PREPROC: default_preproc_for_classifier
+  TRAIN_SETS: ['train']
+  TEST_SETS: ['val']
+  NUM_WORKERS: 16
+
+PHASE: ['train']

@@ -1,0 +1,22 @@
+Dataset contains 10 images.
+select conditions:
+	tasks: ['classification']
+	sets: ['val', 'test', 'train']
+	categories: [482, 742, 905, 656, 752, 276, 533, 822, 59, 159]
+	count: -1
+Found 10 images match all the conditions.
+Load 10 images self.
+
+Predict:
+	task: classification
+	threshold: 0.15
+
+OpenBlas: /home/miniconda3/envs/py34/lib/libopenblas_armv7p-r0.3.6.so
+
+Running predict for 10 images 5 times each
+
+Evaluate for top classification accuracy:
+Total of 10 images:
+	top1 accuracy : 0.000%
+	top5 accuracy : 0.000%
+	Average prediction time: 90.383 ms

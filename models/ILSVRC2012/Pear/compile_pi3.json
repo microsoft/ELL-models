@@ -1,0 +1,575 @@
+{
+  "nodes": {
+    "31169": {
+      "preferredConvolutionMethod": "unrolled",
+      "separableBlockDepth": 6,
+      "nonseparableFilterBlockDepth": 16,
+      "nonseparableChannelDepth": 8
+    },
+    "31183": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true",
+      "separableBlockDepth": 16,
+      "nonseparableFilterBlockDepth": 2,
+      "nonseparableChannelDepth": 1
+    },
+    "31188": {
+      "preferredConvolutionMethod": "winograd",
+      "parallelize": "true",
+      "separableBlockDepth": 1,
+      "nonseparableFilterBlockDepth": 1,
+      "nonseparableChannelDepth": 4
+    },
+    "31189": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true",
+      "separableBlockDepth": 16,
+      "nonseparableFilterBlockDepth": 2,
+      "nonseparableChannelDepth": 1
+    },
+    "31199": {
+      "preferredConvolutionMethod": "unrolled",
+      "separableBlockDepth": 8,
+      "nonseparableFilterBlockDepth": 16,
+      "nonseparableChannelDepth": 6
+    },
+    "31204": {
+      "preferredConvolutionMethod": "winograd",
+      "separableBlockDepth": 1,
+      "nonseparableFilterBlockDepth": 1,
+      "nonseparableChannelDepth": 2
+    },
+    "31205": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true",
+      "separableBlockDepth": 4,
+      "nonseparableFilterBlockDepth": 6,
+      "nonseparableChannelDepth": 1
+    },
+    "31216": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true",
+      "separableBlockDepth": 16,
+      "nonseparableFilterBlockDepth": 2,
+      "nonseparableChannelDepth": 1
+    },
+    "31221": {
+      "preferredConvolutionMethod": "winograd",
+      "separableBlockDepth": 1,
+      "nonseparableFilterBlockDepth": 1,
+      "nonseparableChannelDepth": 2
+    },
+    "31222": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true",
+      "separableBlockDepth": 16,
+      "nonseparableFilterBlockDepth": 6,
+      "nonseparableChannelDepth": 2
+    },
+    "31230": {
+      "preferredConvolutionMethod": "unrolled",
+      "separableBlockDepth": 16,
+      "nonseparableFilterBlockDepth": 6,
+      "nonseparableChannelDepth": 6
+    },
+    "31240": {
+      "preferredConvolutionMethod": "unrolled",
+      "separableBlockDepth": 4,
+      "nonseparableFilterBlockDepth": 6,
+      "nonseparableChannelDepth": 2
+    },
+    "31245": {
+      "preferredConvolutionMethod": "winograd",
+      "separableBlockDepth": 1,
+      "nonseparableFilterBlockDepth": 1,
+      "nonseparableChannelDepth": 2
+    },
+    "31246": {
+      "preferredConvolutionMethod": "unrolled",
+      "separableBlockDepth": 6,
+      "nonseparableFilterBlockDepth": 16,
+      "nonseparableChannelDepth": 2
+    },
+    "31256": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true",
+      "separableBlockDepth": 16,
+      "nonseparableFilterBlockDepth": 4,
+      "nonseparableChannelDepth": 6
+    },
+    "31261": {
+      "preferredConvolutionMethod": "winograd",
+      "separableBlockDepth": 1,
+      "nonseparableFilterBlockDepth": 1,
+      "nonseparableChannelDepth": 2
+    },
+    "31262": {
+      "preferredConvolutionMethod": "unrolled",
+      "separableBlockDepth": 16,
+      "nonseparableFilterBlockDepth": 1,
+      "nonseparableChannelDepth": 8
+    },
+    "31273": {
+      "preferredConvolutionMethod": "unrolled",
+      "separableBlockDepth": 6,
+      "nonseparableFilterBlockDepth": 16,
+      "nonseparableChannelDepth": 2
+    },
+    "31278": {
+      "preferredConvolutionMethod": "winograd",
+      "separableBlockDepth": 1,
+      "nonseparableFilterBlockDepth": 4,
+      "nonseparableChannelDepth": 2
+    },
+    "31279": {
+      "preferredConvolutionMethod": "unrolled",
+      "separableBlockDepth": 4,
+      "nonseparableFilterBlockDepth": 6,
+      "nonseparableChannelDepth": 4
+    },
+    "31291": {
+      "preferredConvolutionMethod": "unrolled",
+      "separableBlockDepth": 8,
+      "nonseparableFilterBlockDepth": 8,
+      "nonseparableChannelDepth": 8
+    },
+    "31296": {
+      "preferredConvolutionMethod": "winograd",
+      "separableBlockDepth": 1,
+      "nonseparableFilterBlockDepth": 1,
+      "nonseparableChannelDepth": 2
+    },
+    "31297": {
+      "preferredConvolutionMethod": "unrolled",
+      "separableBlockDepth": 1,
+      "nonseparableFilterBlockDepth": 1,
+      "nonseparableChannelDepth": 6
+    },
+    "31310": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true",
+      "separableBlockDepth": 16,
+      "nonseparableFilterBlockDepth": 6,
+      "nonseparableChannelDepth": 1
+    },
+    "31315": {
+      "preferredConvolutionMethod": "winograd",
+      "separableBlockDepth": 1,
+      "nonseparableFilterBlockDepth": 8,
+      "nonseparableChannelDepth": 2
+    },
+    "31316": {
+      "preferredConvolutionMethod": "unrolled",
+      "separableBlockDepth": 1,
+      "nonseparableFilterBlockDepth": 8,
+      "nonseparableChannelDepth": 2
+    },
+    "31330": {
+      "preferredConvolutionMethod": "unrolled",
+      "separableBlockDepth": 2,
+      "nonseparableFilterBlockDepth": 4,
+      "nonseparableChannelDepth": 1
+    },
+    "31335": {
+      "preferredConvolutionMethod": "winograd",
+      "separableBlockDepth": 1,
+      "nonseparableFilterBlockDepth": 4,
+      "nonseparableChannelDepth": 2
+    },
+    "31336": {
+      "preferredConvolutionMethod": "unrolled",
+      "separableBlockDepth": 1,
+      "nonseparableFilterBlockDepth": 4,
+      "nonseparableChannelDepth": 2
+    },
+    "31344": {
+      "preferredConvolutionMethod": "unrolled",
+      "separableBlockDepth": 16,
+      "nonseparableFilterBlockDepth": 6,
+      "nonseparableChannelDepth": 6
+    },
+    "31354": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true",
+      "separableBlockDepth": 4,
+      "nonseparableFilterBlockDepth": 16,
+      "nonseparableChannelDepth": 4
+    },
+    "31359": {
+      "preferredConvolutionMethod": "winograd",
+      "separableBlockDepth": 1,
+      "nonseparableFilterBlockDepth": 8,
+      "nonseparableChannelDepth": 4
+    },
+    "31360": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true",
+      "separableBlockDepth": 4,
+      "nonseparableFilterBlockDepth": 16,
+      "nonseparableChannelDepth": 4
+    },
+    "31370": {
+      "preferredConvolutionMethod": "unrolled",
+      "separableBlockDepth": 2,
+      "nonseparableFilterBlockDepth": 8,
+      "nonseparableChannelDepth": 2
+    },
+    "31375": {
+      "preferredConvolutionMethod": "winograd",
+      "separableBlockDepth": 1,
+      "nonseparableFilterBlockDepth": 16,
+      "nonseparableChannelDepth": 1
+    },
+    "31376": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true",
+      "separableBlockDepth": 1,
+      "nonseparableFilterBlockDepth": 16,
+      "nonseparableChannelDepth": 8
+    },
+    "31387": {
+      "preferredConvolutionMethod": "unrolled",
+      "separableBlockDepth": 4,
+      "nonseparableFilterBlockDepth": 8,
+      "nonseparableChannelDepth": 1
+    },
+    "31392": {
+      "preferredConvolutionMethod": "winograd",
+      "separableBlockDepth": 1,
+      "nonseparableFilterBlockDepth": 1,
+      "nonseparableChannelDepth": 2
+    },
+    "31393": {
+      "preferredConvolutionMethod": "unrolled",
+      "separableBlockDepth": 4,
+      "nonseparableFilterBlockDepth": 8,
+      "nonseparableChannelDepth": 2
+    },
+    "31405": {
+      "preferredConvolutionMethod": "unrolled",
+      "separableBlockDepth": 2,
+      "nonseparableFilterBlockDepth": 4,
+      "nonseparableChannelDepth": 1
+    },
+    "31410": {
+      "preferredConvolutionMethod": "winograd",
+      "separableBlockDepth": 1,
+      "nonseparableFilterBlockDepth": 8,
+      "nonseparableChannelDepth": 4
+    },
+    "31411": {
+      "preferredConvolutionMethod": "unrolled",
+      "separableBlockDepth": 4,
+      "nonseparableFilterBlockDepth": 4,
+      "nonseparableChannelDepth": 1
+    },
+    "31424": {
+      "preferredConvolutionMethod": "unrolled",
+      "separableBlockDepth": 1,
+      "nonseparableFilterBlockDepth": 1,
+      "nonseparableChannelDepth": 2
+    },
+    "31429": {
+      "preferredConvolutionMethod": "winograd",
+      "separableBlockDepth": 1,
+      "nonseparableFilterBlockDepth": 16,
+      "nonseparableChannelDepth": 1
+    },
+    "31430": {
+      "preferredConvolutionMethod": "unrolled",
+      "separableBlockDepth": 16,
+      "nonseparableFilterBlockDepth": 6,
+      "nonseparableChannelDepth": 6
+    },
+    "31444": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true",
+      "separableBlockDepth": 4,
+      "nonseparableFilterBlockDepth": 4,
+      "nonseparableChannelDepth": 1
+    },
+    "31449": {
+      "preferredConvolutionMethod": "winograd",
+      "parallelize": "true",
+      "separableBlockDepth": 1,
+      "nonseparableFilterBlockDepth": 16,
+      "nonseparableChannelDepth": 8
+    },
+    "31450": {
+      "preferredConvolutionMethod": "unrolled",
+      "separableBlockDepth": 2,
+      "nonseparableFilterBlockDepth": 2,
+      "nonseparableChannelDepth": 2
+    },
+    "31465": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true",
+      "separableBlockDepth": 16,
+      "nonseparableFilterBlockDepth": 2,
+      "nonseparableChannelDepth": 1
+    },
+    "31470": {
+      "preferredConvolutionMethod": "winograd",
+      "parallelize": "true",
+      "separableBlockDepth": 1,
+      "nonseparableFilterBlockDepth": 1,
+      "nonseparableChannelDepth": 6
+    },
+    "31471": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true",
+      "separableBlockDepth": 8,
+      "nonseparableFilterBlockDepth": 4,
+      "nonseparableChannelDepth": 6
+    },
+    "31487": {
+      "preferredConvolutionMethod": "unrolled",
+      "separableBlockDepth": 16,
+      "nonseparableFilterBlockDepth": 4,
+      "nonseparableChannelDepth": 8
+    },
+    "31492": {
+      "preferredConvolutionMethod": "winograd",
+      "separableBlockDepth": 1,
+      "nonseparableFilterBlockDepth": 8,
+      "nonseparableChannelDepth": 4
+    },
+    "31493": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true",
+      "separableBlockDepth": 2,
+      "nonseparableFilterBlockDepth": 2,
+      "nonseparableChannelDepth": 1
+    },
+    "31510": {
+      "preferredConvolutionMethod": "unrolled",
+      "separableBlockDepth": 1,
+      "nonseparableFilterBlockDepth": 8,
+      "nonseparableChannelDepth": 2
+    },
+    "31515": {
+      "preferredConvolutionMethod": "winograd",
+      "separableBlockDepth": 1,
+      "nonseparableFilterBlockDepth": 16,
+      "nonseparableChannelDepth": 4
+    },
+    "31516": {
+      "preferredConvolutionMethod": "unrolled",
+      "separableBlockDepth": 1,
+      "nonseparableFilterBlockDepth": 4,
+      "nonseparableChannelDepth": 2
+    },
+    "31534": {
+      "preferredConvolutionMethod": "unrolled",
+      "separableBlockDepth": 16,
+      "nonseparableFilterBlockDepth": 16,
+      "nonseparableChannelDepth": 16
+    },
+    "31539": {
+      "preferredConvolutionMethod": "winograd",
+      "separableBlockDepth": 1,
+      "nonseparableFilterBlockDepth": 16,
+      "nonseparableChannelDepth": 1
+    },
+    "31540": {
+      "preferredConvolutionMethod": "unrolled",
+      "separableBlockDepth": 1,
+      "nonseparableFilterBlockDepth": 1,
+      "nonseparableChannelDepth": 2
+    },
+    "31559": {
+      "preferredConvolutionMethod": "unrolled",
+      "separableBlockDepth": 4,
+      "nonseparableFilterBlockDepth": 4,
+      "nonseparableChannelDepth": 1
+    },
+    "31564": {
+      "preferredConvolutionMethod": "winograd",
+      "separableBlockDepth": 1,
+      "nonseparableFilterBlockDepth": 1,
+      "nonseparableChannelDepth": 2
+    },
+    "31565": {
+      "preferredConvolutionMethod": "unrolled",
+      "separableBlockDepth": 1,
+      "nonseparableFilterBlockDepth": 1,
+      "nonseparableChannelDepth": 6
+    },
+    "31585": {
+      "preferredConvolutionMethod": "unrolled",
+      "separableBlockDepth": 4,
+      "nonseparableFilterBlockDepth": 6,
+      "nonseparableChannelDepth": 4
+    },
+    "31590": {
+      "preferredConvolutionMethod": "winograd",
+      "parallelize": "true",
+      "separableBlockDepth": 1,
+      "nonseparableFilterBlockDepth": 16,
+      "nonseparableChannelDepth": 6
+    },
+    "31591": {
+      "preferredConvolutionMethod": "unrolled",
+      "separableBlockDepth": 1,
+      "nonseparableFilterBlockDepth": 8,
+      "nonseparableChannelDepth": 2
+    },
+    "31599": {
+      "preferredConvolutionMethod": "unrolled",
+      "separableBlockDepth": 4,
+      "nonseparableFilterBlockDepth": 6,
+      "nonseparableChannelDepth": 16
+    },
+    "31609": {
+      "preferredConvolutionMethod": "unrolled",
+      "separableBlockDepth": 16,
+      "nonseparableFilterBlockDepth": 4,
+      "nonseparableChannelDepth": 8
+    },
+    "31614": {
+      "preferredConvolutionMethod": "winograd",
+      "separableBlockDepth": 1,
+      "nonseparableFilterBlockDepth": 1,
+      "nonseparableChannelDepth": 6
+    },
+    "31615": {
+      "preferredConvolutionMethod": "unrolled",
+      "separableBlockDepth": 1,
+      "nonseparableFilterBlockDepth": 4,
+      "nonseparableChannelDepth": 2
+    },
+    "31625": {
+      "preferredConvolutionMethod": "unrolled",
+      "separableBlockDepth": 2,
+      "nonseparableFilterBlockDepth": 4,
+      "nonseparableChannelDepth": 1
+    },
+    "31630": {
+      "preferredConvolutionMethod": "winograd",
+      "separableBlockDepth": 1,
+      "nonseparableFilterBlockDepth": 1,
+      "nonseparableChannelDepth": 2
+    },
+    "31631": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true",
+      "separableBlockDepth": 16,
+      "nonseparableFilterBlockDepth": 4,
+      "nonseparableChannelDepth": 16
+    },
+    "31642": {
+      "preferredConvolutionMethod": "unrolled",
+      "separableBlockDepth": 16,
+      "nonseparableFilterBlockDepth": 16,
+      "nonseparableChannelDepth": 2
+    },
+    "31647": {
+      "preferredConvolutionMethod": "winograd",
+      "separableBlockDepth": 1,
+      "nonseparableFilterBlockDepth": 8,
+      "nonseparableChannelDepth": 2
+    },
+    "31648": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true",
+      "separableBlockDepth": 16,
+      "nonseparableFilterBlockDepth": 2,
+      "nonseparableChannelDepth": 1
+    },
+    "31660": {
+      "preferredConvolutionMethod": "unrolled",
+      "separableBlockDepth": 1,
+      "nonseparableFilterBlockDepth": 1,
+      "nonseparableChannelDepth": 2
+    },
+    "31665": {
+      "preferredConvolutionMethod": "winograd",
+      "parallelize": "true",
+      "separableBlockDepth": 1,
+      "nonseparableFilterBlockDepth": 1,
+      "nonseparableChannelDepth": 6
+    },
+    "31666": {
+      "preferredConvolutionMethod": "unrolled",
+      "separableBlockDepth": 1,
+      "nonseparableFilterBlockDepth": 1,
+      "nonseparableChannelDepth": 2
+    },
+    "31679": {
+      "preferredConvolutionMethod": "unrolled",
+      "separableBlockDepth": 4,
+      "nonseparableFilterBlockDepth": 6,
+      "nonseparableChannelDepth": 4
+    },
+    "31684": {
+      "preferredConvolutionMethod": "winograd",
+      "parallelize": "true",
+      "separableBlockDepth": 1,
+      "nonseparableFilterBlockDepth": 6,
+      "nonseparableChannelDepth": 2
+    },
+    "31685": {
+      "preferredConvolutionMethod": "unrolled",
+      "separableBlockDepth": 1,
+      "nonseparableFilterBlockDepth": 1,
+      "nonseparableChannelDepth": 2
+    },
+    "31699": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true",
+      "separableBlockDepth": 1,
+      "nonseparableFilterBlockDepth": 16,
+      "nonseparableChannelDepth": 6
+    },
+    "31704": {
+      "preferredConvolutionMethod": "winograd",
+      "separableBlockDepth": 1,
+      "nonseparableFilterBlockDepth": 1,
+      "nonseparableChannelDepth": 2
+    },
+    "31705": {
+      "preferredConvolutionMethod": "unrolled",
+      "separableBlockDepth": 2,
+      "nonseparableFilterBlockDepth": 1,
+      "nonseparableChannelDepth": 8
+    },
+    "31720": {
+      "preferredConvolutionMethod": "unrolled",
+      "separableBlockDepth": 8,
+      "nonseparableFilterBlockDepth": 8,
+      "nonseparableChannelDepth": 16
+    },
+    "31725": {
+      "preferredConvolutionMethod": "winograd",
+      "parallelize": "true",
+      "separableBlockDepth": 1,
+      "nonseparableFilterBlockDepth": 16,
+      "nonseparableChannelDepth": 8
+    },
+    "31726": {
+      "preferredConvolutionMethod": "unrolled",
+      "separableBlockDepth": 16,
+      "nonseparableFilterBlockDepth": 1,
+      "nonseparableChannelDepth": 8
+    },
+    "31742": {
+      "preferredConvolutionMethod": "unrolled",
+      "separableBlockDepth": 6,
+      "nonseparableFilterBlockDepth": 8,
+      "nonseparableChannelDepth": 2
+    },
+    "31747": {
+      "preferredConvolutionMethod": "winograd",
+      "separableBlockDepth": 1,
+      "nonseparableFilterBlockDepth": 4,
+      "nonseparableChannelDepth": 2
+    },
+    "31748": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true",
+      "separableBlockDepth": 2,
+      "nonseparableFilterBlockDepth": 2,
+      "nonseparableChannelDepth": 6
+    }
+  }
+}

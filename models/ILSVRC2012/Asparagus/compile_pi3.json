@@ -1,0 +1,318 @@
+{
+  "nodes": {
+    "28012": {
+      "preferredConvolutionMethod": "unrolled",
+      "separableBlockDepth": 6,
+      "nonseparableFilterBlockDepth": 2,
+      "nonseparableChannelDepth": 8
+    },
+    "28026": {
+      "preferredConvolutionMethod": "unrolled",
+      "separableBlockDepth": 2,
+      "nonseparableFilterBlockDepth": 4,
+      "nonseparableChannelDepth": 8
+    },
+    "28031": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true"
+    },
+    "28041": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true",
+      "separableBlockDepth": 8,
+      "nonseparableFilterBlockDepth": 6,
+      "nonseparableChannelDepth": 2
+    },
+    "28046": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true"
+    },
+    "28057": {
+      "preferredConvolutionMethod": "unrolled",
+      "separableBlockDepth": 6,
+      "nonseparableFilterBlockDepth": 8,
+      "nonseparableChannelDepth": 6
+    },
+    "28062": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true"
+    },
+    "28070": {
+      "preferredConvolutionMethod": "unrolled",
+      "separableBlockDepth": 16,
+      "nonseparableFilterBlockDepth": 2,
+      "nonseparableChannelDepth": 4
+    },
+    "28080": {
+      "preferredConvolutionMethod": "unrolled",
+      "separableBlockDepth": 6,
+      "nonseparableFilterBlockDepth": 2,
+      "nonseparableChannelDepth": 4
+    },
+    "28085": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true"
+    },
+    "28095": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true",
+      "separableBlockDepth": 16,
+      "nonseparableFilterBlockDepth": 16,
+      "nonseparableChannelDepth": 8
+    },
+    "28100": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "28111": {
+      "preferredConvolutionMethod": "unrolled",
+      "separableBlockDepth": 6,
+      "nonseparableFilterBlockDepth": 2,
+      "nonseparableChannelDepth": 8
+    },
+    "28116": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true"
+    },
+    "28128": {
+      "preferredConvolutionMethod": "unrolled",
+      "separableBlockDepth": 16,
+      "nonseparableFilterBlockDepth": 1,
+      "nonseparableChannelDepth": 6
+    },
+    "28133": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true"
+    },
+    "28146": {
+      "preferredConvolutionMethod": "unrolled",
+      "separableBlockDepth": 1,
+      "nonseparableFilterBlockDepth": 6,
+      "nonseparableChannelDepth": 1
+    },
+    "28151": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true"
+    },
+    "28165": {
+      "preferredConvolutionMethod": "unrolled",
+      "separableBlockDepth": 16,
+      "nonseparableFilterBlockDepth": 4,
+      "nonseparableChannelDepth": 16
+    },
+    "28170": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true"
+    },
+    "28178": {
+      "preferredConvolutionMethod": "unrolled",
+      "separableBlockDepth": 4,
+      "nonseparableFilterBlockDepth": 1,
+      "nonseparableChannelDepth": 4
+    },
+    "28188": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true",
+      "separableBlockDepth": 4,
+      "nonseparableFilterBlockDepth": 6,
+      "nonseparableChannelDepth": 2
+    },
+    "28193": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true"
+    },
+    "28203": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true",
+      "separableBlockDepth": 4,
+      "nonseparableFilterBlockDepth": 8,
+      "nonseparableChannelDepth": 2
+    },
+    "28208": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true"
+    },
+    "28219": {
+      "preferredConvolutionMethod": "unrolled",
+      "separableBlockDepth": 1,
+      "nonseparableFilterBlockDepth": 1,
+      "nonseparableChannelDepth": 1
+    },
+    "28224": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "28236": {
+      "preferredConvolutionMethod": "unrolled",
+      "separableBlockDepth": 1,
+      "nonseparableFilterBlockDepth": 4,
+      "nonseparableChannelDepth": 4
+    },
+    "28241": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true"
+    },
+    "28254": {
+      "preferredConvolutionMethod": "unrolled",
+      "separableBlockDepth": 2,
+      "nonseparableFilterBlockDepth": 4,
+      "nonseparableChannelDepth": 16
+    },
+    "28259": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "28273": {
+      "preferredConvolutionMethod": "unrolled",
+      "separableBlockDepth": 1,
+      "nonseparableFilterBlockDepth": 16,
+      "nonseparableChannelDepth": 4
+    },
+    "28278": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true"
+    },
+    "28293": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true",
+      "separableBlockDepth": 16,
+      "nonseparableFilterBlockDepth": 8,
+      "nonseparableChannelDepth": 6
+    },
+    "28298": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true"
+    },
+    "28314": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true",
+      "separableBlockDepth": 2,
+      "nonseparableFilterBlockDepth": 4,
+      "nonseparableChannelDepth": 1
+    },
+    "28319": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true"
+    },
+    "28336": {
+      "preferredConvolutionMethod": "unrolled",
+      "separableBlockDepth": 4,
+      "nonseparableFilterBlockDepth": 8,
+      "nonseparableChannelDepth": 2
+    },
+    "28341": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true"
+    },
+    "28359": {
+      "preferredConvolutionMethod": "unrolled",
+      "separableBlockDepth": 16,
+      "nonseparableFilterBlockDepth": 2,
+      "nonseparableChannelDepth": 6
+    },
+    "28364": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "28383": {
+      "preferredConvolutionMethod": "unrolled",
+      "separableBlockDepth": 16,
+      "nonseparableFilterBlockDepth": 4,
+      "nonseparableChannelDepth": 16
+    },
+    "28388": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "28408": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true",
+      "separableBlockDepth": 2,
+      "nonseparableFilterBlockDepth": 6,
+      "nonseparableChannelDepth": 8
+    },
+    "28413": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "28421": {
+      "preferredConvolutionMethod": "unrolled",
+      "separableBlockDepth": 1,
+      "nonseparableFilterBlockDepth": 8,
+      "nonseparableChannelDepth": 16
+    },
+    "28431": {
+      "preferredConvolutionMethod": "unrolled",
+      "separableBlockDepth": 16,
+      "nonseparableFilterBlockDepth": 6,
+      "nonseparableChannelDepth": 16
+    },
+    "28436": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true"
+    },
+    "28446": {
+      "preferredConvolutionMethod": "unrolled",
+      "separableBlockDepth": 16,
+      "nonseparableFilterBlockDepth": 6,
+      "nonseparableChannelDepth": 16
+    },
+    "28451": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true"
+    },
+    "28462": {
+      "preferredConvolutionMethod": "unrolled",
+      "separableBlockDepth": 16,
+      "nonseparableFilterBlockDepth": 4,
+      "nonseparableChannelDepth": 16
+    },
+    "28467": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true"
+    },
+    "28479": {
+      "preferredConvolutionMethod": "unrolled",
+      "separableBlockDepth": 6,
+      "nonseparableFilterBlockDepth": 2,
+      "nonseparableChannelDepth": 8
+    },
+    "28484": {
+      "preferredConvolutionMethod": "unrolled"
+    },
+    "28497": {
+      "preferredConvolutionMethod": "unrolled",
+      "separableBlockDepth": 2,
+      "nonseparableFilterBlockDepth": 16,
+      "nonseparableChannelDepth": 8
+    },
+    "28502": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true"
+    },
+    "28516": {
+      "preferredConvolutionMethod": "unrolled",
+      "separableBlockDepth": 2,
+      "nonseparableFilterBlockDepth": 4,
+      "nonseparableChannelDepth": 8
+    },
+    "28521": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true"
+    },
+    "28536": {
+      "preferredConvolutionMethod": "unrolled",
+      "separableBlockDepth": 16,
+      "nonseparableFilterBlockDepth": 6,
+      "nonseparableChannelDepth": 2
+    },
+    "28541": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true"
+    },
+    "28557": {
+      "preferredConvolutionMethod": "unrolled",
+      "separableBlockDepth": 1,
+      "nonseparableFilterBlockDepth": 2,
+      "nonseparableChannelDepth": 1
+    },
+    "28562": {
+      "preferredConvolutionMethod": "unrolled",
+      "parallelize": "true"
+    }
+  }
+}
