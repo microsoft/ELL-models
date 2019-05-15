@@ -1,17 +1,248 @@
-[
-  {
-    "accuracy": 0.9152417452830188,
-    "architecture": "LSTM",
-    "batch_size": 128,
-    "epochs": 30,
-    "filename": "LSTM140KeywordSpotter.pt",
-    "hidden_size": 140,
-    "input_size": 512,
-    "learning_rate": 0.001,
-    "num_filters": 80,
+{
+  "accuracy_val": 0.9364276960784313,
+  "training_time": 2960.6173465251923,
+  "log": [
+    {
+      "epoch": 0,
+      "loss": 2.2157490253448486,
+      "accuracy": 0.5373774509803921,
+      "learning_rate": 0.001
+    },
+    {
+      "epoch": 1,
+      "loss": 1.718777060508728,
+      "accuracy": 0.7372855392156863,
+      "learning_rate": 0.001
+    },
+    {
+      "epoch": 2,
+      "loss": 1.553702473640442,
+      "accuracy": 0.8065257352941176,
+      "learning_rate": 0.001
+    },
+    {
+      "epoch": 3,
+      "loss": 1.417912244796753,
+      "accuracy": 0.8442095588235294,
+      "learning_rate": 0.001
+    },
+    {
+      "epoch": 4,
+      "loss": 1.2192909717559814,
+      "accuracy": 0.8763786764705882,
+      "learning_rate": 0.001
+    },
+    {
+      "epoch": 5,
+      "loss": 1.3510340452194214,
+      "accuracy": 0.8762254901960784,
+      "learning_rate": 0.001
+    },
+    {
+      "epoch": 6,
+      "loss": 1.3027434349060059,
+      "accuracy": 0.8904718137254902,
+      "learning_rate": 0.001
+    },
+    {
+      "epoch": 7,
+      "loss": 1.2519819736480713,
+      "accuracy": 0.8897058823529411,
+      "learning_rate": 0.001
+    },
+    {
+      "epoch": 8,
+      "loss": 1.1007508039474487,
+      "accuracy": 0.9042585784313726,
+      "learning_rate": 0.001
+    },
+    {
+      "epoch": 9,
+      "loss": 1.2118958234786987,
+      "accuracy": 0.9080882352941176,
+      "learning_rate": 0.001
+    },
+    {
+      "epoch": 10,
+      "loss": 1.1517690420150757,
+      "accuracy": 0.9103860294117647,
+      "learning_rate": 0.001
+    },
+    {
+      "epoch": 11,
+      "loss": 1.1498143672943115,
+      "accuracy": 0.9162071078431373,
+      "learning_rate": 0.001
+    },
+    {
+      "epoch": 12,
+      "loss": 1.192524790763855,
+      "accuracy": 0.9185049019607843,
+      "learning_rate": 0.001
+    },
+    {
+      "epoch": 13,
+      "loss": 1.1105130910873413,
+      "accuracy": 0.9224877450980392,
+      "learning_rate": 0.001
+    },
+    {
+      "epoch": 14,
+      "loss": 1.0914112329483032,
+      "accuracy": 0.9206495098039216,
+      "learning_rate": 0.001
+    },
+    {
+      "epoch": 15,
+      "loss": 1.1751093864440918,
+      "accuracy": 0.921875,
+      "learning_rate": 0.001
+    },
+    {
+      "epoch": 16,
+      "loss": 1.069344401359558,
+      "accuracy": 0.9237132352941176,
+      "learning_rate": 0.001
+    },
+    {
+      "epoch": 17,
+      "loss": 1.1316999197006226,
+      "accuracy": 0.9255514705882353,
+      "learning_rate": 0.001
+    },
+    {
+      "epoch": 18,
+      "loss": 0.9976297616958618,
+      "accuracy": 0.9275428921568627,
+      "learning_rate": 0.001
+    },
+    {
+      "epoch": 19,
+      "loss": 1.047183632850647,
+      "accuracy": 0.9237132352941176,
+      "learning_rate": 0.001
+    },
+    {
+      "epoch": 20,
+      "loss": 1.075198769569397,
+      "accuracy": 0.9227941176470589,
+      "learning_rate": 0.001
+    },
+    {
+      "epoch": 21,
+      "loss": 1.0977014303207397,
+      "accuracy": 0.9246323529411765,
+      "learning_rate": 0.001
+    },
+    {
+      "epoch": 22,
+      "loss": 1.0459591150283813,
+      "accuracy": 0.9299938725490197,
+      "learning_rate": 0.001
+    },
+    {
+      "epoch": 23,
+      "loss": 1.1409162282943726,
+      "accuracy": 0.9272365196078431,
+      "learning_rate": 0.001
+    },
+    {
+      "epoch": 24,
+      "loss": 1.071785807609558,
+      "accuracy": 0.9307598039215687,
+      "learning_rate": 0.001
+    },
+    {
+      "epoch": 25,
+      "loss": 1.091352939605713,
+      "accuracy": 0.9310661764705882,
+      "learning_rate": 0.001
+    },
+    {
+      "epoch": 26,
+      "loss": 1.1007477045059204,
+      "accuracy": 0.9287683823529411,
+      "learning_rate": 0.001
+    },
+    {
+      "epoch": 27,
+      "loss": 1.0345897674560547,
+      "accuracy": 0.9301470588235294,
+      "learning_rate": 0.001
+    },
+    {
+      "epoch": 28,
+      "loss": 1.0236750841140747,
+      "accuracy": 0.9264705882352942,
+      "learning_rate": 0.001
+    },
+    {
+      "epoch": 29,
+      "loss": 1.0808967351913452,
+      "accuracy": 0.9234068627450981,
+      "learning_rate": 0.001
+    }
+  ],
+  "name": "",
+  "description": "",
+  "folder": "GRU_80",
+  "model": {
+    "architecture": "GRU",
     "num_layers": 2,
+    "hidden_units": 80,
+    "filename": "GRU80KeywordSpotter.pt"
+  },
+  "dataset": {
+    "name": "speechcommandsv01",
+    "featurizer": "featurizer_mel_16000_512_512_80_40_log",
+    "categories": "categories.txt",
+    "path": "/mnt/batch/tasks/shared/LS_root/jobs/ell-cluster-workspace/azureml/hidden_units_2layer_2_1556240635_f7e32cdf/mounts/elldatastore_speechcommandsv01_7/featurizer_mel_16000_512_512_80_40_log",
+    "auto_scale": true,
     "sample_rate": 16000,
-    "seconds": 553.1643934249878,
-    "weight_decay": 1e-05
-  }
-]
+    "input_size": 512,
+    "num_filters": 80,
+    "window_size": 40,
+    "shift": 40
+  },
+  "training": {
+    "max_epochs": 30,
+    "learning_rate": 0.001,
+    "lr_scheduler": null,
+    "lr_peaks": 0,
+    "lr_min": 1e-05,
+    "batch_size": 128,
+    "optimizer": "RMSprop",
+    "optimizer_options": {
+      "weight_decay": 1e-05,
+      "momentum": 0,
+      "centered": false,
+      "alpha": 0,
+      "eps": 1e-08,
+      "rho": 0,
+      "lr_decay": 0,
+      "betas": [
+        0.9,
+        0.999
+      ],
+      "lambd": 0.0001,
+      "t0": 1000000.0,
+      "etas": [
+        0.5,
+        1.2
+      ],
+      "dampening": 0,
+      "step_sizes": [
+        1e-06,
+        50
+      ]
+    },
+    "use_gpu": false
+  },
+  "job_id": null,
+  "status": null,
+  "downloaded": false,
+  "last_modified": 1556240970.2342763,
+  "retries": 0,
+  "filename": "options.json",
+  "sweep": "hidden_units"
+}

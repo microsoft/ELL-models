@@ -1,0 +1,142 @@
+[
+  {
+    "accuracy_test": 0.9495,
+    "accuracy_val": 0.9486825980392157,
+    "dataset": {
+      "auto_scale": true,
+      "categories": "categories.txt",
+      "featurizer": "featurizer_mel_16000_512_512_80_40_log",
+      "input_size": 512,
+      "name": "speechcommandsv01",
+      "num_filters": 80,
+      "path": "/mnt/batch/tasks/shared/LS_root/jobs/ell-cluster-workspace/azureml/hidden_units_3layer_1556241145_908828e2/mounts/elldatastore_speechcommandsv01_7/featurizer_mel_16000_512_512_80_40_log",
+      "sample_rate": 16000,
+      "shift": 40,
+      "window_size": 40
+    },
+    "description": "",
+    "downloaded": false,
+    "filename": "options.json",
+    "folder": "GRU_140",
+    "hard_sigmoid": false,
+    "job_id": null,
+    "last_modified": 1556241811.7544143,
+    "model": {
+      "architecture": "GRU",
+      "filename": "GRU140KeywordSpotter.pt",
+      "hidden_units": 140,
+      "num_layers": 3
+    },
+    "name": "",
+    "predict_time": 0.817075,
+    "reset": true,
+    "retries": 0,
+    "status": null,
+    "sweep": "hidden_units",
+    "training": {
+      "batch_size": 128,
+      "learning_rate": 0.001,
+      "lr_min": 1e-05,
+      "lr_peaks": 0,
+      "lr_scheduler": null,
+      "max_epochs": 30,
+      "optimizer": "RMSprop",
+      "optimizer_options": {
+        "alpha": 0,
+        "betas": [
+          0.9,
+          0.999
+        ],
+        "centered": false,
+        "dampening": 0,
+        "eps": 1e-08,
+        "etas": [
+          0.5,
+          1.2
+        ],
+        "lambd": 0.0001,
+        "lr_decay": 0,
+        "momentum": 0,
+        "rho": 0,
+        "step_sizes": [
+          1e-06,
+          50
+        ],
+        "t0": 1000000.0,
+        "weight_decay": 1e-05
+      },
+      "use_gpu": false
+    },
+    "training_time": 4208.318544149399
+  },
+  {
+    "accuracy_test": 0.9457,
+    "accuracy_val": 0.9486825980392157,
+    "dataset": {
+      "auto_scale": true,
+      "categories": "categories.txt",
+      "featurizer": "featurizer_mel_16000_512_512_80_40_log",
+      "input_size": 512,
+      "name": "speechcommandsv01",
+      "num_filters": 80,
+      "path": "/mnt/batch/tasks/shared/LS_root/jobs/ell-cluster-workspace/azureml/hidden_units_3layer_1556241145_908828e2/mounts/elldatastore_speechcommandsv01_7/featurizer_mel_16000_512_512_80_40_log",
+      "sample_rate": 16000,
+      "shift": 40,
+      "window_size": 40
+    },
+    "description": "",
+    "downloaded": false,
+    "filename": "options.json",
+    "folder": "GRU_140",
+    "hard_sigmoid": true,
+    "job_id": null,
+    "last_modified": 1556241811.7544143,
+    "model": {
+      "architecture": "GRU",
+      "filename": "GRU140KeywordSpotter.pt",
+      "hidden_units": 140,
+      "num_layers": 3
+    },
+    "name": "",
+    "predict_time": 0.559266,
+    "reset": true,
+    "retries": 0,
+    "status": null,
+    "sweep": "hidden_units",
+    "training": {
+      "batch_size": 128,
+      "learning_rate": 0.001,
+      "lr_min": 1e-05,
+      "lr_peaks": 0,
+      "lr_scheduler": null,
+      "max_epochs": 30,
+      "optimizer": "RMSprop",
+      "optimizer_options": {
+        "alpha": 0,
+        "betas": [
+          0.9,
+          0.999
+        ],
+        "centered": false,
+        "dampening": 0,
+        "eps": 1e-08,
+        "etas": [
+          0.5,
+          1.2
+        ],
+        "lambd": 0.0001,
+        "lr_decay": 0,
+        "momentum": 0,
+        "rho": 0,
+        "step_sizes": [
+          1e-06,
+          50
+        ],
+        "t0": 1000000.0,
+        "weight_decay": 1e-05
+      },
+      "use_gpu": false
+    },
+    "training_time": 4208.318544149399
+  }
+]

@@ -1,17 +1,248 @@
-[
-  {
-    "accuracy": 0.9224646226415094,
-    "architecture": "GRU",
-    "batch_size": 128,
-    "epochs": 30,
-    "filename": "GRU150KeywordSpotter.pt",
-    "hidden_size": 150,
-    "input_size": 512,
-    "learning_rate": 0.001,
-    "num_filters": 80,
+{
+  "accuracy_val": 0.9338461538461539,
+  "training_time": 499.69180846214294,
+  "log": [
+    {
+      "epoch": 0,
+      "loss": 1.4120581150054932,
+      "accuracy": 0.7784615384615384,
+      "learning_rate": 0.0037408195948639106
+    },
+    {
+      "epoch": 1,
+      "loss": 1.5259811878204346,
+      "accuracy": 0.8652307692307692,
+      "learning_rate": 0.003030248186044163
+    },
+    {
+      "epoch": 2,
+      "loss": 1.2879558801651,
+      "accuracy": 0.8915384615384615,
+      "learning_rate": 0.002057983298042168
+    },
+    {
+      "epoch": 3,
+      "loss": 1.1915103197097778,
+      "accuracy": 0.9007692307692308,
+      "learning_rate": 0.0010835871364813462
+    },
+    {
+      "epoch": 4,
+      "loss": 1.1533313989639282,
+      "accuracy": 0.9066153846153846,
+      "learning_rate": 0.0003671908857403352
+    },
+    {
+      "epoch": 5,
+      "loss": 1.2106249332427979,
+      "accuracy": 0.9096923076923077,
+      "learning_rate": 0.00010004838336623901
+    },
+    {
+      "epoch": 6,
+      "loss": 1.1703194379806519,
+      "accuracy": 0.9083076923076923,
+      "learning_rate": 0.0003534777423421089
+    },
+    {
+      "epoch": 7,
+      "loss": 1.2101731300354004,
+      "accuracy": 0.9041538461538462,
+      "learning_rate": 0.0010598218003068885
+    },
+    {
+      "epoch": 8,
+      "loss": 1.2665120363235474,
+      "accuracy": 0.9035384615384615,
+      "learning_rate": 0.0020305103189676953
+    },
+    {
+      "epoch": 9,
+      "loss": 1.1246274709701538,
+      "accuracy": 0.9130769230769231,
+      "learning_rate": 0.0030064019305901736
+    },
+    {
+      "epoch": 10,
+      "loss": 1.131450891494751,
+      "accuracy": 0.9058461538461539,
+      "learning_rate": 0.0037269662156477383
+    },
+    {
+      "epoch": 11,
+      "loss": 1.2156933546066284,
+      "accuracy": 0.9055384615384615,
+      "learning_rate": 0.003999836610839566
+    },
+    {
+      "epoch": 12,
+      "loss": 1.152722716331482,
+      "accuracy": 0.9184615384615384,
+      "learning_rate": 0.0037521658473818613
+    },
+    {
+      "epoch": 13,
+      "loss": 1.0744110345840454,
+      "accuracy": 0.9244615384615384,
+      "learning_rate": 0.0030500737352408464
+    },
+    {
+      "epoch": 14,
+      "loss": 1.0452477931976318,
+      "accuracy": 0.9258461538461539,
+      "learning_rate": 0.0020809953853898502
+    },
+    {
+      "epoch": 15,
+      "loss": 1.0902206897735596,
+      "accuracy": 0.929076923076923,
+      "learning_rate": 0.0011036423043465434
+    },
+    {
+      "epoch": 16,
+      "loss": 1.0494799613952637,
+      "accuracy": 0.9315384615384615,
+      "learning_rate": 0.00037893507509091206
+    },
+    {
+      "epoch": 17,
+      "loss": 1.0520641803741455,
+      "accuracy": 0.9316923076923077,
+      "learning_rate": 0.00010034628845505272
+    },
+    {
+      "epoch": 18,
+      "loss": 1.10332190990448,
+      "accuracy": 0.9324615384615385,
+      "learning_rate": 0.00034224983247451807
+    },
+    {
+      "epoch": 19,
+      "loss": 1.0888537168502808,
+      "accuracy": 0.93,
+      "learning_rate": 0.0010400655518761433
+    },
+    {
+      "epoch": 20,
+      "loss": 1.0069183111190796,
+      "accuracy": 0.9266153846153846,
+      "learning_rate": 0.0020074999895149325
+    },
+    {
+      "epoch": 21,
+      "loss": 1.1154292821884155,
+      "accuracy": 0.9233846153846154,
+      "learning_rate": 0.0029862805084497307
+    },
+    {
+      "epoch": 22,
+      "loss": 1.0990006923675537,
+      "accuracy": 0.9176923076923077,
+      "learning_rate": 0.0037151054475272295
+    },
+    {
+      "epoch": 23,
+      "loss": 1.0577902793884277,
+      "accuracy": 0.9178461538461539,
+      "learning_rate": 0.0039994029251184775
+    },
+    {
+      "epoch": 24,
+      "loss": 1.1115567684173584,
+      "accuracy": 0.9167692307692308,
+      "learning_rate": 0.0037632750236421797
+    },
+    {
+      "epoch": 25,
+      "loss": 0.8852282762527466,
+      "accuracy": 0.9233846153846154,
+      "learning_rate": 0.003069759994991163
+    },
+    {
+      "epoch": 26,
+      "loss": 1.0479525327682495,
+      "accuracy": 0.9284615384615384,
+      "learning_rate": 0.002104003155725781
+    },
+    {
+      "epoch": 27,
+      "loss": 0.9642864465713501,
+      "accuracy": 0.9312307692307692,
+      "learning_rate": 0.0011238292801323529
+    },
+    {
+      "epoch": 28,
+      "loss": 1.026877999305725,
+      "accuracy": 0.9321538461538461,
+      "learning_rate": 0.0003909120089882516
+    },
+    {
+      "epoch": 29,
+      "loss": 1.053971290588379,
+      "accuracy": 0.9321538461538461,
+      "learning_rate": 0.00010091573970743802
+    }
+  ],
+  "name": "",
+  "description": "",
+  "folder": "LSTM_50",
+  "model": {
+    "architecture": "LSTM",
     "num_layers": 2,
+    "hidden_units": 50,
+    "filename": "LSTM50KeywordSpotter.pt"
+  },
+  "dataset": {
+    "name": "speechcommandsv01",
+    "featurizer": "featurizer_mel_16000_512_512_80_40_log",
+    "categories": "categories.txt",
+    "path": "d:\\temp\\TrainKeywordSpotter_v01\\featurizer_mel_16000_512_512_80_40_log",
+    "auto_scale": true,
     "sample_rate": 16000,
-    "seconds": 544.0063781738281,
-    "weight_decay": 1e-05
-  }
-]
+    "input_size": 512,
+    "num_filters": 80,
+    "window_size": 40,
+    "shift": 40
+  },
+  "training": {
+    "max_epochs": 30,
+    "learning_rate": 0.004,
+    "lr_scheduler": "CosineAnnealingLR",
+    "lr_peaks": 2,
+    "lr_min": 0.0001,
+    "batch_size": 100,
+    "optimizer": "RMSprop",
+    "optimizer_options": {
+      "weight_decay": 1e-06,
+      "momentum": 0,
+      "centered": false,
+      "alpha": 0.99,
+      "eps": 1e-08,
+      "rho": 0,
+      "lr_decay": 0,
+      "betas": [
+        0.9,
+        0.999
+      ],
+      "lambd": 0.0001,
+      "t0": 1000000.0,
+      "etas": [
+        0.5,
+        1.2
+      ],
+      "dampening": 0,
+      "step_sizes": [
+        1e-06,
+        50
+      ]
+    },
+    "use_gpu": true
+  },
+  "job_id": null,
+  "status": null,
+  "downloaded": false,
+  "last_modified": 1556641551.7431643,
+  "retries": 0,
+  "filename": "LSTM_50\\options.json",
+  "sweep": "hidden_units"
+}

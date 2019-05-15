@@ -19,13 +19,11 @@ one
 right
 seven
 sheila
-silence
 six
 stop
 three
 tree
 two
-unknown
 up
 wow
 yes
