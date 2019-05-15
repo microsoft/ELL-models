@@ -1,17 +1,248 @@
-[
-  {
-    "accuracy": 0.9202535377358491,
+{
+  "accuracy_val": 0.9266153846153846,
+  "training_time": 363.60905504226685,
+  "log": [
+    {
+      "epoch": 0,
+      "loss": 1.3892321586608887,
+      "accuracy": 0.8741538461538462,
+      "learning_rate": 0.0037408195948639106
+    },
+    {
+      "epoch": 1,
+      "loss": 1.1879305839538574,
+      "accuracy": 0.8978461538461538,
+      "learning_rate": 0.003030248186044163
+    },
+    {
+      "epoch": 2,
+      "loss": 1.1800565719604492,
+      "accuracy": 0.9049230769230769,
+      "learning_rate": 0.002057983298042168
+    },
+    {
+      "epoch": 3,
+      "loss": 1.1432390213012695,
+      "accuracy": 0.9183076923076923,
+      "learning_rate": 0.0010835871364813462
+    },
+    {
+      "epoch": 4,
+      "loss": 1.2127174139022827,
+      "accuracy": 0.9241538461538461,
+      "learning_rate": 0.0003671908857403352
+    },
+    {
+      "epoch": 5,
+      "loss": 1.0444086790084839,
+      "accuracy": 0.9241538461538461,
+      "learning_rate": 0.00010004838336623901
+    },
+    {
+      "epoch": 6,
+      "loss": 1.1398791074752808,
+      "accuracy": 0.9235384615384615,
+      "learning_rate": 0.0003534777423421089
+    },
+    {
+      "epoch": 7,
+      "loss": 1.1061831712722778,
+      "accuracy": 0.9201538461538461,
+      "learning_rate": 0.0010598218003068885
+    },
+    {
+      "epoch": 8,
+      "loss": 1.150364637374878,
+      "accuracy": 0.9212307692307692,
+      "learning_rate": 0.0020305103189676953
+    },
+    {
+      "epoch": 9,
+      "loss": 1.1751097440719604,
+      "accuracy": 0.9136923076923077,
+      "learning_rate": 0.0030064019305901736
+    },
+    {
+      "epoch": 10,
+      "loss": 1.2441827058792114,
+      "accuracy": 0.914,
+      "learning_rate": 0.0037269662156477383
+    },
+    {
+      "epoch": 11,
+      "loss": 1.2083760499954224,
+      "accuracy": 0.9212307692307692,
+      "learning_rate": 0.003999836610839566
+    },
+    {
+      "epoch": 12,
+      "loss": 1.071570873260498,
+      "accuracy": 0.9163076923076923,
+      "learning_rate": 0.0037521658473818613
+    },
+    {
+      "epoch": 13,
+      "loss": 1.1815749406814575,
+      "accuracy": 0.9135384615384615,
+      "learning_rate": 0.0030500737352408464
+    },
+    {
+      "epoch": 14,
+      "loss": 1.2076472043991089,
+      "accuracy": 0.9226153846153846,
+      "learning_rate": 0.0020809953853898502
+    },
+    {
+      "epoch": 15,
+      "loss": 0.9568636417388916,
+      "accuracy": 0.929076923076923,
+      "learning_rate": 0.0011036423043465434
+    },
+    {
+      "epoch": 16,
+      "loss": 1.0795509815216064,
+      "accuracy": 0.93,
+      "learning_rate": 0.00037893507509091206
+    },
+    {
+      "epoch": 17,
+      "loss": 1.0068954229354858,
+      "accuracy": 0.9304615384615385,
+      "learning_rate": 0.00010034628845505272
+    },
+    {
+      "epoch": 18,
+      "loss": 0.9495272636413574,
+      "accuracy": 0.9284615384615384,
+      "learning_rate": 0.00034224983247451807
+    },
+    {
+      "epoch": 19,
+      "loss": 1.1295164823532104,
+      "accuracy": 0.9263076923076923,
+      "learning_rate": 0.0010400655518761433
+    },
+    {
+      "epoch": 20,
+      "loss": 1.0625944137573242,
+      "accuracy": 0.9218461538461539,
+      "learning_rate": 0.0020074999895149325
+    },
+    {
+      "epoch": 21,
+      "loss": 1.1131255626678467,
+      "accuracy": 0.9193846153846154,
+      "learning_rate": 0.0029862805084497307
+    },
+    {
+      "epoch": 22,
+      "loss": 1.2382389307022095,
+      "accuracy": 0.9183076923076923,
+      "learning_rate": 0.0037151054475272295
+    },
+    {
+      "epoch": 23,
+      "loss": 0.9115782380104065,
+      "accuracy": 0.9176923076923077,
+      "learning_rate": 0.0039994029251184775
+    },
+    {
+      "epoch": 24,
+      "loss": 1.0562925338745117,
+      "accuracy": 0.9183076923076923,
+      "learning_rate": 0.0037632750236421797
+    },
+    {
+      "epoch": 25,
+      "loss": 1.0816072225570679,
+      "accuracy": 0.9212307692307692,
+      "learning_rate": 0.003069759994991163
+    },
+    {
+      "epoch": 26,
+      "loss": 1.0863534212112427,
+      "accuracy": 0.9263076923076923,
+      "learning_rate": 0.002104003155725781
+    },
+    {
+      "epoch": 27,
+      "loss": 1.001381278038025,
+      "accuracy": 0.9250769230769231,
+      "learning_rate": 0.0011238292801323529
+    },
+    {
+      "epoch": 28,
+      "loss": 1.0222442150115967,
+      "accuracy": 0.926923076923077,
+      "learning_rate": 0.0003909120089882516
+    },
+    {
+      "epoch": 29,
+      "loss": 0.9232649207115173,
+      "accuracy": 0.9250769230769231,
+      "learning_rate": 0.00010091573970743802
+    }
+  ],
+  "name": "",
+  "description": "",
+  "folder": "GRU_110",
+  "model": {
     "architecture": "GRU",
-    "batch_size": 128,
-    "epochs": 30,
-    "filename": "GRU110KeywordSpotter.pt",
-    "hidden_size": 110,
-    "input_size": 512,
-    "learning_rate": 0.001,
-    "num_filters": 80,
-    "num_layers": 2,
+    "num_layers": 1,
+    "hidden_units": 110,
+    "filename": "GRU110KeywordSpotter.pt"
+  },
+  "dataset": {
+    "name": "speechcommandsv01",
+    "featurizer": "featurizer_mel_16000_512_512_80_40_log",
+    "categories": "categories.txt",
+    "path": "d:\\temp\\TrainKeywordSpotter_v01\\featurizer_mel_16000_512_512_80_40_log",
+    "auto_scale": true,
     "sample_rate": 16000,
-    "seconds": 537.5553107261658,
-    "weight_decay": 1e-05
-  }
-]
+    "input_size": 512,
+    "num_filters": 80,
+    "window_size": 40,
+    "shift": 40
+  },
+  "training": {
+    "max_epochs": 30,
+    "learning_rate": 0.004,
+    "lr_scheduler": "CosineAnnealingLR",
+    "lr_peaks": 2,
+    "lr_min": 0.0001,
+    "batch_size": 100,
+    "optimizer": "RMSprop",
+    "optimizer_options": {
+      "weight_decay": 1e-06,
+      "momentum": 0,
+      "centered": false,
+      "alpha": 0.99,
+      "eps": 1e-08,
+      "rho": 0,
+      "lr_decay": 0,
+      "betas": [
+        0.9,
+        0.999
+      ],
+      "lambd": 0.0001,
+      "t0": 1000000.0,
+      "etas": [
+        0.5,
+        1.2
+      ],
+      "dampening": 0,
+      "step_sizes": [
+        1e-06,
+        50
+      ]
+    },
+    "use_gpu": true
+  },
+  "job_id": null,
+  "status": null,
+  "downloaded": false,
+  "last_modified": 1556609196.3027642,
+  "retries": 0,
+  "filename": "GRU_110\\options.json",
+  "sweep": "hidden_units"
+}

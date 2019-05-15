@@ -1,17 +1,249 @@
-[
-  {
-    "accuracy": 0.9159787735849056,
-    "architecture": "LSTM",
-    "batch_size": 128,
-    "epochs": 30,
-    "filename": "LSTM150KeywordSpotter.pt",
-    "hidden_size": 150,
-    "input_size": 512,
-    "learning_rate": 0.001,
-    "num_filters": 80,
+{
+  "accuracy_val": 0.9370404411764706,
+  "training_time": 3052.1673743724823,
+  "log": [
+    {
+      "epoch": 0,
+      "loss": 2.272134304046631,
+      "accuracy": 0.546109068627451,
+      "learning_rate": 0.001
+    },
+    {
+      "epoch": 1,
+      "loss": 1.7440451383590698,
+      "accuracy": 0.7431066176470589,
+      "learning_rate": 0.001
+    },
+    {
+      "epoch": 2,
+      "loss": 1.55044686794281,
+      "accuracy": 0.8244485294117647,
+      "learning_rate": 0.001
+    },
+    {
+      "epoch": 3,
+      "loss": 1.3077054023742676,
+      "accuracy": 0.8537071078431373,
+      "learning_rate": 0.001
+    },
+    {
+      "epoch": 4,
+      "loss": 1.3606775999069214,
+      "accuracy": 0.8871017156862745,
+      "learning_rate": 0.001
+    },
+    {
+      "epoch": 5,
+      "loss": 1.2603176832199097,
+      "accuracy": 0.8959865196078431,
+      "learning_rate": 0.001
+    },
+    {
+      "epoch": 6,
+      "loss": 1.328360915184021,
+      "accuracy": 0.8988970588235294,
+      "learning_rate": 0.001
+    },
+    {
+      "epoch": 7,
+      "loss": 1.2235063314437866,
+      "accuracy": 0.9103860294117647,
+      "learning_rate": 0.001
+    },
+    {
+      "epoch": 8,
+      "loss": 1.1714907884597778,
+      "accuracy": 0.9131433823529411,
+      "learning_rate": 0.001
+    },
+    {
+      "epoch": 9,
+      "loss": 1.223968505859375,
+      "accuracy": 0.9152879901960784,
+      "learning_rate": 0.001
+    },
+    {
+      "epoch": 10,
+      "loss": 1.1560544967651367,
+      "accuracy": 0.9180453431372549,
+      "learning_rate": 0.001
+    },
+    {
+      "epoch": 11,
+      "loss": 1.196393370628357,
+      "accuracy": 0.9206495098039216,
+      "learning_rate": 0.001
+    },
+    {
+      "epoch": 12,
+      "loss": 1.0748807191848755,
+      "accuracy": 0.9255514705882353,
+      "learning_rate": 0.001
+    },
+    {
+      "epoch": 13,
+      "loss": 1.1589490175247192,
+      "accuracy": 0.9264705882352942,
+      "learning_rate": 0.001
+    },
+    {
+      "epoch": 14,
+      "loss": 1.0873863697052002,
+      "accuracy": 0.9243259803921569,
+      "learning_rate": 0.001
+    },
+    {
+      "epoch": 15,
+      "loss": 1.0399147272109985,
+      "accuracy": 0.928921568627451,
+      "learning_rate": 0.001
+    },
+    {
+      "epoch": 16,
+      "loss": 1.096808910369873,
+      "accuracy": 0.9283088235294118,
+      "learning_rate": 0.001
+    },
+    {
+      "epoch": 17,
+      "loss": 1.039739966392517,
+      "accuracy": 0.9290747549019608,
+      "learning_rate": 0.001
+    },
+    {
+      "epoch": 18,
+      "loss": 1.0734177827835083,
+      "accuracy": 0.9250919117647058,
+      "learning_rate": 0.001
+    },
+    {
+      "epoch": 19,
+      "loss": 1.037778615951538,
+      "accuracy": 0.9286151960784313,
+      "learning_rate": 0.001
+    },
+    {
+      "epoch": 20,
+      "loss": 1.217749834060669,
+      "accuracy": 0.9327512254901961,
+      "learning_rate": 0.001
+    },
+    {
+      "epoch": 21,
+      "loss": 1.0645958185195923,
+      "accuracy": 0.9335171568627451,
+      "learning_rate": 0.001
+    },
+    {
+      "epoch": 22,
+      "loss": 1.178645133972168,
+      "accuracy": 0.9298406862745098,
+      "learning_rate": 0.001
+    },
+    {
+      "epoch": 23,
+      "loss": 1.0018020868301392,
+      "accuracy": 0.9335171568627451,
+      "learning_rate": 0.001
+    },
+    {
+      "epoch": 24,
+      "loss": 1.0186378955841064,
+      "accuracy": 0.9283088235294118,
+      "learning_rate": 0.001
+    },
+    {
+      "epoch": 25,
+      "loss": 1.0586209297180176,
+      "accuracy": 0.9307598039215687,
+      "learning_rate": 0.001
+    },
+    {
+      "epoch": 26,
+      "loss": 1.0411852598190308,
+      "accuracy": 0.9329044117647058,
+      "learning_rate": 0.001
+    },
+    {
+      "epoch": 27,
+      "loss": 0.9420927166938782,
+      "accuracy": 0.9318321078431373,
+      "learning_rate": 0.001
+    },
+    {
+      "epoch": 28,
+      "loss": 1.1082185506820679,
+      "accuracy": 0.9264705882352942,
+      "learning_rate": 0.001
+    },
+    {
+      "epoch": 29,
+      "loss": 1.1470566987991333,
+      "accuracy": 0.9286151960784313,
+      "learning_rate": 0.001
+    }
+  ],
+  "name": "",
+  "description": "",
+  "folder": "GRU_90",
+  "model": {
+    "architecture": "GRU",
     "num_layers": 2,
+    "hidden_units": 90,
+    "filename": "GRU90KeywordSpotter.pt"
+  },
+  "dataset": {
+    "name": "speechcommandsv01",
+    "featurizer": "featurizer_mel_16000_512_512_80_40_log",
+    "categories": "categories.txt",
+    "path": "/mnt/batch/tasks/shared/LS_root/jobs/ell-cluster-workspace/azureml/hidden_units_cpu_1556215396_c3beb9f2/mounts/elldatastore_speechcommandsv01_1/featurizer_mel_16000_512_512_80_40_log",
+    "auto_scale": true,
     "sample_rate": 16000,
-    "seconds": 548.9637875556946,
-    "weight_decay": 1e-05
-  }
-]
+    "input_size": 512,
+    "num_filters": 80,
+    "window_size": 40,
+    "shift": 40
+  },
+  "training": {
+    "max_epochs": 30,
+    "learning_rate": 0.001,
+    "lr_scheduler": null,
+    "lr_peaks": 0,
+    "lr_min": 1e-05,
+    "batch_size": 128,
+    "optimizer": "RMSprop",
+    "optimizer_options": {
+      "weight_decay": 1e-05,
+      "momentum": 0,
+      "centered": false,
+      "alpha": 0,
+      "eps": 1e-08,
+      "rho": 0,
+      "lr_decay": 0,
+      "betas": [
+        0.9,
+        0.999
+      ],
+      "lambd": 0.0001,
+      "t0": 1000000.0,
+      "etas": [
+        0.5,
+        1.2
+      ],
+      "dampening": 0,
+      "step_sizes": [
+        1e-06,
+        50
+      ]
+    },
+    "use_gpu": false
+  },
+  "job_id": "hidden_units_cpu_1556213931_760e054c",
+  "status": "Failed",
+  "downloaded": false,
+  "last_modified": 1556215408.96391,
+  "retries": 2,
+  "filename": "options.json",
+  "sweep": "hidden_units",
+  "experiment": "hidden_units_cpu"
+}
