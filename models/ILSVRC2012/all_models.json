@@ -11,7 +11,7 @@
     "model": "resnetconf",
     "name": "resnetconf_I128x128x3_ADS",
     "secs_per_frame": {
-      "pi3": "0.144"
+      "pi3": "0.087"
     },
     "friendly_name": "Bean"
   },
@@ -27,7 +27,7 @@
     "model": "resnetconf_bottleneck",
     "name": "resnetconf_bottleneck_I64x64x3_1AS",
     "secs_per_frame": {
-      "pi3": "0.171"
+      "pi3": "0.113"
     },
     "friendly_name": "Buckthorn"
   },
@@ -43,7 +43,7 @@
     "model": "resnetconf",
     "name": "resnetconf_I128x128x3_1AS",
     "secs_per_frame": {
-      "pi3": "0.178"
+      "pi3": "0.106"
     },
     "friendly_name": "CashewNut"
   },
@@ -59,7 +59,7 @@
     "model": "resnetconf_bottleneck",
     "name": "resnetconf_bottleneck_I128x128x3_1AS",
     "secs_per_frame": {
-      "pi3": "0.506"
+      "pi3": "0.361"
     },
     "friendly_name": "Clary"
   },
@@ -75,7 +75,7 @@
     "model": "resnetconf_bottleneck",
     "name": "resnetconf_bottleneck_I64x64x3_1AS",
     "secs_per_frame": {
-      "pi3": "0.126"
+      "pi3": "0.090"
     },
     "friendly_name": "Clover"
   },
@@ -91,7 +91,7 @@
     "model": "resnetconf",
     "name": "resnetconf_I64x64x3_ADS",
     "secs_per_frame": {
-      "pi3": "0.046"
+      "pi3": "0.030"
     },
     "friendly_name": "Coconut"
   },
@@ -107,7 +107,7 @@
     "model": "resnetconf",
     "name": "resnetconf_I128x128x3_ADS",
     "secs_per_frame": {
-      "pi3": "0.205"
+      "pi3": "0.122"
     },
     "friendly_name": "Ginger"
   },
@@ -123,7 +123,7 @@
     "model": "resnet152",
     "name": "resnet152_f_I64x64x3_1AS",
     "secs_per_frame": {
-      "pi3": "0.804"
+      "pi3": "0.525"
     },
     "friendly_name": "Mashua"
   },
@@ -139,7 +139,7 @@
     "model": "resnetconf_bottleneck",
     "name": "resnetconf_bottleneck_I64x64x3_1AS",
     "secs_per_frame": {
-      "pi3": "0.347"
+      "pi3": "0.239"
     },
     "friendly_name": "PandanFlower"
   },
@@ -155,7 +155,7 @@
     "model": "resnetconf_bottleneck",
     "name": "resnetconf_bottleneck_I128x128x3_1AS",
     "secs_per_frame": {
-      "pi3": "1.012"
+      "pi3": "0.719"
     },
     "friendly_name": "Sweetsop"
   },
@@ -171,7 +171,7 @@
     "model": "resnetconf_bottleneck",
     "name": "resnetconf_bottleneck_I128x128x3_1AS",
     "secs_per_frame": {
-      "pi3": "0.665"
+      "pi3": "0.470"
     },
     "friendly_name": "Tamarind"
   },
@@ -187,7 +187,7 @@
     "model": "resnetconf_bottleneck",
     "name": "resnetconf_bottleneck_I64x64x3_1AS",
     "secs_per_frame": {
-      "pi3": "0.269"
+      "pi3": "0.186"
     },
     "friendly_name": "WaterApple"
   },
@@ -203,7 +203,7 @@
     "model": "resnet101",
     "name": "resnet101_f_I64x64x3_1AS",
     "secs_per_frame": {
-      "pi3": "0.601"
+      "pi3": "0.350"
     },
     "friendly_name": "Wattleseed"
   }
